@@ -1,0 +1,510 @@
+{
+  "turniername": "Test-Super",
+  "datum": "22.06.2025 17:58:41",
+  "sportart": "BADMINTON",
+  "lizenz": "Dauler Fiederball",
+  "generator": "SPORT Software (Version 6.36)"
+  ,
+  "vereine": [
+    {
+      "name": "Aris",
+      "id": 1
+    },
+    {
+      "name": "Dauler Fiederball",
+      "id": 2
+    },
+    {
+      "name": "Dauler Fiederballl",
+      "id": 3
+    },
+    {
+      "name": "Fiederwäiss Ettelbréck",
+      "id": 4
+    },
+    {
+      "name": "Helperknapp",
+      "id": 5
+    },
+    {
+      "name": "Police",
+      "id": 6
+    },
+    {
+      "name": "Recken-Mess",
+      "id": 7
+    },
+    {
+      "name": "Rosport",
+      "id": 8
+    },
+    {
+      "name": "Résidence Walfer",
+      "id": 9
+    },
+    {
+      "name": "Stadtbredimus",
+      "id": 10
+    },
+    {
+      "name": "Waldbëlleg",
+      "id": 11
+    }
+  ]
+  ,
+  "spieler": [
+    {
+      "nachname": "Alain",
+      "vorname": "Weber",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 1
+    },
+    {
+      "nachname": "Annette",
+      "vorname": "Oestreicher",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 2
+    },
+    {
+      "nachname": "Asselborn",
+      "vorname": "Ben",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 3
+    },
+    {
+      "nachname": "Berchem",
+      "vorname": "Marc",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 4
+    },
+    {
+      "nachname": "Bidoli",
+      "vorname": "Lena",
+      "geschlecht": "M",
+      "verein": 3,
+      "id": 5
+    },
+    {
+      "nachname": "Boes",
+      "vorname": "Mandy",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 6
+    },
+    {
+      "nachname": "Brian",
+      "vorname": "Borges",
+      "geschlecht": "M",
+      "verein": 8,
+      "id": 7
+    },
+    {
+      "nachname": "Brito Gomes",
+      "vorname": "Nicolas",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 8
+    },
+    {
+      "nachname": "Connen de Kirillis",
+      "vorname": "Chloé",
+      "geschlecht": "M",
+      "verein": 1,
+      "id": 9
+    },
+    {
+      "nachname": "Felber",
+      "vorname": "Tim",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 10
+    },
+    {
+      "nachname": "Flynn",
+      "vorname": "Bernardin",
+      "geschlecht": "M",
+      "verein": 8,
+      "id": 11
+    },
+    {
+      "nachname": "Fränk",
+      "vorname": "Hoffmann",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 12
+    },
+    {
+      "nachname": "Frères",
+      "vorname": "Jean-Claude",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 13
+    },
+    {
+      "nachname": "Glover",
+      "vorname": "Joyce",
+      "geschlecht": "M",
+      "verein": 4,
+      "id": 14
+    },
+    {
+      "nachname": "Hommel",
+      "vorname": "Chris",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 15
+    },
+    {
+      "nachname": "Hoogenhout",
+      "vorname": "Maurice",
+      "geschlecht": "M",
+      "verein": 7,
+      "id": 16
+    },
+    {
+      "nachname": "Jemming",
+      "vorname": "Max",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 17
+    },
+    {
+      "nachname": "Leveque",
+      "vorname": "Florent",
+      "geschlecht": "M",
+      "verein": 1,
+      "id": 18
+    },
+    {
+      "nachname": "Li",
+      "vorname": "Shilei",
+      "geschlecht": "M",
+      "verein": 9,
+      "id": 19
+    },
+    {
+      "nachname": "Loos",
+      "vorname": "Felix",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 20
+    },
+    {
+      "nachname": "Loschetter",
+      "vorname": "Huguette",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 21
+    },
+    {
+      "nachname": "Maas",
+      "vorname": "Fränk",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 22
+    },
+    {
+      "nachname": "Maller",
+      "vorname": "Loïc",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 23
+    },
+    {
+      "nachname": "Merkle",
+      "vorname": "Robert",
+      "geschlecht": "M",
+      "verein": 9,
+      "id": 24
+    },
+    {
+      "nachname": "Mesen",
+      "vorname": "Sandy",
+      "geschlecht": "M",
+      "verein": 11,
+      "id": 25
+    },
+    {
+      "nachname": "Ney",
+      "vorname": "Noémie",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 26
+    },
+    {
+      "nachname": "Ney",
+      "vorname": "Theo",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 27
+    },
+    {
+      "nachname": "Quintos",
+      "vorname": "Olivier",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 28
+    },
+    {
+      "nachname": "Rech",
+      "vorname": "Sven",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 29
+    },
+    {
+      "nachname": "Ribeiro",
+      "vorname": "Max",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 30
+    },
+    {
+      "nachname": "Schmit",
+      "vorname": "Fabienne",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 31
+    },
+    {
+      "nachname": "Stammet",
+      "vorname": "Christophe",
+      "geschlecht": "M",
+      "verein": 7,
+      "id": 32
+    },
+    {
+      "nachname": "Steichen",
+      "vorname": "Robert",
+      "geschlecht": "M",
+      "verein": 6,
+      "id": 33
+    },
+    {
+      "nachname": "Theves",
+      "vorname": "Claude",
+      "geschlecht": "M",
+      "verein": 10,
+      "id": 34
+    },
+    {
+      "nachname": "Viana",
+      "vorname": "Cédric",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 35
+    },
+    {
+      "nachname": "Viana",
+      "vorname": "Damien",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 36
+    },
+    {
+      "nachname": "Wenner",
+      "vorname": "Alain",
+      "geschlecht": "M",
+      "verein": 1,
+      "id": 37
+    },
+    {
+      "nachname": "Zambon",
+      "vorname": "Jerry",
+      "geschlecht": "M",
+      "verein": 10,
+      "id": 38
+    }
+  ]
+  ,
+  "disziplinen": [
+    {
+      "name": "Super melee",
+      "teamsize": 2,
+      "geschlecht": 3,
+      "system": 30,
+      "status": 1,
+      "id": 1
+      ,
+      "meldungen": [
+        {
+          "platz": 1,
+          "wertung": 1,
+          "spiele": "1:0",
+          "saetze": "2:0",
+          "punkte": "42:20",
+          "spieler": [14,20],
+          "id": 1
+        },
+        {
+          "platz": 2,
+          "wertung": 1,
+          "spiele": "1:0",
+          "saetze": "1:0",
+          "punkte": "1:0",
+          "spieler": [38,34],
+          "id": 2
+        },
+        {
+          "platz": 3,
+          "spieler": [28,4],
+          "id": 3
+        },
+        {
+          "platz": 3,
+          "spieler": [5,12],
+          "id": 4
+        },
+        {
+          "platz": 3,
+          "spieler": [3,31],
+          "id": 5
+        },
+        {
+          "platz": 3,
+          "spieler": [7,11],
+          "id": 6
+        },
+        {
+          "platz": 3,
+          "spieler": [10,17],
+          "id": 7
+        },
+        {
+          "platz": 3,
+          "spieler": [23,29],
+          "id": 8
+        },
+        {
+          "platz": 3,
+          "spieler": [19,24],
+          "id": 9
+        },
+        {
+          "platz": 3,
+          "spieler": [9,18],
+          "id": 10
+        },
+        {
+          "platz": 3,
+          "spieler": [13,33],
+          "id": 11
+        },
+        {
+          "platz": 3,
+          "spieler": [30,6],
+          "id": 12
+        },
+        {
+          "platz": 3,
+          "spieler": [37,26],
+          "id": 13
+        },
+        {
+          "platz": 3,
+          "spieler": [22,2],
+          "id": 14
+        },
+        {
+          "platz": 3,
+          "spieler": [15,8],
+          "id": 15
+        },
+        {
+          "platz": 3,
+          "spieler": [27,25],
+          "id": 16
+        },
+        {
+          "platz": 3,
+          "spieler": [36,35],
+          "id": 17
+        },
+        {
+          "platz": 3,
+          "spieler": [16,32],
+          "id": 18
+        },
+        {
+          "platz": 19,
+          "spiele": "0:1",
+          "saetze": "0:2",
+          "punkte": "20:42",
+          "spieler": [1,21],
+          "id": 19
+        }
+      ]
+      ,
+      "runden": [
+        {
+          "id": 1
+          ,
+          "spiele": [
+            {
+              "feld": -1,
+              "result": [[21,10], [21,10]],
+              "heim": [14,20],
+              "gast": [1,21],
+              "id": 1
+            },
+            {
+              "feld": 2,
+              "heim": [9,18],
+              "gast": [36,35],
+              "id": 2
+            },
+            {
+              "feld": 3,
+              "heim": [3,31],
+              "gast": [23,29],
+              "id": 3
+            },
+            {
+              "feld": 4,
+              "heim": [37,26],
+              "gast": [28,4],
+              "id": 4
+            },
+            {
+              "feld": 5,
+              "heim": [22,2],
+              "gast": [10,17],
+              "id": 5
+            },
+            {
+              "heim": [5,12],
+              "gast": [7,11],
+              "id": 6
+            },
+            {
+              "heim": [19,24],
+              "gast": [30,6],
+              "id": 7
+            },
+            {
+              "heim": [16,32],
+              "gast": [13,33],
+              "id": 8
+            },
+            {
+              "heim": [15,8],
+              "gast": [27,25],
+              "id": 9
+            },
+            {
+              "id": 10,
+              "feld": -32767,
+              "result": [[1,0]],
+              "heim": [38,34],
+              "gast": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
