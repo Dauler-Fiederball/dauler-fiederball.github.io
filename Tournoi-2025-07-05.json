@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "23.06.2025 20:11:41",
+  "datum": "23.06.2025 20:16:57",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)"
@@ -236,6 +236,56 @@
       ,
       "meldungen": [
         {
+          "setzposition": 4,
+          "platz": 1,
+          "wertung": 2,
+          "spiele": "2:0",
+          "saetze": "4:0",
+          "punkte": "84:44",
+          "spieler": [25],
+          "id": 1
+        },
+        {
+          "setzposition": 2,
+          "platz": 1,
+          "wertung": 2,
+          "spiele": "2:0",
+          "saetze": "4:0",
+          "punkte": "84:44",
+          "spieler": [2],
+          "id": 2
+        },
+        {
+          "setzposition": 1,
+          "platz": 1,
+          "wertung": 2,
+          "spiele": "2:0",
+          "saetze": "4:0",
+          "punkte": "84:44",
+          "spieler": [3],
+          "id": 3
+        },
+        {
+          "setzposition": 3,
+          "platz": 1,
+          "wertung": 2,
+          "spiele": "2:0",
+          "saetze": "4:0",
+          "punkte": "84:44",
+          "spieler": [23],
+          "id": 4
+        },
+        {
+          "setzposition": 1,
+          "platz": 1,
+          "wertung": 2,
+          "spiele": "2:0",
+          "saetze": "4:0",
+          "punkte": "84:44",
+          "spieler": [6],
+          "id": 5
+        },
+        {
           "setzposition": 1,
           "platz": 1,
           "wertung": 2,
@@ -243,166 +293,116 @@
           "saetze": "4:0",
           "punkte": "84:44",
           "spieler": [1],
-          "id": 1
-        },
-        {
-          "setzposition": 2,
-          "platz": 2,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "2:0",
-          "punkte": "42:22",
-          "spieler": [2],
-          "id": 2
-        },
-        {
-          "setzposition": 3,
-          "platz": 2,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "2:0",
-          "punkte": "42:22",
-          "spieler": [23],
-          "id": 3
-        },
-        {
-          "setzposition": 2,
-          "platz": 2,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "2:0",
-          "punkte": "42:22",
-          "spieler": [24],
-          "id": 4
-        },
-        {
-          "setzposition": 1,
-          "platz": 2,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "2:0",
-          "punkte": "42:22",
-          "spieler": [21],
-          "id": 5
-        },
-        {
-          "setzposition": 1,
-          "platz": 2,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "2:0",
-          "punkte": "42:22",
-          "spieler": [6],
           "id": 6
         },
         {
-          "setzposition": 4,
-          "platz": 2,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "2:0",
-          "punkte": "42:22",
-          "spieler": [25],
+          "setzposition": 1,
+          "platz": 1,
+          "wertung": 2,
+          "spiele": "2:0",
+          "saetze": "4:0",
+          "punkte": "84:44",
+          "spieler": [18],
           "id": 7
         },
         {
           "setzposition": 1,
-          "platz": 2,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "2:0",
-          "punkte": "42:22",
-          "spieler": [18],
-          "id": 8
-        },
-        {
-          "setzposition": 1,
-          "platz": 2,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "2:0",
-          "punkte": "42:22",
-          "spieler": [10],
-          "id": 9
-        },
-        {
-          "setzposition": 4,
-          "platz": 2,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "2:0",
-          "punkte": "42:22",
-          "spieler": [26],
-          "id": 10
-        },
-        {
-          "setzposition": 1,
-          "platz": 2,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "2:0",
-          "punkte": "42:22",
-          "spieler": [3],
-          "id": 11
-        },
-        {
-          "setzposition": 2,
-          "platz": 2,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "2:0",
-          "punkte": "42:22",
-          "spieler": [16],
-          "id": 12
-        },
-        {
-          "setzposition": 2,
-          "platz": 13,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "1:0",
-          "punkte": "1:0",
-          "spieler": [11],
-          "id": 13
-        },
-        {
-          "setzposition": 6,
-          "platz": 13,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "1:0",
-          "punkte": "1:0",
-          "spieler": [22],
-          "id": 14
-        },
-        {
-          "setzposition": 2,
-          "platz": 15,
+          "platz": 8,
           "wertung": 1,
           "spiele": "1:1",
           "saetze": "2:2",
           "punkte": "64:64",
-          "spieler": [12],
-          "id": 15
+          "spieler": [21],
+          "id": 8
         },
         {
           "setzposition": 1,
-          "platz": 15,
+          "platz": 8,
+          "wertung": 1,
+          "spiele": "1:1",
+          "saetze": "2:2",
+          "punkte": "64:64",
+          "spieler": [10],
+          "id": 9
+        },
+        {
+          "setzposition": 1,
+          "platz": 8,
           "wertung": 1,
           "spiele": "1:1",
           "saetze": "2:2",
           "punkte": "64:64",
           "spieler": [9],
-          "id": 16
+          "id": 10
+        },
+        {
+          "setzposition": 2,
+          "platz": 8,
+          "wertung": 1,
+          "spiele": "1:1",
+          "saetze": "2:2",
+          "punkte": "64:64",
+          "spieler": [16],
+          "id": 11
+        },
+        {
+          "setzposition": 4,
+          "platz": 8,
+          "wertung": 1,
+          "spiele": "1:1",
+          "saetze": "2:2",
+          "punkte": "64:64",
+          "spieler": [26],
+          "id": 12
+        },
+        {
+          "setzposition": 2,
+          "platz": 8,
+          "wertung": 1,
+          "spiele": "1:1",
+          "saetze": "2:2",
+          "punkte": "64:64",
+          "spieler": [24],
+          "id": 13
+        },
+        {
+          "setzposition": 1,
+          "platz": 8,
+          "wertung": 1,
+          "spiele": "1:1",
+          "saetze": "2:2",
+          "punkte": "64:64",
+          "spieler": [8],
+          "id": 14
         },
         {
           "setzposition": 6,
-          "platz": 15,
+          "platz": 8,
           "wertung": 1,
           "spiele": "1:1",
           "saetze": "2:2",
           "punkte": "64:64",
           "spieler": [15],
+          "id": 15
+        },
+        {
+          "setzposition": 5,
+          "platz": 8,
+          "wertung": 1,
+          "spiele": "1:1",
+          "saetze": "2:2",
+          "punkte": "64:64",
+          "spieler": [13],
+          "id": 16
+        },
+        {
+          "setzposition": 2,
+          "platz": 8,
+          "wertung": 1,
+          "spiele": "1:1",
+          "saetze": "2:2",
+          "punkte": "64:64",
+          "spieler": [12],
           "id": 17
         },
         {
@@ -412,8 +412,18 @@
           "spiele": "1:1",
           "saetze": "1:2",
           "punkte": "23:42",
-          "spieler": [5],
+          "spieler": [22],
           "id": 18
+        },
+        {
+          "setzposition": 6,
+          "platz": 18,
+          "wertung": 1,
+          "spiele": "1:1",
+          "saetze": "1:2",
+          "punkte": "23:42",
+          "spieler": [5],
+          "id": 19
         },
         {
           "setzposition": 1,
@@ -423,65 +433,57 @@
           "saetze": "1:2",
           "punkte": "23:42",
           "spieler": [17],
-          "id": 19
-        },
-        {
-          "setzposition": 1,
-          "platz": 20,
-          "spiele": "0:1",
-          "saetze": "0:2",
-          "punkte": "22:42",
-          "spieler": [8],
           "id": 20
         },
         {
-          "setzposition": 5,
-          "platz": 20,
-          "spiele": "0:1",
-          "saetze": "0:2",
-          "punkte": "22:42",
-          "spieler": [13],
+          "setzposition": 2,
+          "platz": 18,
+          "wertung": 1,
+          "spiele": "1:1",
+          "saetze": "1:2",
+          "punkte": "23:42",
+          "spieler": [11],
           "id": 21
         },
         {
           "setzposition": 1,
-          "platz": 20,
-          "spiele": "0:1",
-          "saetze": "0:2",
-          "punkte": "22:42",
+          "platz": 22,
+          "spiele": "0:2",
+          "saetze": "0:4",
+          "punkte": "44:84",
           "spieler": [14],
           "id": 22
         },
         {
-          "setzposition": 2,
-          "platz": 23,
-          "spiele": "0:2",
-          "saetze": "0:4",
-          "punkte": "44:84",
-          "spieler": [19],
-          "id": 23
-        },
-        {
           "setzposition": 1,
-          "platz": 23,
-          "spiele": "0:2",
-          "saetze": "0:4",
-          "punkte": "44:84",
-          "spieler": [4],
-          "id": 24
-        },
-        {
-          "setzposition": 1,
-          "platz": 23,
+          "platz": 22,
           "spiele": "0:2",
           "saetze": "0:4",
           "punkte": "44:84",
           "spieler": [7],
+          "id": 23
+        },
+        {
+          "setzposition": 2,
+          "platz": 22,
+          "spiele": "0:2",
+          "saetze": "0:4",
+          "punkte": "44:84",
+          "spieler": [19],
+          "id": 24
+        },
+        {
+          "setzposition": 1,
+          "platz": 22,
+          "spiele": "0:2",
+          "saetze": "0:4",
+          "punkte": "44:84",
+          "spieler": [4],
           "id": 25
         },
         {
           "setzposition": 2,
-          "platz": 23,
+          "platz": 22,
           "spiele": "0:2",
           "saetze": "0:4",
           "punkte": "44:84",
@@ -565,24 +567,29 @@
               "id": 2
             },
             {
-              "feld": 3,
+              "feld": -3,
+              "result": [[21,11], [21,11]],
               "heim": [18,13],
               "gast": [10,26],
               "id": 3
             },
             {
-              "feld": 4,
+              "feld": -4,
+              "result": [[21,11], [21,11]],
               "heim": [8,25],
               "gast": [14,24],
               "id": 4
             },
             {
-              "feld": 5,
+              "feld": -5,
+              "result": [[21,11], [21,11]],
               "heim": [6,23],
               "gast": [21,16],
               "id": 5
             },
             {
+              "feld": -1,
+              "result": [[21,11], [21,11]],
               "heim": [3,2],
               "gast": [11,22],
               "id": 6
@@ -592,6 +599,49 @@
               "feld": -32767,
               "result": [[1,0]],
               "heim": [5,17],
+              "gast": []
+            }
+          ]
+        },
+        {
+          "id": 3
+          ,
+          "spiele": [
+            {
+              "heim": [14,19],
+              "gast": [6,11],
+              "id": 1
+            },
+            {
+              "heim": [3,23],
+              "gast": [10,24],
+              "id": 2
+            },
+            {
+              "heim": [17,22],
+              "gast": [18,5],
+              "id": 3
+            },
+            {
+              "heim": [9,26],
+              "gast": [8,16],
+              "id": 4
+            },
+            {
+              "heim": [21,15],
+              "gast": [12,2],
+              "id": 5
+            },
+            {
+              "heim": [20,13],
+              "gast": [1,25],
+              "id": 6
+            },
+            {
+              "id": 7,
+              "feld": -32767,
+              "result": [[1,0]],
+              "heim": [4,7],
               "gast": []
             }
           ]
