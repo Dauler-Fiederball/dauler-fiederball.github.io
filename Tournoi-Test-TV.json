@@ -1,6 +1,6 @@
 ﻿{
     "turniername":  "Test-Super",
-    "datum":  "23.06.2025 15:18:06",
+    "datum":  "23.06.2025 15:48:04",
     "sportart":  "BADMINTON",
     "lizenz":  "Dauler Fiederball",
     "generator":  "SPORT Software (Version 6.36)",
@@ -438,11 +438,11 @@
                                                   "id":  10
                                               },
                                               {
-                                                  "platz":  11,
+                                                  "platz":  10,
                                                   "wertung":  1,
                                                   "spiele":  "1:1",
-                                                  "saetze":  "1:2",
-                                                  "punkte":  "21:42",
+                                                  "saetze":  "2:2",
+                                                  "punkte":  "62:62",
                                                   "spieler":  [
 
                                                               ],
@@ -450,9 +450,10 @@
                                               },
                                               {
                                                   "platz":  12,
-                                                  "spiele":  "0:1",
-                                                  "saetze":  "0:2",
-                                                  "punkte":  "40:43",
+                                                  "wertung":  1,
+                                                  "spiele":  "1:1",
+                                                  "saetze":  "1:2",
+                                                  "punkte":  "21:42",
                                                   "spieler":  [
 
                                                               ],
@@ -462,14 +463,14 @@
                                                   "platz":  13,
                                                   "spiele":  "0:1",
                                                   "saetze":  "0:2",
-                                                  "punkte":  "40:44",
+                                                  "punkte":  "40:43",
                                                   "spieler":  [
 
                                                               ],
                                                   "id":  13
                                               },
                                               {
-                                                  "platz":  13,
+                                                  "platz":  14,
                                                   "spiele":  "0:1",
                                                   "saetze":  "0:2",
                                                   "punkte":  "40:44",
@@ -479,17 +480,17 @@
                                                   "id":  14
                                               },
                                               {
-                                                  "platz":  15,
+                                                  "platz":  14,
                                                   "spiele":  "0:1",
                                                   "saetze":  "0:2",
-                                                  "punkte":  "20:42",
+                                                  "punkte":  "40:44",
                                                   "spieler":  [
 
                                                               ],
                                                   "id":  15
                                               },
                                               {
-                                                  "platz":  15,
+                                                  "platz":  16,
                                                   "spiele":  "0:1",
                                                   "saetze":  "0:2",
                                                   "punkte":  "20:42",
@@ -499,7 +500,7 @@
                                                   "id":  16
                                               },
                                               {
-                                                  "platz":  15,
+                                                  "platz":  16,
                                                   "spiele":  "0:1",
                                                   "saetze":  "0:2",
                                                   "punkte":  "20:42",
@@ -520,9 +521,9 @@
                                               },
                                               {
                                                   "platz":  19,
-                                                  "spiele":  "0:1",
-                                                  "saetze":  "0:2",
-                                                  "punkte":  "10:42",
+                                                  "spiele":  "0:2",
+                                                  "saetze":  "0:4",
+                                                  "punkte":  "30:84",
                                                   "spieler":  [
 
                                                               ],
@@ -787,6 +788,7 @@
                                                                   "id":  2
                                                               },
                                                               {
+                                                                  "feld":  2,
                                                                   "heim":  [
                                                                                19,
                                                                                24
@@ -831,6 +833,7 @@
                                                                   "id":  5
                                                               },
                                                               {
+                                                                  "feld":  1,
                                                                   "heim":  [
                                                                                10,
                                                                                17
@@ -853,7 +856,17 @@
                                                                   "id":  7
                                                               },
                                                               {
-                                                                  "feld":  2,
+                                                                  "feld":  -2,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ]
+                                                                             ],
                                                                   "heim":  [
                                                                                1,
                                                                                21
@@ -865,6 +878,7 @@
                                                                   "id":  8
                                                               },
                                                               {
+                                                                  "feld":  3,
                                                                   "heim":  [
                                                                                28,
                                                                                4
