@@ -1,13 +1,21 @@
 ﻿{
     "turniername":  "SUPER MELEE 2025",
-    "datum":  "23.06.2025 21:16:54",
+    "datum":  "23.06.2025 21:17:08",
     "sportart":  "BADMINTON",
     "lizenz":  "Dauler Fiederball",
     "generator":  "SPORT Software (Version 6.36)",
     "vereine":  [
                     {
-                        "name":  "Dauler Fiederball",
+                        "name":  "Atertdaul",
                         "id":  1
+                    },
+                    {
+                        "name":  "Dauler Fiederball",
+                        "id":  2
+                    },
+                    {
+                        "name":  "Helperknapp",
+                        "id":  3
                     }
                 ],
     "spieler":  [
@@ -15,8 +23,85 @@
                         "nachname":  "Arens",
                         "vorname":  "Carina",
                         "geschlecht":  "F",
-                        "verein":  1,
+                        "verein":  2,
                         "id":  1
+                    },
+                    {
+                        "nachname":  "Berchem",
+                        "vorname":  "Marc",
+                        "geschlecht":  "M",
+                        "verein":  3,
+                        "id":  2
+                    },
+                    {
+                        "nachname":  "Boes",
+                        "vorname":  "Mandy",
+                        "geschlecht":  "F",
+                        "verein":  2,
+                        "id":  3
+                    },
+                    {
+                        "nachname":  "Freres",
+                        "vorname":  "Jean-Claude",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  4
+                    },
+                    {
+                        "nachname":  "Gillen",
+                        "vorname":  "Sylvie",
+                        "geschlecht":  "F",
+                        "verein":  1,
+                        "id":  5
+                    },
+                    {
+                        "nachname":  "Goelff",
+                        "vorname":  "Carole",
+                        "geschlecht":  "F",
+                        "verein":  2,
+                        "id":  6
+                    },
+                    {
+                        "nachname":  "Goelff",
+                        "vorname":  "Sven",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  7
+                    },
+                    {
+                        "nachname":  "Gringmuth",
+                        "vorname":  "Daniel",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  8
+                    },
+                    {
+                        "nachname":  "Gringmuth",
+                        "vorname":  "Sam",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  9
+                    },
+                    {
+                        "nachname":  "Guyot",
+                        "vorname":  "Laure",
+                        "geschlecht":  "F",
+                        "verein":  2,
+                        "id":  10
+                    },
+                    {
+                        "nachname":  "Heinen",
+                        "vorname":  "Carmen",
+                        "geschlecht":  "F",
+                        "verein":  3,
+                        "id":  11
+                    },
+                    {
+                        "nachname":  "Lafontaine",
+                        "vorname":  "Laurent",
+                        "geschlecht":  "M",
+                        "verein":  3,
+                        "id":  12
                     }
                 ],
     "disziplinen":  [
