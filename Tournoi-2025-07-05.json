@@ -226,131 +226,261 @@
                                               {
                                                   "setzposition":  1,
                                                   "platz":  1,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  1
                                               },
                                               {
                                                   "setzposition":  3,
                                                   "platz":  1,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  2
                                               },
                                               {
                                                   "setzposition":  1,
                                                   "platz":  3,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  3
                                               },
                                               {
                                                   "setzposition":  2,
                                                   "platz":  3,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  4
                                               },
                                               {
                                                   "setzposition":  1,
                                                   "platz":  3,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  5
                                               },
                                               {
                                                   "setzposition":  1,
                                                   "platz":  3,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  6
                                               },
                                               {
                                                   "setzposition":  5,
                                                   "platz":  3,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  7
                                               },
                                               {
                                                   "setzposition":  6,
                                                   "platz":  3,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  8
                                               },
                                               {
                                                   "setzposition":  1,
                                                   "platz":  3,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  9
                                               },
                                               {
                                                   "setzposition":  1,
                                                   "platz":  3,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  10
                                               },
                                               {
                                                   "setzposition":  4,
                                                   "platz":  3,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  11
                                               },
                                               {
                                                   "setzposition":  4,
                                                   "platz":  3,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  12
                                               },
                                               {
                                                   "setzposition":  1,
                                                   "platz":  13,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  13
                                               },
                                               {
                                                   "setzposition":  6,
                                                   "platz":  13,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  14
                                               },
                                               {
                                                   "setzposition":  1,
                                                   "platz":  15,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  15
                                               },
                                               {
                                                   "setzposition":  1,
                                                   "platz":  15,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  16
                                               },
                                               {
                                                   "setzposition":  2,
                                                   "platz":  15,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  17
                                               },
                                               {
                                                   "setzposition":  1,
                                                   "platz":  15,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  18
                                               },
                                               {
                                                   "setzposition":  2,
                                                   "platz":  15,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  19
                                               },
                                               {
                                                   "setzposition":  2,
                                                   "platz":  15,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  20
                                               },
                                               {
                                                   "setzposition":  2,
                                                   "platz":  15,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  21
                                               },
                                               {
                                                   "setzposition":  2,
                                                   "platz":  15,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  22
                                               },
                                               {
                                                   "setzposition":  1,
                                                   "platz":  23,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  23
                                               },
                                               {
                                                   "setzposition":  6,
                                                   "platz":  23,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  24
                                               },
                                               {
                                                   "setzposition":  1,
                                                   "platz":  23,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  25
                                               },
                                               {
                                                   "setzposition":  2,
                                                   "platz":  23,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  null,
                                                   "id":  26
                                               }
                                           ],
