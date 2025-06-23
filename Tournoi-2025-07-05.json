@@ -1,6 +1,6 @@
 ﻿{
     "turniername":  "SUPER MELEE 2025",
-    "datum":  "23.06.2025 20:44:57",
+    "datum":  "23.06.2025 20:45:57",
     "sportart":  "BADMINTON",
     "lizenz":  "Dauler Fiederball",
     "generator":  "SPORT Software (Version 6.36)",
@@ -224,107 +224,81 @@
                             "id":  1,
                             "meldungen":  [
                                               {
-                                                  "wertung":  3,
                                                   "id":  1
                                               },
                                               {
-                                                  "wertung":  3,
                                                   "id":  2
                                               },
                                               {
-                                                  "wertung":  2,
                                                   "id":  3
                                               },
                                               {
-                                                  "wertung":  2,
                                                   "id":  4
                                               },
                                               {
-                                                  "wertung":  2,
                                                   "id":  5
                                               },
                                               {
-                                                  "wertung":  2,
                                                   "id":  6
                                               },
                                               {
-                                                  "wertung":  2,
                                                   "id":  7
                                               },
                                               {
-                                                  "wertung":  2,
                                                   "id":  8
                                               },
                                               {
-                                                  "wertung":  2,
                                                   "id":  9
                                               },
                                               {
-                                                  "wertung":  2,
                                                   "id":  10
                                               },
                                               {
-                                                  "wertung":  2,
                                                   "id":  11
                                               },
                                               {
-                                                  "wertung":  2,
                                                   "id":  12
                                               },
                                               {
-                                                  "wertung":  2,
                                                   "id":  13
                                               },
                                               {
-                                                  "wertung":  2,
                                                   "id":  14
                                               },
                                               {
-                                                  "wertung":  1,
                                                   "id":  15
                                               },
                                               {
-                                                  "wertung":  1,
                                                   "id":  16
                                               },
                                               {
-                                                  "wertung":  1,
                                                   "id":  17
                                               },
                                               {
-                                                  "wertung":  1,
                                                   "id":  18
                                               },
                                               {
-                                                  "wertung":  1,
                                                   "id":  19
                                               },
                                               {
-                                                  "wertung":  1,
                                                   "id":  20
                                               },
                                               {
-                                                  "wertung":  1,
                                                   "id":  21
                                               },
                                               {
-                                                  "wertung":  1,
                                                   "id":  22
                                               },
                                               {
-                                                  "wertung":  1,
                                                   "id":  23
                                               },
                                               {
-                                                  "wertung":  1,
                                                   "id":  24
                                               },
                                               {
-                                                  "wertung":  1,
                                                   "id":  25
                                               },
                                               {
-                                                  "wertung":  1,
                                                   "id":  26
                                               }
                                           ],
