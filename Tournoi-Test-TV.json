@@ -1,6 +1,6 @@
 {
   "turniername": "Test-Super",
-  "datum": "23.06.2025 11:56:24",
+  "datum": "23.06.2025 14:32:50",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)"
@@ -368,71 +368,78 @@
           "id": 4
         },
         {
-          "platz": 5,
+          "platz": 3,
+          "wertung": 1,
+          "spiele": "1:0",
+          "saetze": "2:0",
+          "punkte": "42:20",
+          "spieler": [16,32],
+          "id": 5
+        },
+        {
+          "platz": 6,
           "wertung": 1,
           "spiele": "1:0",
           "saetze": "2:0",
           "punkte": "44:40",
           "spieler": [19,24],
-          "id": 5
+          "id": 6
         },
         {
-          "platz": 5,
+          "platz": 6,
           "wertung": 1,
           "spiele": "1:0",
           "saetze": "2:0",
           "punkte": "44:40",
           "spieler": [5,12],
-          "id": 6
-        },
-        {
-          "platz": 7,
-          "wertung": 1,
-          "spiele": "1:0",
-          "saetze": "2:0",
-          "punkte": "43:40",
-          "spieler": [37,26],
           "id": 7
         },
         {
           "platz": 8,
           "wertung": 1,
           "spiele": "1:0",
-          "saetze": "1:0",
-          "punkte": "1:0",
-          "spieler": [38,34],
+          "saetze": "2:0",
+          "punkte": "43:40",
+          "spieler": [37,26],
           "id": 8
         },
         {
           "platz": 9,
-          "spieler": [15,8],
+          "wertung": 1,
+          "spiele": "1:0",
+          "saetze": "1:0",
+          "punkte": "1:0",
+          "spieler": [38,34],
           "id": 9
         },
         {
-          "platz": 9,
-          "spieler": [13,33],
+          "platz": 10,
+          "spieler": [27,25],
           "id": 10
         },
         {
-          "platz": 9,
-          "spieler": [27,25],
+          "platz": 10,
+          "spieler": [15,8],
           "id": 11
         },
         {
-          "platz": 9,
-          "spieler": [16,32],
+          "platz": 12,
+          "spiele": "0:1",
+          "saetze": "0:2",
+          "punkte": "40:43",
+          "spieler": [28,4],
           "id": 12
         },
         {
           "platz": 13,
           "spiele": "0:1",
           "saetze": "0:2",
-          "punkte": "40:43",
-          "spieler": [28,4],
+          "punkte": "40:44",
+          "spieler": [30,6],
           "id": 13
         },
         {
-          "platz": 14,
+          "platz": 13,
           "spiele": "0:1",
           "saetze": "0:2",
           "punkte": "40:44",
@@ -440,15 +447,15 @@
           "id": 14
         },
         {
-          "platz": 14,
+          "platz": 15,
           "spiele": "0:1",
           "saetze": "0:2",
-          "punkte": "40:44",
-          "spieler": [30,6],
+          "punkte": "20:42",
+          "spieler": [1,21],
           "id": 15
         },
         {
-          "platz": 16,
+          "platz": 15,
           "spiele": "0:1",
           "saetze": "0:2",
           "punkte": "20:42",
@@ -456,11 +463,11 @@
           "id": 16
         },
         {
-          "platz": 16,
+          "platz": 15,
           "spiele": "0:1",
           "saetze": "0:2",
           "punkte": "20:42",
-          "spieler": [1,21],
+          "spieler": [13,33],
           "id": 17
         },
         {
@@ -536,7 +543,8 @@
               "id": 7
             },
             {
-              "feld": 3,
+              "feld": -3,
+              "result": [[21,10], [21,10]],
               "heim": [16,32],
               "gast": [13,33],
               "id": 8
