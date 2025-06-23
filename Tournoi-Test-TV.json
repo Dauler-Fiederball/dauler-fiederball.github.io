@@ -329,10 +329,10 @@
                             "meldungen":  [
                                               {
                                                   "platz":  1,
-                                                  "wertung":  2,
-                                                  "spiele":  "2:0",
-                                                  "saetze":  "4:0",
-                                                  "punkte":  "84:40",
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -340,10 +340,10 @@
                                               },
                                               {
                                                   "platz":  2,
-                                                  "wertung":  2,
-                                                  "spiele":  "2:0",
-                                                  "saetze":  "4:0",
-                                                  "punkte":  "85:60",
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -351,10 +351,10 @@
                                               },
                                               {
                                                   "platz":  3,
-                                                  "wertung":  1,
-                                                  "spiele":  "1:0",
-                                                  "saetze":  "2:0",
-                                                  "punkte":  "42:11",
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -362,10 +362,10 @@
                                               },
                                               {
                                                   "platz":  4,
-                                                  "wertung":  1,
-                                                  "spiele":  "1:0",
-                                                  "saetze":  "2:0",
-                                                  "punkte":  "42:20",
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -373,10 +373,10 @@
                                               },
                                               {
                                                   "platz":  4,
-                                                  "wertung":  1,
-                                                  "spiele":  "1:0",
-                                                  "saetze":  "2:0",
-                                                  "punkte":  "42:20",
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -384,10 +384,10 @@
                                               },
                                               {
                                                   "platz":  6,
-                                                  "wertung":  1,
-                                                  "spiele":  "1:0",
-                                                  "saetze":  "2:0",
-                                                  "punkte":  "44:40",
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -395,10 +395,10 @@
                                               },
                                               {
                                                   "platz":  6,
-                                                  "wertung":  1,
-                                                  "spiele":  "1:0",
-                                                  "saetze":  "2:0",
-                                                  "punkte":  "44:40",
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -406,10 +406,10 @@
                                               },
                                               {
                                                   "platz":  8,
-                                                  "wertung":  1,
-                                                  "spiele":  "1:0",
-                                                  "saetze":  "1:0",
-                                                  "punkte":  "1:0",
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -417,10 +417,10 @@
                                               },
                                               {
                                                   "platz":  9,
-                                                  "wertung":  1,
-                                                  "spiele":  "1:1",
-                                                  "saetze":  "2:2",
-                                                  "punkte":  "62:52",
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -428,10 +428,10 @@
                                               },
                                               {
                                                   "platz":  10,
-                                                  "wertung":  1,
-                                                  "spiele":  "1:1",
-                                                  "saetze":  "2:2",
-                                                  "punkte":  "62:62",
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -439,10 +439,10 @@
                                               },
                                               {
                                                   "platz":  10,
-                                                  "wertung":  1,
-                                                  "spiele":  "1:1",
-                                                  "saetze":  "2:2",
-                                                  "punkte":  "62:62",
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -450,10 +450,10 @@
                                               },
                                               {
                                                   "platz":  12,
-                                                  "wertung":  1,
-                                                  "spiele":  "1:1",
-                                                  "saetze":  "1:2",
-                                                  "punkte":  "21:42",
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -461,9 +461,9 @@
                                               },
                                               {
                                                   "platz":  13,
-                                                  "spiele":  "0:1",
-                                                  "saetze":  "0:2",
-                                                  "punkte":  "40:43",
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -471,9 +471,9 @@
                                               },
                                               {
                                                   "platz":  14,
-                                                  "spiele":  "0:1",
-                                                  "saetze":  "0:2",
-                                                  "punkte":  "40:44",
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -481,9 +481,9 @@
                                               },
                                               {
                                                   "platz":  14,
-                                                  "spiele":  "0:1",
-                                                  "saetze":  "0:2",
-                                                  "punkte":  "40:44",
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -491,9 +491,9 @@
                                               },
                                               {
                                                   "platz":  16,
-                                                  "spiele":  "0:1",
-                                                  "saetze":  "0:2",
-                                                  "punkte":  "20:42",
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -501,9 +501,9 @@
                                               },
                                               {
                                                   "platz":  16,
-                                                  "spiele":  "0:1",
-                                                  "saetze":  "0:2",
-                                                  "punkte":  "20:42",
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -511,9 +511,9 @@
                                               },
                                               {
                                                   "platz":  18,
-                                                  "spiele":  "0:1",
-                                                  "saetze":  "0:2",
-                                                  "punkte":  "11:42",
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
@@ -521,9 +521,9 @@
                                               },
                                               {
                                                   "platz":  19,
-                                                  "spiele":  "0:2",
-                                                  "saetze":  "0:4",
-                                                  "punkte":  "30:84",
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
                                                   "spieler":  [
 
                                                               ],
