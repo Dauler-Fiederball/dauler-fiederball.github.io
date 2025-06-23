@@ -1,6 +1,6 @@
 ﻿{
     "turniername":  "Test-Super",
-    "datum":  "23.06.2025 16:06:02",
+    "datum":  "23.06.2025 16:14:12",
     "sportart":  "BADMINTON",
     "lizenz":  "Dauler Fiederball",
     "generator":  "SPORT Software (Version 6.36)",
@@ -1097,6 +1097,17 @@
                                                                   "id":  5
                                                               },
                                                               {
+                                                                  "feld":  -1,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     10,
+                                                                                     21
+                                                                                 ],
+                                                                                 [
+                                                                                     10,
+                                                                                     21
+                                                                                 ]
+                                                                             ],
                                                                   "heim":  [
                                                                                19,
                                                                                24
@@ -1108,6 +1119,7 @@
                                                                   "id":  6
                                                               },
                                                               {
+                                                                  "feld":  2,
                                                                   "heim":  [
                                                                                30,
                                                                                6
@@ -1119,6 +1131,7 @@
                                                                   "id":  7
                                                               },
                                                               {
+                                                                  "feld":  3,
                                                                   "heim":  [
                                                                                27,
                                                                                25
@@ -1130,6 +1143,7 @@
                                                                   "id":  8
                                                               },
                                                               {
+                                                                  "feld":  4,
                                                                   "heim":  [
                                                                                36,
                                                                                35
