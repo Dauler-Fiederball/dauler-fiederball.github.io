@@ -1,6 +1,6 @@
 ﻿{
     "turniername":  "SUPER MELEE 2025",
-    "datum":  "23.06.2025 19:38:11",
+    "datum":  "23.06.2025 19:45:23",
     "sportart":  "BADMINTON",
     "lizenz":  "Dauler Fiederball",
     "generator":  "SPORT Software (Version 6.36)",
@@ -256,7 +256,7 @@
                                                   "id":  2
                                               },
                                               {
-                                                  "setzposition":  1,
+                                                  "setzposition":  2,
                                                   "platz":  1,
                                                   "wertung":  null,
                                                   "spiele":  null,
@@ -268,7 +268,7 @@
                                                   "id":  3
                                               },
                                               {
-                                                  "setzposition":  1,
+                                                  "setzposition":  3,
                                                   "platz":  1,
                                                   "wertung":  null,
                                                   "spiele":  null,
@@ -280,7 +280,7 @@
                                                   "id":  4
                                               },
                                               {
-                                                  "setzposition":  2,
+                                                  "setzposition":  4,
                                                   "platz":  1,
                                                   "wertung":  null,
                                                   "spiele":  null,
@@ -292,7 +292,7 @@
                                                   "id":  5
                                               },
                                               {
-                                                  "setzposition":  3,
+                                                  "setzposition":  4,
                                                   "platz":  1,
                                                   "wertung":  null,
                                                   "spiele":  null,
@@ -304,7 +304,7 @@
                                                   "id":  6
                                               },
                                               {
-                                                  "setzposition":  4,
+                                                  "setzposition":  1,
                                                   "platz":  1,
                                                   "wertung":  null,
                                                   "spiele":  null,
@@ -316,7 +316,7 @@
                                                   "id":  7
                                               },
                                               {
-                                                  "setzposition":  4,
+                                                  "setzposition":  2,
                                                   "platz":  1,
                                                   "wertung":  null,
                                                   "spiele":  null,
@@ -352,7 +352,7 @@
                                                   "id":  10
                                               },
                                               {
-                                                  "setzposition":  2,
+                                                  "setzposition":  1,
                                                   "platz":  1,
                                                   "wertung":  null,
                                                   "spiele":  null,
@@ -411,7 +411,7 @@
                                                   "id":  15
                                               },
                                               {
-                                                  "setzposition":  2,
+                                                  "setzposition":  1,
                                                   "platz":  15,
                                                   "spiele":  null,
                                                   "saetze":  null,
@@ -422,7 +422,7 @@
                                                   "id":  16
                                               },
                                               {
-                                                  "setzposition":  1,
+                                                  "setzposition":  2,
                                                   "platz":  15,
                                                   "spiele":  null,
                                                   "saetze":  null,
@@ -433,7 +433,7 @@
                                                   "id":  17
                                               },
                                               {
-                                                  "setzposition":  2,
+                                                  "setzposition":  1,
                                                   "platz":  15,
                                                   "spiele":  null,
                                                   "saetze":  null,
@@ -444,7 +444,7 @@
                                                   "id":  18
                                               },
                                               {
-                                                  "setzposition":  1,
+                                                  "setzposition":  2,
                                                   "platz":  15,
                                                   "spiele":  null,
                                                   "saetze":  null,
@@ -455,7 +455,7 @@
                                                   "id":  19
                                               },
                                               {
-                                                  "setzposition":  1,
+                                                  "setzposition":  2,
                                                   "platz":  15,
                                                   "spiele":  null,
                                                   "saetze":  null,
@@ -466,7 +466,7 @@
                                                   "id":  20
                                               },
                                               {
-                                                  "setzposition":  2,
+                                                  "setzposition":  5,
                                                   "platz":  15,
                                                   "spiele":  null,
                                                   "saetze":  null,
@@ -477,7 +477,7 @@
                                                   "id":  21
                                               },
                                               {
-                                                  "setzposition":  1,
+                                                  "setzposition":  6,
                                                   "platz":  15,
                                                   "spiele":  null,
                                                   "saetze":  null,
@@ -499,7 +499,7 @@
                                                   "id":  23
                                               },
                                               {
-                                                  "setzposition":  6,
+                                                  "setzposition":  1,
                                                   "platz":  15,
                                                   "spiele":  null,
                                                   "saetze":  null,
@@ -521,7 +521,7 @@
                                                   "id":  25
                                               },
                                               {
-                                                  "setzposition":  5,
+                                                  "setzposition":  1,
                                                   "platz":  15,
                                                   "spiele":  null,
                                                   "saetze":  null,
@@ -739,6 +739,7 @@
                                                                   "id":  4
                                                               },
                                                               {
+                                                                  "feld":  5,
                                                                   "heim":  [
                                                                                6,
                                                                                23
