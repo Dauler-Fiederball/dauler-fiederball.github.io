@@ -1,6 +1,6 @@
-{
+﻿{
     "turniername":  "SUPER MELEE 2025",
-    "datum":  "25.06.2025 21:26:40",
+    "datum":  "25.06.2025 21:38:35",
     "sportart":  "BADMINTON",
     "lizenz":  "Dauler Fiederball",
     "generator":  "SPORT Software (Version 6.36)",
@@ -564,11 +564,15 @@
                                                                   "id":  1
                                                               },
                                                               {
-                                                                  "feld":  3,
+                                                                  "feld":  -3,
                                                                   "result":  [
                                                                                  [
                                                                                      21,
                                                                                      17
+                                                                                 ],
+                                                                                 [
+                                                                                     17,
+                                                                                     21
                                                                                  ],
                                                                                  [
                                                                                      17,
@@ -586,7 +590,17 @@
                                                                   "id":  2
                                                               },
                                                               {
-                                                                  "feld":  2,
+                                                                  "feld":  -2,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     11,
+                                                                                     15
+                                                                                 ],
+                                                                                 [
+                                                                                     15,
+                                                                                     21
+                                                                                 ]
+                                                                             ],
                                                                   "heim":  [
                                                                                5,
                                                                                10
@@ -594,6 +608,52 @@
                                                                   "gast":  [
                                                                                2,
                                                                                8
+                                                                           ],
+                                                                  "id":  3
+                                                              }
+                                                          ]
+                                           },
+                                           {
+                                               "id":  6,
+                                               "spiele":  [
+                                                              {
+                                                                  "feld":  1,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     11,
+                                                                                     12
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               4,
+                                                                               12
+                                                                           ],
+                                                                  "gast":  [
+                                                                               9,
+                                                                               2
+                                                                           ],
+                                                                  "id":  1
+                                                              },
+                                                              {
+                                                                  "feld":  2,
+                                                                  "heim":  [
+                                                                               3,
+                                                                               1
+                                                                           ],
+                                                                  "gast":  [
+                                                                               5,
+                                                                               11
+                                                                           ],
+                                                                  "id":  2
+                                                              },
+                                                              {
+                                                                  "heim":  [
+                                                                               7,
+                                                                               10
+                                                                           ],
+                                                                  "gast":  [
+                                                                               8,
+                                                                               6
                                                                            ],
                                                                   "id":  3
                                                               }
