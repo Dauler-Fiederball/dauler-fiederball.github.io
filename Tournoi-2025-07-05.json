@@ -1,6 +1,6 @@
 ﻿{
     "turniername":  "Tournoi-2025-07-05",
-    "datum":  "25.06.2025 19:57:56",
+    "datum":  "25.06.2025 20:05:02",
     "sportart":  "BADMINTON",
     "lizenz":  "Dauler Fiederball",
     "generator":  "SPORT Software (Version 6.36)",
@@ -494,7 +494,6 @@
                                               },
                                               {
                                                   "platz":  16,
-                                                  "wertung":  null,
                                                   "spiele":  null,
                                                   "saetze":  null,
                                                   "punkte":  null,
@@ -1119,14 +1118,13 @@
                                                                   "id":  6
                                                               },
                                                               {
-                                                                  "feld":  2,
                                                                   "heim":  [
                                                                                30,
                                                                                6
                                                                            ],
                                                                   "gast":  [
-                                                                               1,
-                                                                               21
+                                                                               23,
+                                                                               29
                                                                            ],
                                                                   "id":  7
                                                               },
@@ -1153,23 +1151,6 @@
                                                                                11
                                                                            ],
                                                                   "id":  9
-                                                              },
-                                                              {
-                                                                  "id":  10,
-                                                                  "feld":  -32767,
-                                                                  "result":  [
-                                                                                 [
-                                                                                     1,
-                                                                                     0
-                                                                                 ]
-                                                                             ],
-                                                                  "heim":  [
-                                                                               23,
-                                                                               29
-                                                                           ],
-                                                                  "gast":  [
-
-                                                                           ]
                                                               }
                                                           ]
                                            }
