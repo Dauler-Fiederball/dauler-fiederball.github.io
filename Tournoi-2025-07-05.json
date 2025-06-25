@@ -1,23 +1,1179 @@
 ﻿{
-    "turniername":  "SUPER MELEE 2025",
-    "datum":  "23.06.2025 21:27:44",
+    "turniername":  "Tournoi-2025-07-05",
+    "datum":  "25.06.2025 19:57:56",
     "sportart":  "BADMINTON",
     "lizenz":  "Dauler Fiederball",
     "generator":  "SPORT Software (Version 6.36)",
     "vereine":  [
-
+                    {
+                        "name":  "Aris",
+                        "id":  1
+                    },
+                    {
+                        "name":  "Dauler Fiederball",
+                        "id":  2
+                    },
+                    {
+                        "name":  "Dauler Fiederballl",
+                        "id":  3
+                    },
+                    {
+                        "name":  "FiederwÃ¤iss EttelbrÃ©ck",
+                        "id":  4
+                    },
+                    {
+                        "name":  "Helperknapp",
+                        "id":  5
+                    },
+                    {
+                        "name":  "Police",
+                        "id":  6
+                    },
+                    {
+                        "name":  "Recken-Mess",
+                        "id":  7
+                    },
+                    {
+                        "name":  "Rosport",
+                        "id":  8
+                    },
+                    {
+                        "name":  "RÃ©sidence Walfer",
+                        "id":  9
+                    },
+                    {
+                        "name":  "Stadtbredimus",
+                        "id":  10
+                    },
+                    {
+                        "name":  "WaldbÃ«lleg",
+                        "id":  11
+                    }
                 ],
     "spieler":  [
-
+                    {
+                        "nachname":  "Alain",
+                        "vorname":  "Weber",
+                        "geschlecht":  "M",
+                        "verein":  5,
+                        "id":  1
+                    },
+                    {
+                        "nachname":  "Annette",
+                        "vorname":  "Oestreicher",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  2
+                    },
+                    {
+                        "nachname":  "Asselborn",
+                        "vorname":  "Ben",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  3
+                    },
+                    {
+                        "nachname":  "Berchem",
+                        "vorname":  "Marc",
+                        "geschlecht":  "M",
+                        "verein":  5,
+                        "id":  4
+                    },
+                    {
+                        "nachname":  "Bidoli",
+                        "vorname":  "Lena",
+                        "geschlecht":  "M",
+                        "verein":  3,
+                        "id":  5
+                    },
+                    {
+                        "nachname":  "Boes",
+                        "vorname":  "Mandy",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  6
+                    },
+                    {
+                        "nachname":  "Brian",
+                        "vorname":  "Borges",
+                        "geschlecht":  "M",
+                        "verein":  8,
+                        "id":  7
+                    },
+                    {
+                        "nachname":  "Brito Gomes",
+                        "vorname":  "Nicolas",
+                        "geschlecht":  "M",
+                        "verein":  5,
+                        "id":  8
+                    },
+                    {
+                        "nachname":  "Connen de Kirillis",
+                        "vorname":  "ChloÃ©",
+                        "geschlecht":  "M",
+                        "verein":  1,
+                        "id":  9
+                    },
+                    {
+                        "nachname":  "Felber",
+                        "vorname":  "Tim",
+                        "geschlecht":  "M",
+                        "verein":  5,
+                        "id":  10
+                    },
+                    {
+                        "nachname":  "Flynn",
+                        "vorname":  "Bernardin",
+                        "geschlecht":  "M",
+                        "verein":  8,
+                        "id":  11
+                    },
+                    {
+                        "nachname":  "FrÃ¤nk",
+                        "vorname":  "Hoffmann",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  12
+                    },
+                    {
+                        "nachname":  "FrÃ¨res",
+                        "vorname":  "Jean-Claude",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  13
+                    },
+                    {
+                        "nachname":  "Glover",
+                        "vorname":  "Joyce",
+                        "geschlecht":  "M",
+                        "verein":  4,
+                        "id":  14
+                    },
+                    {
+                        "nachname":  "Hommel",
+                        "vorname":  "Chris",
+                        "geschlecht":  "M",
+                        "verein":  5,
+                        "id":  15
+                    },
+                    {
+                        "nachname":  "Hoogenhout",
+                        "vorname":  "Maurice",
+                        "geschlecht":  "M",
+                        "verein":  7,
+                        "id":  16
+                    },
+                    {
+                        "nachname":  "Jemming",
+                        "vorname":  "Max",
+                        "geschlecht":  "M",
+                        "verein":  5,
+                        "id":  17
+                    },
+                    {
+                        "nachname":  "Leveque",
+                        "vorname":  "Florent",
+                        "geschlecht":  "M",
+                        "verein":  1,
+                        "id":  18
+                    },
+                    {
+                        "nachname":  "Li",
+                        "vorname":  "Shilei",
+                        "geschlecht":  "M",
+                        "verein":  9,
+                        "id":  19
+                    },
+                    {
+                        "nachname":  "Loos",
+                        "vorname":  "Felix",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  20
+                    },
+                    {
+                        "nachname":  "Loschetter",
+                        "vorname":  "Huguette",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  21
+                    },
+                    {
+                        "nachname":  "Maas",
+                        "vorname":  "FrÃ¤nk",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  22
+                    },
+                    {
+                        "nachname":  "Maller",
+                        "vorname":  "LoÃ¯c",
+                        "geschlecht":  "M",
+                        "verein":  5,
+                        "id":  23
+                    },
+                    {
+                        "nachname":  "Merkle",
+                        "vorname":  "Robert",
+                        "geschlecht":  "M",
+                        "verein":  9,
+                        "id":  24
+                    },
+                    {
+                        "nachname":  "Mesen",
+                        "vorname":  "Sandy",
+                        "geschlecht":  "M",
+                        "verein":  11,
+                        "id":  25
+                    },
+                    {
+                        "nachname":  "Ney",
+                        "vorname":  "NoÃ©mie",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  26
+                    },
+                    {
+                        "nachname":  "Ney",
+                        "vorname":  "Theo",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  27
+                    },
+                    {
+                        "nachname":  "Quintos",
+                        "vorname":  "Olivier",
+                        "geschlecht":  "M",
+                        "verein":  5,
+                        "id":  28
+                    },
+                    {
+                        "nachname":  "Rech",
+                        "vorname":  "Sven",
+                        "geschlecht":  "M",
+                        "verein":  5,
+                        "id":  29
+                    },
+                    {
+                        "nachname":  "Ribeiro",
+                        "vorname":  "Max",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  30
+                    },
+                    {
+                        "nachname":  "Schmit",
+                        "vorname":  "Fabienne",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  31
+                    },
+                    {
+                        "nachname":  "Stammet",
+                        "vorname":  "Christophe",
+                        "geschlecht":  "M",
+                        "verein":  7,
+                        "id":  32
+                    },
+                    {
+                        "nachname":  "Steichen",
+                        "vorname":  "Robert",
+                        "geschlecht":  "M",
+                        "verein":  6,
+                        "id":  33
+                    },
+                    {
+                        "nachname":  "Theves",
+                        "vorname":  "Claude",
+                        "geschlecht":  "M",
+                        "verein":  10,
+                        "id":  34
+                    },
+                    {
+                        "nachname":  "Viana",
+                        "vorname":  "CÃ©dric",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  35
+                    },
+                    {
+                        "nachname":  "Viana",
+                        "vorname":  "Damien",
+                        "geschlecht":  "M",
+                        "verein":  2,
+                        "id":  36
+                    },
+                    {
+                        "nachname":  "Wenner",
+                        "vorname":  "Alain",
+                        "geschlecht":  "M",
+                        "verein":  1,
+                        "id":  37
+                    },
+                    {
+                        "nachname":  "Zambon",
+                        "vorname":  "Jerry",
+                        "geschlecht":  "M",
+                        "verein":  10,
+                        "id":  38
+                    }
                 ],
     "disziplinen":  [
                         {
-                            "name":  "SUPER MELEE",
+                            "name":  "Super melee",
                             "teamsize":  2,
                             "geschlecht":  3,
-                            "system":  20,
-                            "status":  0,
-                            "id":  1
+                            "system":  30,
+                            "status":  1,
+                            "id":  1,
+                            "meldungen":  [
+                                              {
+                                                  "platz":  1,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  1
+                                              },
+                                              {
+                                                  "platz":  2,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  2
+                                              },
+                                              {
+                                                  "platz":  3,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  3
+                                              },
+                                              {
+                                                  "platz":  4,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  4
+                                              },
+                                              {
+                                                  "platz":  5,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  5
+                                              },
+                                              {
+                                                  "platz":  6,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  6
+                                              },
+                                              {
+                                                  "platz":  7,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  7
+                                              },
+                                              {
+                                                  "platz":  8,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  8
+                                              },
+                                              {
+                                                  "platz":  9,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  9
+                                              },
+                                              {
+                                                  "platz":  10,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  10
+                                              },
+                                              {
+                                                  "platz":  11,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  11
+                                              },
+                                              {
+                                                  "platz":  12,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  12
+                                              },
+                                              {
+                                                  "platz":  13,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  13
+                                              },
+                                              {
+                                                  "platz":  14,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  14
+                                              },
+                                              {
+                                                  "platz":  15,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  15
+                                              },
+                                              {
+                                                  "platz":  16,
+                                                  "wertung":  null,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  16
+                                              },
+                                              {
+                                                  "platz":  17,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  17
+                                              },
+                                              {
+                                                  "platz":  18,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  18
+                                              },
+                                              {
+                                                  "platz":  19,
+                                                  "spiele":  null,
+                                                  "saetze":  null,
+                                                  "punkte":  null,
+                                                  "spieler":  [
+
+                                                              ],
+                                                  "id":  19
+                                              }
+                                          ],
+                            "runden":  [
+                                           {
+                                               "id":  1,
+                                               "spiele":  [
+                                                              {
+                                                                  "feld":  -1,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               14,
+                                                                               20
+                                                                           ],
+                                                                  "gast":  [
+                                                                               1,
+                                                                               21
+                                                                           ],
+                                                                  "id":  1
+                                                              },
+                                                              {
+                                                                  "feld":  -2,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     1
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               9,
+                                                                               18
+                                                                           ],
+                                                                  "gast":  [
+                                                                               36,
+                                                                               35
+                                                                           ],
+                                                                  "id":  2
+                                                              },
+                                                              {
+                                                                  "feld":  -3,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     0
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               3,
+                                                                               31
+                                                                           ],
+                                                                  "gast":  [
+                                                                               23,
+                                                                               29
+                                                                           ],
+                                                                  "id":  3
+                                                              },
+                                                              {
+                                                                  "feld":  -4,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     20
+                                                                                 ],
+                                                                                 [
+                                                                                     22,
+                                                                                     20
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               37,
+                                                                               26
+                                                                           ],
+                                                                  "gast":  [
+                                                                               28,
+                                                                               4
+                                                                           ],
+                                                                  "id":  4
+                                                              },
+                                                              {
+                                                                  "feld":  -5,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               22,
+                                                                               2
+                                                                           ],
+                                                                  "gast":  [
+                                                                               10,
+                                                                               17
+                                                                           ],
+                                                                  "id":  5
+                                                              },
+                                                              {
+                                                                  "feld":  -1,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     22,
+                                                                                     20
+                                                                                 ],
+                                                                                 [
+                                                                                     22,
+                                                                                     20
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               5,
+                                                                               12
+                                                                           ],
+                                                                  "gast":  [
+                                                                               7,
+                                                                               11
+                                                                           ],
+                                                                  "id":  6
+                                                              },
+                                                              {
+                                                                  "feld":  -2,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     22,
+                                                                                     20
+                                                                                 ],
+                                                                                 [
+                                                                                     22,
+                                                                                     20
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               19,
+                                                                               24
+                                                                           ],
+                                                                  "gast":  [
+                                                                               30,
+                                                                               6
+                                                                           ],
+                                                                  "id":  7
+                                                              },
+                                                              {
+                                                                  "feld":  -3,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               16,
+                                                                               32
+                                                                           ],
+                                                                  "gast":  [
+                                                                               13,
+                                                                               33
+                                                                           ],
+                                                                  "id":  8
+                                                              },
+                                                              {
+                                                                  "feld":  -4,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               15,
+                                                                               8
+                                                                           ],
+                                                                  "gast":  [
+                                                                               27,
+                                                                               25
+                                                                           ],
+                                                                  "id":  9
+                                                              },
+                                                              {
+                                                                  "id":  10,
+                                                                  "feld":  -32767,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     1,
+                                                                                     0
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               38,
+                                                                               34
+                                                                           ],
+                                                                  "gast":  [
+
+                                                                           ]
+                                                              }
+                                                          ]
+                                           },
+                                           {
+                                               "id":  2,
+                                               "spiele":  [
+                                                              {
+                                                                  "feld":  -5,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     11,
+                                                                                     22
+                                                                                 ],
+                                                                                 [
+                                                                                     22,
+                                                                                     11
+                                                                                 ],
+                                                                                 [
+                                                                                     11,
+                                                                                     22
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               38,
+                                                                               34
+                                                                           ],
+                                                                  "gast":  [
+                                                                               15,
+                                                                               8
+                                                                           ],
+                                                                  "id":  1
+                                                              },
+                                                              {
+                                                                  "feld":  -1,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               14,
+                                                                               20
+                                                                           ],
+                                                                  "gast":  [
+                                                                               3,
+                                                                               31
+                                                                           ],
+                                                                  "id":  2
+                                                              },
+                                                              {
+                                                                  "feld":  -2,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     10,
+                                                                                     21
+                                                                                 ],
+                                                                                 [
+                                                                                     10,
+                                                                                     21
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               19,
+                                                                               24
+                                                                           ],
+                                                                  "gast":  [
+                                                                               9,
+                                                                               18
+                                                                           ],
+                                                                  "id":  3
+                                                              },
+                                                              {
+                                                                  "feld":  -4,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     19
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               5,
+                                                                               12
+                                                                           ],
+                                                                  "gast":  [
+                                                                               16,
+                                                                               32
+                                                                           ],
+                                                                  "id":  4
+                                                              },
+                                                              {
+                                                                  "feld":  -3,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               37,
+                                                                               26
+                                                                           ],
+                                                                  "gast":  [
+                                                                               22,
+                                                                               2
+                                                                           ],
+                                                                  "id":  5
+                                                              },
+                                                              {
+                                                                  "feld":  -1,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               10,
+                                                                               17
+                                                                           ],
+                                                                  "gast":  [
+                                                                               36,
+                                                                               35
+                                                                           ],
+                                                                  "id":  6
+                                                              },
+                                                              {
+                                                                  "feld":  -1,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               27,
+                                                                               25
+                                                                           ],
+                                                                  "gast":  [
+                                                                               7,
+                                                                               11
+                                                                           ],
+                                                                  "id":  7
+                                                              },
+                                                              {
+                                                                  "feld":  -2,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     10
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               1,
+                                                                               21
+                                                                           ],
+                                                                  "gast":  [
+                                                                               23,
+                                                                               29
+                                                                           ],
+                                                                  "id":  8
+                                                              },
+                                                              {
+                                                                  "feld":  -3,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ],
+                                                                                 [
+                                                                                     19,
+                                                                                     21
+                                                                                 ],
+                                                                                 [
+                                                                                     11,
+                                                                                     21
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               28,
+                                                                               4
+                                                                           ],
+                                                                  "gast":  [
+                                                                               30,
+                                                                               6
+                                                                           ],
+                                                                  "id":  9
+                                                              },
+                                                              {
+                                                                  "id":  10,
+                                                                  "feld":  -32767,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     1,
+                                                                                     0
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               13,
+                                                                               33
+                                                                           ],
+                                                                  "gast":  [
+
+                                                                           ]
+                                                              }
+                                                          ]
+                                           },
+                                           {
+                                               "id":  3,
+                                               "spiele":  [
+                                                              {
+                                                                  "feld":  -1,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               14,
+                                                                               20
+                                                                           ],
+                                                                  "gast":  [
+                                                                               37,
+                                                                               26
+                                                                           ],
+                                                                  "id":  1
+                                                              },
+                                                              {
+                                                                  "feld":  -3,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               9,
+                                                                               18
+                                                                           ],
+                                                                  "gast":  [
+                                                                               5,
+                                                                               12
+                                                                           ],
+                                                                  "id":  2
+                                                              },
+                                                              {
+                                                                  "feld":  -4,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               15,
+                                                                               8
+                                                                           ],
+                                                                  "gast":  [
+                                                                               10,
+                                                                               17
+                                                                           ],
+                                                                  "id":  3
+                                                              },
+                                                              {
+                                                                  "feld":  -5,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               38,
+                                                                               34
+                                                                           ],
+                                                                  "gast":  [
+                                                                               13,
+                                                                               33
+                                                                           ],
+                                                                  "id":  4
+                                                              },
+                                                              {
+                                                                  "feld":  -2,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ],
+                                                                                 [
+                                                                                     21,
+                                                                                     11
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               22,
+                                                                               2
+                                                                           ],
+                                                                  "gast":  [
+                                                                               3,
+                                                                               31
+                                                                           ],
+                                                                  "id":  5
+                                                              },
+                                                              {
+                                                                  "feld":  -1,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     10,
+                                                                                     21
+                                                                                 ],
+                                                                                 [
+                                                                                     10,
+                                                                                     21
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               19,
+                                                                               24
+                                                                           ],
+                                                                  "gast":  [
+                                                                               16,
+                                                                               32
+                                                                           ],
+                                                                  "id":  6
+                                                              },
+                                                              {
+                                                                  "feld":  2,
+                                                                  "heim":  [
+                                                                               30,
+                                                                               6
+                                                                           ],
+                                                                  "gast":  [
+                                                                               1,
+                                                                               21
+                                                                           ],
+                                                                  "id":  7
+                                                              },
+                                                              {
+                                                                  "feld":  3,
+                                                                  "heim":  [
+                                                                               27,
+                                                                               25
+                                                                           ],
+                                                                  "gast":  [
+                                                                               28,
+                                                                               4
+                                                                           ],
+                                                                  "id":  8
+                                                              },
+                                                              {
+                                                                  "feld":  4,
+                                                                  "heim":  [
+                                                                               36,
+                                                                               35
+                                                                           ],
+                                                                  "gast":  [
+                                                                               7,
+                                                                               11
+                                                                           ],
+                                                                  "id":  9
+                                                              },
+                                                              {
+                                                                  "id":  10,
+                                                                  "feld":  -32767,
+                                                                  "result":  [
+                                                                                 [
+                                                                                     1,
+                                                                                     0
+                                                                                 ]
+                                                                             ],
+                                                                  "heim":  [
+                                                                               23,
+                                                                               29
+                                                                           ],
+                                                                  "gast":  [
+
+                                                                           ]
+                                                              }
+                                                          ]
+                                           }
+                                       ]
                         }
                     ]
 }
