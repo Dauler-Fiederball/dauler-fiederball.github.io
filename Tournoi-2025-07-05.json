@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "27.06.2025 23:39:13",
+  "datum": "27.06.2025 23:49:13",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
@@ -24,6 +24,10 @@
     {
       "name": "Helperknapp",
       "id": 5
+    },
+    {
+      "name": "Stadtbredimus",
+      "id": 6
     }
   ],
   "spieler": [
@@ -194,6 +198,13 @@
       "geschlecht": "M",
       "verein": 5,
       "id": 24
+    },
+    {
+      "nachname": "Zambon",
+      "vorname": "Jerry",
+      "geschlecht": "M",
+      "verein": 6,
+      "id": 25
     }
   ],
   "disziplinen": [
