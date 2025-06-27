@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "27.06.2025 23:25:47",
+  "datum": "27.06.2025 23:27:16",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
@@ -14,12 +14,16 @@
       "id": 2
     },
     {
-      "name": "Dauler Fiederball",
+      "name": "BR Walfer",
       "id": 3
     },
     {
-      "name": "Helperknapp",
+      "name": "Dauler Fiederball",
       "id": 4
+    },
+    {
+      "name": "Helperknapp",
+      "id": 5
     }
   ],
   "spieler": [
@@ -27,28 +31,28 @@
       "nachname": "Aréns",
       "vorname": "Carina",
       "geschlecht": "F",
-      "verein": 3,
+      "verein": 4,
       "id": 1
     },
     {
       "nachname": "Berchem",
       "vorname": "Marc",
       "geschlecht": "M",
-      "verein": 4,
+      "verein": 5,
       "id": 2
     },
     {
       "nachname": "Boes",
       "vorname": "Mandy",
       "geschlecht": "F",
-      "verein": 3,
+      "verein": 4,
       "id": 3
     },
     {
       "nachname": "Freres",
       "vorname": "Jean-Claude",
       "geschlecht": "M",
-      "verein": 3,
+      "verein": 4,
       "id": 4
     },
     {
@@ -62,49 +66,49 @@
       "nachname": "Goelff",
       "vorname": "Carole",
       "geschlecht": "F",
-      "verein": 3,
+      "verein": 4,
       "id": 6
     },
     {
       "nachname": "Goelff",
       "vorname": "Sven",
       "geschlecht": "M",
-      "verein": 3,
+      "verein": 4,
       "id": 7
     },
     {
       "nachname": "Gringmuth",
       "vorname": "Daniel",
       "geschlecht": "M",
-      "verein": 3,
+      "verein": 4,
       "id": 8
     },
     {
       "nachname": "Gringmuth",
       "vorname": "Sam",
       "geschlecht": "M",
-      "verein": 3,
+      "verein": 4,
       "id": 9
     },
     {
       "nachname": "Guyot",
       "vorname": "Laure",
       "geschlecht": "F",
-      "verein": 3,
+      "verein": 4,
       "id": 10
     },
     {
       "nachname": "Heinen",
       "vorname": "Carmen",
       "geschlecht": "F",
-      "verein": 4,
+      "verein": 5,
       "id": 11
     },
     {
       "nachname": "Lafontaine",
       "vorname": "Laurent",
       "geschlecht": "M",
-      "verein": 4,
+      "verein": 5,
       "id": 12
     },
     {
@@ -118,7 +122,7 @@
       "nachname": "Loos",
       "vorname": "Felix",
       "geschlecht": "M",
-      "verein": 3,
+      "verein": 4,
       "id": 14
     },
     {
@@ -132,42 +136,42 @@
       "nachname": "Maller",
       "vorname": "Loic",
       "geschlecht": "M",
-      "verein": 4,
+      "verein": 5,
       "id": 16
     },
     {
       "nachname": "Ney",
       "vorname": "Noémie",
       "geschlecht": "F",
-      "verein": 3,
+      "verein": 4,
       "id": 17
     },
     {
       "nachname": "Ney",
       "vorname": "Theo",
       "geschlecht": "M",
-      "verein": 3,
+      "verein": 4,
       "id": 18
     },
     {
       "nachname": "Quintas",
       "vorname": "Olivier",
       "geschlecht": "M",
-      "verein": 4,
+      "verein": 5,
       "id": 19
     },
     {
       "nachname": "Rech",
       "vorname": "Sven",
       "geschlecht": "M",
-      "verein": 4,
+      "verein": 5,
       "id": 20
     },
     {
       "nachname": "Ribeiro",
       "vorname": "Max",
       "geschlecht": "M",
-      "verein": 3,
+      "verein": 4,
       "id": 21
     },
     {
@@ -176,6 +180,13 @@
       "geschlecht": "M",
       "verein": 2,
       "id": 22
+    },
+    {
+      "nachname": "Siddiqui",
+      "vorname": "Faizan",
+      "geschlecht": "M",
+      "verein": 3,
+      "id": 23
     }
   ],
   "disziplinen": [
