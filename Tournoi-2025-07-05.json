@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "28.06.2025 08:46:16",
+  "datum": "28.06.2025 08:46:29",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
@@ -298,25 +298,25 @@
           "id": 9
         },
         {
-          "platz": 10,
-          "spieler": null,
-          "id": 10,
+          "platz": 9,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 10
         },
         {
-          "platz": 10,
-          "spieler": null,
-          "id": 11,
+          "platz": 11,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 11
         },
         {
-          "platz": 10,
+          "platz": 12,
           "spieler": null,
           "id": 12,
           "wertung": null,
@@ -325,7 +325,7 @@
           "punkte": null
         },
         {
-          "platz": 10,
+          "platz": 12,
           "spieler": null,
           "id": 13,
           "wertung": null,
@@ -334,7 +334,7 @@
           "punkte": null
         },
         {
-          "platz": 10,
+          "platz": 12,
           "spieler": null,
           "id": 14,
           "wertung": null,
@@ -343,7 +343,7 @@
           "punkte": null
         },
         {
-          "platz": 10,
+          "platz": 12,
           "spieler": null,
           "id": 15,
           "wertung": null,
@@ -352,22 +352,22 @@
           "punkte": null
         },
         {
-          "platz": 10,
+          "platz": 16,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 16,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
-          "platz": 10,
-          "spieler": null,
-          "id": 17,
-          "wertung": null,
+          "platz": 16,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 17,
+          "wertung": null
         },
         {
           "platz": 18,
@@ -539,7 +539,21 @@
               "id": 4
             },
             {
-              "feld": 1,
+              "feld": -1,
+              "result": [
+                [
+                  21,
+                  11
+                ],
+                [
+                  15,
+                  17
+                ],
+                [
+                  11,
+                  15
+                ]
+              ],
               "heim": [
                 16,
                 7
