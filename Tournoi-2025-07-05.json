@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "28.06.2025 08:44:32",
+  "datum": "28.06.2025 08:44:37",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
@@ -262,25 +262,25 @@
           "id": 5
         },
         {
-          "platz": 6,
-          "spieler": null,
-          "id": 6,
+          "platz": 5,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 6
         },
         {
-          "platz": 6,
-          "spieler": null,
-          "id": 7,
+          "platz": 7,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 7
         },
         {
-          "platz": 6,
+          "platz": 8,
           "spieler": null,
           "id": 8,
           "wertung": null,
@@ -289,7 +289,7 @@
           "punkte": null
         },
         {
-          "platz": 6,
+          "platz": 8,
           "spieler": null,
           "id": 9,
           "wertung": null,
@@ -298,7 +298,7 @@
           "punkte": null
         },
         {
-          "platz": 6,
+          "platz": 8,
           "spieler": null,
           "id": 10,
           "wertung": null,
@@ -307,7 +307,7 @@
           "punkte": null
         },
         {
-          "platz": 6,
+          "platz": 8,
           "spieler": null,
           "id": 11,
           "wertung": null,
@@ -316,7 +316,7 @@
           "punkte": null
         },
         {
-          "platz": 6,
+          "platz": 8,
           "spieler": null,
           "id": 12,
           "wertung": null,
@@ -325,7 +325,7 @@
           "punkte": null
         },
         {
-          "platz": 6,
+          "platz": 8,
           "spieler": null,
           "id": 13,
           "wertung": null,
@@ -334,7 +334,7 @@
           "punkte": null
         },
         {
-          "platz": 6,
+          "platz": 8,
           "spieler": null,
           "id": 14,
           "wertung": null,
@@ -343,7 +343,7 @@
           "punkte": null
         },
         {
-          "platz": 6,
+          "platz": 8,
           "spieler": null,
           "id": 15,
           "wertung": null,
@@ -352,7 +352,7 @@
           "punkte": null
         },
         {
-          "platz": 6,
+          "platz": 8,
           "spieler": null,
           "id": 16,
           "wertung": null,
@@ -361,7 +361,7 @@
           "punkte": null
         },
         {
-          "platz": 6,
+          "platz": 8,
           "spieler": null,
           "id": 17,
           "wertung": null,
@@ -370,7 +370,7 @@
           "punkte": null
         },
         {
-          "platz": 6,
+          "platz": 8,
           "spieler": null,
           "id": 18,
           "wertung": null,
@@ -379,7 +379,7 @@
           "punkte": null
         },
         {
-          "platz": 6,
+          "platz": 8,
           "spieler": null,
           "id": 19,
           "wertung": null,
@@ -388,22 +388,22 @@
           "punkte": null
         },
         {
-          "platz": 6,
+          "platz": 20,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 20,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
-          "platz": 6,
-          "spieler": null,
-          "id": 21,
-          "wertung": null,
+          "platz": 20,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 21,
+          "wertung": null
         },
         {
           "platz": 22,
@@ -491,11 +491,19 @@
               "id": 2
             },
             {
-              "feld": 3,
+              "feld": -3,
               "result": [
                 [
                   21,
                   11
+                ],
+                [
+                  15,
+                  18
+                ],
+                [
+                  18,
+                  15
                 ]
               ],
               "heim": [
