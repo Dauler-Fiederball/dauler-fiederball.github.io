@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "28.06.2025 08:48:10",
+  "datum": "28.06.2025 08:48:26",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
@@ -235,7 +235,7 @@
           "id": 2
         },
         {
-          "platz": 2,
+          "platz": 3,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -262,7 +262,7 @@
           "id": 5
         },
         {
-          "platz": 5,
+          "platz": 6,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -280,7 +280,7 @@
           "id": 7
         },
         {
-          "platz": 7,
+          "platz": 8,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -371,12 +371,12 @@
         },
         {
           "platz": 18,
+          "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 18,
-          "wertung": null
+          "id": 18
         },
         {
           "platz": 19,
@@ -388,7 +388,7 @@
           "wertung": null
         },
         {
-          "platz": 19,
+          "platz": 20,
           "spiele": null,
           "saetze": null,
           "punkte": null,
@@ -650,10 +650,14 @@
               "id": 2
             },
             {
-              "feld": 3,
+              "feld": -3,
               "result": [
                 [
                   18,
+                  11
+                ],
+                [
+                  15,
                   11
                 ]
               ],
@@ -668,7 +672,17 @@
               "id": 3
             },
             {
-              "feld": 4,
+              "feld": -4,
+              "result": [
+                [
+                  21,
+                  15
+                ],
+                [
+                  11,
+                  9
+                ]
+              ],
               "heim": [
                 5,
                 24
@@ -680,6 +694,7 @@
               "id": 4
             },
             {
+              "feld": 1,
               "heim": [
                 13,
                 18
@@ -691,6 +706,7 @@
               "id": 5
             },
             {
+              "feld": 2,
               "heim": [
                 3,
                 8
