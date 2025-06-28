@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "28.06.2025 08:46:07",
+  "datum": "28.06.2025 08:46:16",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
@@ -280,25 +280,25 @@
           "id": 7
         },
         {
-          "platz": 8,
-          "spieler": null,
-          "id": 8,
+          "platz": 7,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 8
         },
         {
-          "platz": 8,
-          "spieler": null,
-          "id": 9,
+          "platz": 9,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 9
         },
         {
-          "platz": 8,
+          "platz": 10,
           "spieler": null,
           "id": 10,
           "wertung": null,
@@ -307,7 +307,7 @@
           "punkte": null
         },
         {
-          "platz": 8,
+          "platz": 10,
           "spieler": null,
           "id": 11,
           "wertung": null,
@@ -316,7 +316,7 @@
           "punkte": null
         },
         {
-          "platz": 8,
+          "platz": 10,
           "spieler": null,
           "id": 12,
           "wertung": null,
@@ -325,7 +325,7 @@
           "punkte": null
         },
         {
-          "platz": 8,
+          "platz": 10,
           "spieler": null,
           "id": 13,
           "wertung": null,
@@ -334,7 +334,7 @@
           "punkte": null
         },
         {
-          "platz": 8,
+          "platz": 10,
           "spieler": null,
           "id": 14,
           "wertung": null,
@@ -343,7 +343,7 @@
           "punkte": null
         },
         {
-          "platz": 8,
+          "platz": 10,
           "spieler": null,
           "id": 15,
           "wertung": null,
@@ -352,7 +352,7 @@
           "punkte": null
         },
         {
-          "platz": 8,
+          "platz": 10,
           "spieler": null,
           "id": 16,
           "wertung": null,
@@ -361,7 +361,7 @@
           "punkte": null
         },
         {
-          "platz": 8,
+          "platz": 10,
           "spieler": null,
           "id": 17,
           "wertung": null,
@@ -370,22 +370,22 @@
           "punkte": null
         },
         {
-          "platz": 8,
+          "platz": 18,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 18,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
-          "platz": 8,
-          "spieler": null,
-          "id": 19,
-          "wertung": null,
+          "platz": 18,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 19,
+          "wertung": null
         },
         {
           "platz": 20,
@@ -517,7 +517,17 @@
               "id": 3
             },
             {
-              "feld": 4,
+              "feld": -4,
+              "result": [
+                [
+                  21,
+                  18
+                ],
+                [
+                  15,
+                  12
+                ]
+              ],
               "heim": [
                 21,
                 15
