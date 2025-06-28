@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "28.06.2025 08:46:59",
+  "datum": "28.06.2025 08:47:05",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
@@ -597,6 +597,91 @@
               ],
               "heim": [
                 9
+              ],
+              "gast": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "spiele": [
+            {
+              "heim": [
+                10,
+                22
+              ],
+              "gast": [
+                21,
+                23
+              ],
+              "id": 1
+            },
+            {
+              "heim": [
+                19,
+                7
+              ],
+              "gast": [
+                14,
+                20
+              ],
+              "id": 2
+            },
+            {
+              "heim": [
+                12,
+                1
+              ],
+              "gast": [
+                11,
+                4
+              ],
+              "id": 3
+            },
+            {
+              "heim": [
+                5,
+                24
+              ],
+              "gast": [
+                9,
+                6
+              ],
+              "id": 4
+            },
+            {
+              "heim": [
+                13,
+                18
+              ],
+              "gast": [
+                2,
+                16
+              ],
+              "id": 5
+            },
+            {
+              "heim": [
+                3,
+                8
+              ],
+              "gast": [
+                25,
+                15
+              ],
+              "id": 6
+            },
+            {
+              "id": 7,
+              "feld": -32767,
+              "result": [
+                [
+                  1,
+                  0
+                ]
+              ],
+              "heim": [
+                17
               ],
               "gast": []
             }
