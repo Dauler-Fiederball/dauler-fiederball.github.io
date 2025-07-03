@@ -1,9 +1,206 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "03.07.2025 07:47:00",
+  "datum": "03.07.2025 07:54:00",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
+  "vereine": [
+    {
+      "name": "Aris",
+      "id": 1
+    },
+    {
+      "name": "Dauler Fiederball",
+      "id": 2
+    },
+    {
+      "name": "Dt Préizerdaul",
+      "id": 3
+    },
+    {
+      "name": "Ettelbréck",
+      "id": 4
+    },
+    {
+      "name": "Helperknapp",
+      "id": 5
+    },
+    {
+      "name": "Mëllerdall",
+      "id": 6
+    },
+    {
+      "name": "Ouni Club",
+      "id": 7
+    },
+    {
+      "name": "Reckenerknapp",
+      "id": 8
+    }
+  ],
+  "spieler": [
+    {
+      "nachname": "Alain",
+      "vorname": "Weber",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 1
+    },
+    {
+      "nachname": "Anita",
+      "vorname": "Kayser",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 2
+    },
+    {
+      "nachname": "Anne",
+      "vorname": "Rouchaud",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 3
+    },
+    {
+      "nachname": "Annette",
+      "vorname": "Oestreicher",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 4
+    },
+    {
+      "nachname": "Chris",
+      "vorname": "Hommel",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 5
+    },
+    {
+      "nachname": "Felix",
+      "vorname": "Loos",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 6
+    },
+    {
+      "nachname": "Florent",
+      "vorname": "Leveque",
+      "geschlecht": "M",
+      "verein": 1,
+      "id": 7
+    },
+    {
+      "nachname": "Joyce",
+      "vorname": "Glover",
+      "geschlecht": "F",
+      "verein": 4,
+      "id": 8
+    },
+    {
+      "nachname": "Laure",
+      "vorname": "Biever",
+      "geschlecht": "F",
+      "verein": 5,
+      "id": 9
+    },
+    {
+      "nachname": "Lena",
+      "vorname": "Bidoli",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 10
+    },
+    {
+      "nachname": "Mandy",
+      "vorname": "Boes",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 11
+    },
+    {
+      "nachname": "Marc",
+      "vorname": "Berchem",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 12
+    },
+    {
+      "nachname": "Maurice",
+      "vorname": "Hoogenhout",
+      "geschlecht": "M",
+      "verein": 8,
+      "id": 13
+    },
+    {
+      "nachname": "Max",
+      "vorname": "Ribeiro",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 14
+    },
+    {
+      "nachname": "Michèle",
+      "vorname": "Zeyen",
+      "geschlecht": "F",
+      "verein": 8,
+      "id": 15
+    },
+    {
+      "nachname": "Nicolas",
+      "vorname": "Gomes",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 16
+    },
+    {
+      "nachname": "Noah",
+      "vorname": "Heuts",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 17
+    },
+    {
+      "nachname": "Sandy",
+      "vorname": "Mesen",
+      "geschlecht": "F",
+      "verein": 6,
+      "id": 18
+    },
+    {
+      "nachname": "Singeorzan",
+      "vorname": "Bogdan",
+      "geschlecht": "M",
+      "verein": 3,
+      "id": 19
+    },
+    {
+      "nachname": "Sven",
+      "vorname": "Rech",
+      "geschlecht": "M",
+      "verein": 5,
+      "id": 20
+    },
+    {
+      "nachname": "Tania",
+      "vorname": "Martin",
+      "geschlecht": "F",
+      "verein": 7,
+      "id": 21
+    },
+    {
+      "nachname": "Theo",
+      "vorname": "Ney",
+      "geschlecht": "M",
+      "verein": 2,
+      "id": 22
+    },
+    {
+      "nachname": "Thierry",
+      "vorname": "Wilmes",
+      "geschlecht": "M",
+      "verein": 6,
+      "id": 23
+    }
+  ],
   "disziplinen": [
     {
       "name": "SUPER MELEE-TEST",
@@ -11,7 +208,8 @@
       "geschlecht": 3,
       "system": 20,
       "status": 0,
-      "id": 1
+      "id": 1,
+      "meldungen": []
     }
   ]
 }
