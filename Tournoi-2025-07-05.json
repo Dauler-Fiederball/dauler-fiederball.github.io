@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "03.07.2025 08:23:02",
+  "datum": "03.07.2025 08:23:07",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
@@ -256,7 +256,7 @@
           "id": 5
         },
         {
-          "platz": 3,
+          "platz": 6,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -265,7 +265,7 @@
           "id": 6
         },
         {
-          "platz": 7,
+          "platz": 6,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -274,7 +274,7 @@
           "id": 7
         },
         {
-          "platz": 7,
+          "platz": 8,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -283,7 +283,7 @@
           "id": 8
         },
         {
-          "platz": 9,
+          "platz": 8,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -292,7 +292,7 @@
           "id": 9
         },
         {
-          "platz": 9,
+          "platz": 10,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -301,7 +301,7 @@
           "id": 10
         },
         {
-          "platz": 11,
+          "platz": 10,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -310,7 +310,7 @@
           "id": 11
         },
         {
-          "platz": 11,
+          "platz": 10,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -319,7 +319,7 @@
           "id": 12
         },
         {
-          "platz": 11,
+          "platz": 13,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -329,51 +329,51 @@
         },
         {
           "platz": 14,
+          "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 14,
-          "wertung": null
+          "id": 14
         },
         {
           "platz": 14,
+          "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 15,
-          "wertung": null
+          "id": 15
         },
         {
           "platz": 16,
+          "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 16,
-          "wertung": null
+          "id": 16
         },
         {
-          "platz": 16,
+          "platz": 17,
+          "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 17,
-          "wertung": null
-        },
-        {
-          "platz": 18,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 18,
-          "wertung": null
+          "id": 17
         },
         {
           "platz": 18,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
+          "spieler": null,
+          "id": 18
+        },
+        {
+          "platz": 19,
           "spiele": null,
           "saetze": null,
           "punkte": null,
@@ -382,7 +382,7 @@
           "wertung": null
         },
         {
-          "platz": 18,
+          "platz": 20,
           "spiele": null,
           "saetze": null,
           "punkte": null,
@@ -391,7 +391,7 @@
           "wertung": null
         },
         {
-          "platz": 18,
+          "platz": 20,
           "spiele": null,
           "saetze": null,
           "punkte": null,
@@ -409,7 +409,7 @@
           "wertung": null
         },
         {
-          "platz": 22,
+          "platz": 23,
           "spiele": null,
           "saetze": null,
           "punkte": null,
@@ -558,11 +558,19 @@
           "id": 2,
           "spiele": [
             {
-              "feld": 1,
+              "feld": -1,
               "result": [
                 [
                   15,
                   11
+                ],
+                [
+                  8,
+                  15
+                ],
+                [
+                  15,
+                  13
                 ]
               ],
               "heim": [
