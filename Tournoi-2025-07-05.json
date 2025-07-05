@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "05.07.2025 15:05:44",
+  "datum": "05.07.2025 15:05:59",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
@@ -1410,6 +1410,12 @@
             },
             {
               "feld": 4,
+              "result": [
+                [
+                  15,
+                  12
+                ]
+              ],
               "heim": [
                 3,
                 16
