@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "05.07.2025 15:18:45",
+  "datum": "05.07.2025 15:19:00",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
@@ -1445,11 +1445,15 @@
               "id": 4
             },
             {
-              "feld": 3,
+              "feld": -3,
               "result": [
                 [
                   15,
                   6
+                ],
+                [
+                  15,
+                  5
                 ]
               ],
               "heim": [
@@ -1474,6 +1478,85 @@
               "heim": [
                 6,
                 9
+              ],
+              "gast": []
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "spiele": [
+            {
+              "feld": 1,
+              "heim": [
+                8,
+                4
+              ],
+              "gast": [
+                1,
+                6
+              ],
+              "id": 1
+            },
+            {
+              "feld": 2,
+              "heim": [
+                17,
+                23
+              ],
+              "gast": [
+                19,
+                18
+              ],
+              "id": 2
+            },
+            {
+              "feld": 3,
+              "heim": [
+                3,
+                5
+              ],
+              "gast": [
+                7,
+                14
+              ],
+              "id": 3
+            },
+            {
+              "feld": 4,
+              "heim": [
+                9,
+                12
+              ],
+              "gast": [
+                2,
+                16
+              ],
+              "id": 4
+            },
+            {
+              "heim": [
+                13,
+                10
+              ],
+              "gast": [
+                15,
+                11
+              ],
+              "id": 5
+            },
+            {
+              "id": 6,
+              "feld": -32767,
+              "result": [
+                [
+                  1,
+                  0
+                ]
+              ],
+              "heim": [
+                22,
+                20
               ],
               "gast": []
             }
