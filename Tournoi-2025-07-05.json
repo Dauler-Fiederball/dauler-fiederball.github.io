@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "05.07.2025 10:06:01",
+  "datum": "05.07.2025 10:08:25",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
@@ -32,10 +32,6 @@
     {
       "name": "Ouni Club",
       "id": 7
-    },
-    {
-      "name": "Reckenerknapp",
-      "id": 8
     }
   ],
   "spieler": [
@@ -141,7 +137,7 @@
       "nachname": "Maurice",
       "vorname": "Hoogenhout",
       "geschlecht": "M",
-      "verein": 8,
+      "verein": 5,
       "id": 15
     },
     {
