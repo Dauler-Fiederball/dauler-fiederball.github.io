@@ -1,6 +1,6 @@
 {
   "turniername": "SUPER MELEE 2025",
-  "datum": "05.07.2025 11:06:26",
+  "datum": "05.07.2025 11:06:41",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.36)",
@@ -225,7 +225,7 @@
           "id": 2
         },
         {
-          "platz": 2,
+          "platz": 3,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -243,7 +243,7 @@
           "id": 4
         },
         {
-          "platz": 5,
+          "platz": 4,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -252,7 +252,7 @@
           "id": 5
         },
         {
-          "platz": 5,
+          "platz": 6,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -270,7 +270,7 @@
           "id": 7
         },
         {
-          "platz": 7,
+          "platz": 8,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -279,7 +279,7 @@
           "id": 8
         },
         {
-          "platz": 9,
+          "platz": 8,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -288,7 +288,7 @@
           "id": 9
         },
         {
-          "platz": 9,
+          "platz": 10,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -306,7 +306,7 @@
           "id": 11
         },
         {
-          "platz": 11,
+          "platz": 12,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -396,7 +396,7 @@
           "wertung": null
         },
         {
-          "platz": 21,
+          "platz": 22,
           "spiele": null,
           "saetze": null,
           "punkte": null,
@@ -600,8 +600,12 @@
               "id": 3
             },
             {
-              "feld": 4,
+              "feld": -4,
               "result": [
+                [
+                  4,
+                  15
+                ],
                 [
                   4,
                   15
