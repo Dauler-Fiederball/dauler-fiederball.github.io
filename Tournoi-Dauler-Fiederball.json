@@ -1,6 +1,6 @@
 {
   "turniername": "Tournoi-Thomas-Massini",
-  "datum": "24.08.2025 17:40:36",
+  "datum": "24.08.2025 17:44:51",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.38)",
@@ -105,7 +105,6 @@
           "saetze": null
         },
         {
-          "setzposition": 1,
           "platz": 4,
           "wertung": null,
           "spiele": null,
@@ -125,6 +124,7 @@
           "saetze": null
         },
         {
+          "setzposition": 1,
           "platz": 6,
           "wertung": null,
           "spiele": null,
@@ -404,6 +404,13 @@
           "id": 7,
           "spiele": [
             {
+              "feld": -32767,
+              "result": [
+                [
+                  11,
+                  12
+                ]
+              ],
               "heim": [
                 8,
                 4
