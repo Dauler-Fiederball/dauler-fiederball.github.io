@@ -1,6 +1,6 @@
 {
   "turniername": "Hierscht Tournoi Dauler Fiederball",
-  "datum": "15.10.2025 17:18:11",
+  "datum": "15.10.2025 17:18:22",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.39)",
@@ -823,6 +823,7 @@
               "id": 2
             },
             {
+              "feld": 3,
               "heim": [
                 17,
                 6
