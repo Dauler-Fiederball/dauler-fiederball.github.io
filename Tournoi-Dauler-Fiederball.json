@@ -278,7 +278,7 @@
       "id": 1,
       "meldungen": [
         {
-          "platz": 1,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -287,7 +287,7 @@
           "id": 1
         },
         {
-          "platz": 1,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -296,7 +296,7 @@
           "id": 2
         },
         {
-          "platz": 1,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -305,7 +305,7 @@
           "id": 3
         },
         {
-          "platz": 4,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -314,7 +314,7 @@
           "id": 4
         },
         {
-          "platz": 5,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -323,7 +323,7 @@
           "id": 5
         },
         {
-          "platz": 6,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -332,7 +332,7 @@
           "id": 6
         },
         {
-          "platz": 7,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -341,7 +341,7 @@
           "id": 7
         },
         {
-          "platz": 7,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -350,7 +350,7 @@
           "id": 8
         },
         {
-          "platz": 7,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -359,7 +359,7 @@
           "id": 9
         },
         {
-          "platz": 7,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -368,7 +368,7 @@
           "id": 10
         },
         {
-          "platz": 7,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -377,7 +377,7 @@
           "id": 11
         },
         {
-          "platz": 12,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
@@ -386,7 +386,7 @@
           "id": 12
         },
         {
-          "platz": 13,
+          "platz": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
@@ -395,7 +395,7 @@
           "wertung": null
         },
         {
-          "platz": 13,
+          "platz": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
@@ -404,7 +404,7 @@
           "wertung": null
         },
         {
-          "platz": 13,
+          "platz": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
@@ -413,7 +413,7 @@
           "wertung": null
         },
         {
-          "platz": 13,
+          "platz": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
