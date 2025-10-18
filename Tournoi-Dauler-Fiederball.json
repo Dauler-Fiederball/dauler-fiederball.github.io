@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "18.10.2025 11:01:06",
+  "datum": "18.10.2025 11:01:21",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.39)",
@@ -333,12 +333,12 @@
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 7,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 7
         },
         {
           "platz": null,
@@ -360,12 +360,12 @@
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 10,
-          "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 10,
+          "wertung": null
         },
         {
           "platz": null,
@@ -571,11 +571,15 @@
               "id": 7
             },
             {
-              "feld": 4,
+              "feld": -4,
               "result": [
                 [
                   15,
                   3
+                ],
+                [
+                  15,
+                  8
                 ]
               ],
               "heim": [
