@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "18.10.2025 12:34:58",
+  "datum": "18.10.2025 12:35:13",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.39)",
@@ -396,12 +396,12 @@
         },
         {
           "platz": null,
+          "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 14,
-          "wertung": null
+          "id": 14
         },
         {
           "platz": null,
@@ -963,7 +963,17 @@
               "id": 7
             },
             {
-              "feld": 1,
+              "feld": -1,
+              "result": [
+                [
+                  10,
+                  15
+                ],
+                [
+                  13,
+                  15
+                ]
+              ],
               "heim": [
                 19,
                 25
@@ -971,6 +981,103 @@
               "gast": [
                 28,
                 1
+              ],
+              "id": 8
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "spiele": [
+            {
+              "feld": 1,
+              "heim": [
+                9,
+                20
+              ],
+              "gast": [
+                13,
+                8
+              ],
+              "id": 1
+            },
+            {
+              "feld": 2,
+              "heim": [
+                2,
+                4
+              ],
+              "gast": [
+                21,
+                6
+              ],
+              "id": 2
+            },
+            {
+              "feld": 3,
+              "heim": [
+                26,
+                15
+              ],
+              "gast": [
+                17,
+                5
+              ],
+              "id": 3
+            },
+            {
+              "feld": 4,
+              "heim": [
+                11,
+                27
+              ],
+              "gast": [
+                10,
+                7
+              ],
+              "id": 4
+            },
+            {
+              "heim": [
+                23,
+                32
+              ],
+              "gast": [
+                30,
+                12
+              ],
+              "id": 5
+            },
+            {
+              "heim": [
+                3,
+                14
+              ],
+              "gast": [
+                28,
+                1
+              ],
+              "id": 6
+            },
+            {
+              "heim": [
+                22,
+                18
+              ],
+              "gast": [
+                29,
+                31
+              ],
+              "id": 7
+            },
+            {
+              "heim": [
+                19,
+                25
+              ],
+              "gast": [
+                16,
+                24
               ],
               "id": 8
             }
