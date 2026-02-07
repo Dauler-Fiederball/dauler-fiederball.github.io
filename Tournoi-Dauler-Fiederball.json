@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "07.02.2026 14:00:05",
+  "datum": "07.02.2026 14:00:52",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.40)",
@@ -24,10 +24,6 @@
     {
       "name": "No club",
       "id": 5
-    },
-    {
-      "name": "Power Bull's",
-      "id": 6
     }
   ],
   "spieler": [
@@ -81,109 +77,95 @@
       "id": 7
     },
     {
-      "nachname": "Conny",
-      "vorname": "Lutgen",
-      "geschlecht": "M",
-      "verein": 6,
-      "id": 8
-    },
-    {
       "nachname": "David",
       "vorname": "Klein",
       "geschlecht": "F",
       "verein": 3,
-      "id": 9
+      "id": 8
     },
     {
       "nachname": "Fabienne",
       "vorname": "Schmit",
       "geschlecht": "F",
       "verein": 2,
-      "id": 10
+      "id": 9
     },
     {
       "nachname": "Jerome",
       "vorname": "Feltz",
       "geschlecht": "F",
       "verein": 3,
-      "id": 11
+      "id": 10
     },
     {
       "nachname": "Jessica",
       "vorname": "Roszak",
       "geschlecht": "F",
       "verein": 3,
-      "id": 12
+      "id": 11
     },
     {
       "nachname": "Julie",
       "vorname": "Feltz",
       "geschlecht": "F",
       "verein": 3,
-      "id": 13
+      "id": 12
     },
     {
       "nachname": "Lou",
       "vorname": "Kinsch",
       "geschlecht": "F",
       "verein": 2,
-      "id": 14
+      "id": 13
     },
     {
       "nachname": "Loïc",
       "vorname": "Rudault",
       "geschlecht": "F",
       "verein": 5,
-      "id": 15
+      "id": 14
     },
     {
       "nachname": "Mara",
       "vorname": "Schumacher",
       "geschlecht": "F",
       "verein": 3,
-      "id": 16
+      "id": 15
     },
     {
       "nachname": "Maïté",
       "vorname": "Drees",
       "geschlecht": "F",
       "verein": 5,
-      "id": 17
+      "id": 16
     },
     {
       "nachname": "Noah",
       "vorname": "Coulaud",
       "geschlecht": "F",
       "verein": 2,
-      "id": 18
-    },
-    {
-      "nachname": "Pascal",
-      "vorname": "Ferry",
-      "geschlecht": "M",
-      "verein": 6,
-      "id": 19
+      "id": 17
     },
     {
       "nachname": "Raphaël",
       "vorname": "Smit",
       "geschlecht": "F",
       "verein": 4,
-      "id": 20
+      "id": 18
     },
     {
       "nachname": "Sianca",
       "vorname": "Ortis",
       "geschlecht": "F",
       "verein": 5,
-      "id": 21
+      "id": 19
     },
     {
       "nachname": "Tessy",
       "vorname": "Goelff",
       "geschlecht": "F",
       "verein": 1,
-      "id": 22
+      "id": 20
     }
   ],
   "disziplinen": [
@@ -199,7 +181,7 @@
       "meldungen": [
         {
           "spieler": null,
-          "id": 12,
+          "id": 11,
           "platz": null,
           "wertung": null,
           "spiele": null,
@@ -208,7 +190,7 @@
         },
         {
           "spieler": null,
-          "id": 12,
+          "id": 11,
           "platz": null,
           "wertung": null,
           "spiele": null,
@@ -217,7 +199,7 @@
         },
         {
           "spieler": null,
-          "id": 12,
+          "id": 11,
           "platz": null,
           "wertung": null,
           "spiele": null,
@@ -226,7 +208,7 @@
         },
         {
           "spieler": null,
-          "id": 12,
+          "id": 11,
           "platz": null,
           "wertung": null,
           "spiele": null,
@@ -235,7 +217,7 @@
         },
         {
           "spieler": null,
-          "id": 12,
+          "id": 11,
           "platz": null,
           "wertung": null,
           "spiele": null,
@@ -244,7 +226,7 @@
         },
         {
           "spieler": null,
-          "id": 12,
+          "id": 11,
           "platz": null,
           "wertung": null,
           "spiele": null,
@@ -253,7 +235,7 @@
         },
         {
           "spieler": null,
-          "id": 12,
+          "id": 11,
           "platz": null,
           "wertung": null,
           "spiele": null,
@@ -262,7 +244,7 @@
         },
         {
           "spieler": null,
-          "id": 12,
+          "id": 11,
           "platz": null,
           "wertung": null,
           "spiele": null,
@@ -271,7 +253,7 @@
         },
         {
           "spieler": null,
-          "id": 12,
+          "id": 11,
           "platz": null,
           "wertung": null,
           "spiele": null,
@@ -280,16 +262,7 @@
         },
         {
           "spieler": null,
-          "id": 12,
-          "platz": null,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
-        },
-        {
-          "spieler": null,
-          "id": 12,
+          "id": 11,
           "platz": null,
           "wertung": null,
           "spiele": null,
