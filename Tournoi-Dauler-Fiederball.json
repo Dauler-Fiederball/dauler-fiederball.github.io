@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "07.02.2026 16:07:52",
+  "datum": "07.02.2026 16:16:10",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.40)",
@@ -719,7 +719,13 @@
               "id": 25
             },
             {
-              "feld": 2,
+              "feld": -2,
+              "result": [
+                [
+                  21,
+                  9
+                ]
+              ],
               "heim": [
                 5,
                 6
