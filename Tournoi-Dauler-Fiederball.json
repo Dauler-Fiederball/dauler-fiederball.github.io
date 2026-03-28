@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "28.03.2026 10:04:04",
+  "datum": "28.03.2026 10:04:28",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -324,188 +324,305 @@
       "system": 30,
       "saetze": 2,
       "freiloswertung": "1:0",
-      "status": 0,
+      "status": 1,
       "id": 1,
       "meldungen": [
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 1,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 2,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 3,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 4,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 5,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 6,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 7,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 8,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 9,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 10,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 11,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 12,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 13,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 14,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 15,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 16,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 17,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 18,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 19,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 21,
           "platz": null,
+          "spieler": null,
+          "id": 20,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
+        }
+      ],
+      "runden": [
+        {
+          "id": 1,
+          "spiele": [
+            {
+              "heim": [
+                7,
+                24
+              ],
+              "gast": [
+                15,
+                25
+              ],
+              "id": 1
+            },
+            {
+              "heim": [
+                20,
+                8
+              ],
+              "gast": [
+                6,
+                23
+              ],
+              "id": 2
+            },
+            {
+              "heim": [
+                14,
+                11
+              ],
+              "gast": [
+                18,
+                29
+              ],
+              "id": 3
+            },
+            {
+              "heim": [
+                4,
+                40
+              ],
+              "gast": [
+                10,
+                37
+              ],
+              "id": 4
+            },
+            {
+              "heim": [
+                2,
+                30
+              ],
+              "gast": [
+                3,
+                31
+              ],
+              "id": 5
+            },
+            {
+              "heim": [
+                9,
+                33
+              ],
+              "gast": [
+                22,
+                26
+              ],
+              "id": 6
+            },
+            {
+              "heim": [
+                13,
+                38
+              ],
+              "gast": [
+                5,
+                32
+              ],
+              "id": 7
+            },
+            {
+              "heim": [
+                34,
+                27
+              ],
+              "gast": [
+                36,
+                1
+              ],
+              "id": 8
+            },
+            {
+              "heim": [
+                17,
+                39
+              ],
+              "gast": [
+                21,
+                19
+              ],
+              "id": 9
+            },
+            {
+              "heim": [
+                12,
+                16
+              ],
+              "gast": [
+                35,
+                28
+              ],
+              "id": 10
+            }
+          ]
         }
       ]
     }
