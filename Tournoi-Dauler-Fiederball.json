@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "28.03.2026 10:43:58",
+  "datum": "28.03.2026 10:50:01",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -383,21 +383,21 @@
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 7,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 7
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 8,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 8
         },
         {
           "platz": null,
@@ -437,21 +437,21 @@
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 13,
-          "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 13,
+          "wertung": null
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 14,
-          "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 14,
+          "wertung": null
         },
         {
           "platz": null,
@@ -561,7 +561,17 @@
               "id": 2
             },
             {
-              "feld": 3,
+              "feld": -3,
+              "result": [
+                [
+                  15,
+                  4
+                ],
+                [
+                  15,
+                  9
+                ]
+              ],
               "heim": [
                 13,
                 10
@@ -689,7 +699,17 @@
               "id": 9
             },
             {
-              "feld": 5,
+              "feld": -5,
+              "result": [
+                [
+                  9,
+                  15
+                ],
+                [
+                  3,
+                  15
+                ]
+              ],
               "heim": [
                 11,
                 15
