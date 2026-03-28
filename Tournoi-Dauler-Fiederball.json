@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "28.03.2026 10:19:00",
+  "datum": "28.03.2026 10:33:29",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -329,39 +329,39 @@
       "meldungen": [
         {
           "platz": null,
-          "spieler": null,
-          "id": 1,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 1
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 2,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 2
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 3,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 3
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 4,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 4
         },
         {
           "platz": null,
@@ -473,39 +473,39 @@
         },
         {
           "platz": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 17,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
           "platz": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 18,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
           "platz": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 19,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 20,
-          "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 20,
+          "wertung": null
         }
       ],
       "runden": [
@@ -525,7 +525,17 @@
               "id": 1
             },
             {
-              "feld": 2,
+              "feld": -2,
+              "result": [
+                [
+                  15,
+                  5
+                ],
+                [
+                  15,
+                  5
+                ]
+              ],
               "heim": [
                 19,
                 22
@@ -537,6 +547,7 @@
               "id": 2
             },
             {
+              "feld": 3,
               "heim": [
                 13,
                 10
@@ -548,7 +559,17 @@
               "id": 3
             },
             {
-              "feld": 3,
+              "feld": -3,
+              "result": [
+                [
+                  11,
+                  15
+                ],
+                [
+                  5,
+                  15
+                ]
+              ],
               "heim": [
                 4,
                 40
@@ -560,6 +581,7 @@
               "id": 4
             },
             {
+              "feld": 4,
               "heim": [
                 2,
                 30
@@ -571,7 +593,17 @@
               "id": 5
             },
             {
-              "feld": 4,
+              "feld": -4,
+              "result": [
+                [
+                  15,
+                  12
+                ],
+                [
+                  15,
+                  12
+                ]
+              ],
               "heim": [
                 8,
                 33
@@ -594,7 +626,17 @@
               "id": 7
             },
             {
-              "feld": 5,
+              "feld": -5,
+              "result": [
+                [
+                  10,
+                  15
+                ],
+                [
+                  8,
+                  15
+                ]
+              ],
               "heim": [
                 34,
                 27
@@ -618,6 +660,7 @@
               "id": 9
             },
             {
+              "feld": 5,
               "heim": [
                 11,
                 15
