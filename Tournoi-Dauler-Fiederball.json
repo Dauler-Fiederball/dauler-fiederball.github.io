@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "28.03.2026 10:50:01",
+  "datum": "28.03.2026 10:55:09",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -401,39 +401,39 @@
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 9,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 9
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 10,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 10
         },
         {
           "platz": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 11,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 12,
-          "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 12,
+          "wertung": null
         },
         {
           "platz": null,
@@ -605,7 +605,17 @@
               "id": 4
             },
             {
-              "feld": 4,
+              "feld": -4,
+              "result": [
+                [
+                  15,
+                  6
+                ],
+                [
+                  15,
+                  6
+                ]
+              ],
               "heim": [
                 2,
                 30
@@ -639,7 +649,17 @@
               "id": 6
             },
             {
-              "feld": 2,
+              "feld": -2,
+              "result": [
+                [
+                  10,
+                  15
+                ],
+                [
+                  8,
+                  15
+                ]
+              ],
               "heim": [
                 12,
                 38
@@ -717,6 +737,127 @@
               "gast": [
                 35,
                 28
+              ],
+              "id": 10
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "spiele": [
+            {
+              "feld": 1,
+              "heim": [
+                19,
+                22
+              ],
+              "gast": [
+                14,
+                25
+              ],
+              "id": 1
+            },
+            {
+              "feld": 2,
+              "heim": [
+                20,
+                18
+              ],
+              "gast": [
+                2,
+                30
+              ],
+              "id": 2
+            },
+            {
+              "feld": 3,
+              "heim": [
+                5,
+                32
+              ],
+              "gast": [
+                36,
+                1
+              ],
+              "id": 3
+            },
+            {
+              "feld": 4,
+              "heim": [
+                35,
+                28
+              ],
+              "gast": [
+                13,
+                10
+              ],
+              "id": 4
+            },
+            {
+              "feld": 5,
+              "heim": [
+                9,
+                37
+              ],
+              "gast": [
+                8,
+                33
+              ],
+              "id": 5
+            },
+            {
+              "feld": 6,
+              "heim": [
+                34,
+                27
+              ],
+              "gast": [
+                3,
+                31
+              ],
+              "id": 6
+            },
+            {
+              "heim": [
+                6,
+                23
+              ],
+              "gast": [
+                12,
+                38
+              ],
+              "id": 7
+            },
+            {
+              "heim": [
+                4,
+                40
+              ],
+              "gast": [
+                11,
+                15
+              ],
+              "id": 8
+            },
+            {
+              "heim": [
+                16,
+                39
+              ],
+              "gast": [
+                21,
+                26
+              ],
+              "id": 9
+            },
+            {
+              "heim": [
+                17,
+                29
+              ],
+              "gast": [
+                7,
+                24
               ],
               "id": 10
             }
