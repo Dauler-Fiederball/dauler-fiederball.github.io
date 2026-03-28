@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "28.03.2026 10:15:49",
+  "datum": "28.03.2026 10:19:00",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -100,7 +100,7 @@
     },
     {
       "nachname": "Chloé",
-      "vorname": "Konnen de Kerillis",
+      "vorname": "Connen de Kerillis",
       "geschlecht": "F",
       "verein": 1,
       "id": 10
