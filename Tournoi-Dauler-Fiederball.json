@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "28.03.2026 10:33:58",
+  "datum": "28.03.2026 10:43:58",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -365,21 +365,21 @@
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 5,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 5
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 6,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 6
         },
         {
           "platz": null,
@@ -455,21 +455,21 @@
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 15,
-          "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 15,
+          "wertung": null
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 16,
-          "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 16,
+          "wertung": null
         },
         {
           "platz": null,
@@ -513,7 +513,21 @@
           "id": 1,
           "spiele": [
             {
-              "feld": 1,
+              "feld": -1,
+              "result": [
+                [
+                  17,
+                  15
+                ],
+                [
+                  4,
+                  15
+                ],
+                [
+                  7,
+                  15
+                ]
+              ],
               "heim": [
                 7,
                 24
@@ -649,7 +663,21 @@
               "id": 8
             },
             {
-              "feld": 6,
+              "feld": -6,
+              "result": [
+                [
+                  15,
+                  9
+                ],
+                [
+                  14,
+                  16
+                ],
+                [
+                  6,
+                  15
+                ]
+              ],
               "heim": [
                 16,
                 39
