@@ -2,25 +2,30 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Schicht Engine V7 FINAL FIX</title>
 
 <style>
+
 body {
     font-family: Arial;
     background:#f4f6f8;
-    padding:20px;
+    padding:12px;
+    margin:0;
 }
 
 .container {
-    max-width:1000px;
+    width:100%;
+    max-width:900px;
     margin:auto;
 }
 
 .card {
     background:white;
-    padding:20px;
+    padding:18px;
     margin-bottom:20px;
-    border-radius:12px;
+    border-radius:16px;
     box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
 
@@ -30,28 +35,32 @@ body {
     gap:10px;
 }
 
-input,select {
+input,
+select {
     width:100%;
-    padding:8px;
-    border-radius:6px;
+    padding:14px;
+    border-radius:10px;
     border:1px solid #ccc;
+    font-size:16px;
+    box-sizing:border-box;
 }
 
 button {
     width:100%;
-    padding:12px;
+    padding:16px;
     background:#2e7d32;
     color:white;
     border:none;
-    border-radius:8px;
+    border-radius:10px;
     cursor:pointer;
+    font-size:18px;
 }
 
 .event {
     margin-top:15px;
     padding:15px;
     border:1px solid #ddd;
-    border-radius:8px;
+    border-radius:12px;
     background:#fafafa;
 }
 
@@ -59,10 +68,50 @@ pre {
     background:#0f172a;
     color:#00ff88;
     padding:15px;
-    border-radius:8px;
+    border-radius:10px;
     max-height:500px;
     overflow:auto;
+    font-size:14px;
 }
+
+label {
+    display:block;
+    margin-bottom:6px;
+    font-weight:bold;
+    font-size:15px;
+}
+
+h2 {
+    font-size:28px;
+}
+
+h3 {
+    font-size:22px;
+}
+
+@media (max-width:700px){
+
+    body{
+        padding:8px;
+    }
+
+    .card{
+        padding:14px;
+    }
+
+    h2{
+        font-size:24px;
+    }
+
+    h3{
+        font-size:20px;
+    }
+
+    button{
+        font-size:17px;
+    }
+}
+
 </style>
 
 </head>
@@ -75,9 +124,12 @@ pre {
 
 <!-- VORTAG -->
 <div class="card">
+
 <h3>Vortag</h3>
 
 <input id="prevDate" type="date">
+
+<br><br>
 
 <select id="prevType">
 <option value="normal">Normal (07–15)</option>
@@ -85,9 +137,9 @@ pre {
 <option value="custom">Custom</option>
 </select>
 
-<div id="prevCustomFields" style="display:none; margin-top:10px;">
+<div id="prevCustomFields" style="display:none; margin-top:15px;">
 
-    <div style="margin-bottom:10px;">
+    <div style="margin-bottom:15px;">
         <label>Startzeit</label>
         <input id="prevStart" type="time">
     </div>
@@ -98,20 +150,30 @@ pre {
     </div>
 
 </div>
+
 </div>
 
-<!-- INTERVENTIONS -->
+<!-- INTERVENTIONEN -->
 <div class="card">
+
 <h3>Interventionen</h3>
+
 <div id="events"></div>
+
+<br>
+
 <button onclick="addEvent()">+ Intervention</button>
+
 </div>
 
 <!-- NÄCHSTER TAG -->
 <div class="card">
+
 <h3>Nächster Tag</h3>
 
 <input id="nextDate" type="date">
+
+<br><br>
 
 <select id="nextType">
 <option value="normal">Normal (07–15)</option>
@@ -119,9 +181,9 @@ pre {
 <option value="custom">Custom</option>
 </select>
 
-<div id="nextCustomFields" style="display:none; margin-top:10px;">
+<div id="nextCustomFields" style="display:none; margin-top:15px;">
 
-    <div style="margin-bottom:10px;">
+    <div style="margin-bottom:15px;">
         <label>Startzeit</label>
         <input id="nextStart" type="time">
     </div>
@@ -132,6 +194,7 @@ pre {
     </div>
 
 </div>
+
 </div>
 
 <!-- BERECHNUNG -->
@@ -143,8 +206,11 @@ pre {
 
 <!-- DEBUG -->
 <div class="card">
+
 <h3>DEBUG</h3>
+
 <pre id="log"></pre>
+
 </div>
 
 </div>
@@ -168,10 +234,17 @@ function diffHours(a,b){
 }
 
 function shift(type){
+
     if(type==="normal") return ["07:00","15:00"];
+
     if(type==="mittag") return ["11:00","19:00"];
+
     return [null,null];
 }
+
+/* =========================
+   TOGGLE CUSTOM FIELDS
+========================= */
 
 function toggleCustomFields(){
 
@@ -180,7 +253,7 @@ function toggleCustomFields(){
     let prevFields = document.getElementById("prevCustomFields");
 
     if(prevType === "custom"){
-        prevFields.style.display = "grid";
+        prevFields.style.display = "block";
     } else {
         prevFields.style.display = "none";
     }
@@ -190,7 +263,7 @@ function toggleCustomFields(){
     let nextFields = document.getElementById("nextCustomFields");
 
     if(nextType === "custom"){
-        nextFields.style.display = "grid";
+        nextFields.style.display = "block";
     } else {
         nextFields.style.display = "none";
     }
@@ -203,11 +276,12 @@ function toggleCustomFields(){
 function addEvent(){
 
     let div = document.createElement("div");
+
     div.className = "event";
 
     div.innerHTML = `
 
-        <div style="margin-bottom:10px;">
+        <div style="margin-bottom:15px;">
             <label>Startzeit</label>
             <input type="datetime-local" class="start">
         </div>
@@ -258,6 +332,7 @@ function run(){
     let events = [];
 
     document.querySelectorAll(".event").forEach(e=>{
+
         let s = e.querySelector(".start").value;
         let en = e.querySelector(".end").value;
 
@@ -305,35 +380,28 @@ function run(){
         chainEnd = ev.end;
     });
 
-    /* =========================
-       NEXT DAY ENGINE (FIXED)
-    ========================= */
+    /* NEXT DAY ENGINE */
 
     log.push("\n=== NEXT DAY ENGINE ===");
 
     let lastEventEnd = chainEnd;
-    let lastEventStart = events.length ? events[events.length-1].start : null;
 
-    // 🔴 EDGE DETECTION (CRITICAL FIX)
+    let lastEventStart =
+        events.length
+        ? events[events.length-1].start
+        : null;
+
     let isExactTouch =
         Math.abs(lastEventEnd - nextPlannedStart) < 1;
 
     let adjustedStart;
     let adjustedEnd = nextPlannedEnd;
 
-    /* =========================
-       START RULE
-    ========================= */
-
     if(isExactTouch){
 
         log.push("⚠️ EXACT TOUCH → 4H RULE DISABLED");
 
         adjustedStart = nextPlannedStart;
-
-        /* =========================
-           8H RULE ONLY HERE
-        ========================= */
 
         if(lastEventStart){
 
@@ -355,9 +423,7 @@ function run(){
         );
     }
 
-    /* =========================
-       FINAL CHECK
-    ========================= */
+    /* FINAL CHECK */
 
     let workHours = diffHours(adjustedEnd, adjustedStart);
 
@@ -369,13 +435,20 @@ function run(){
     log.push("Work Hours: " + workHours);
 
     if(workHours < 4){
+
         log.push("\n🟡 DISPENSE COMPLET");
+
     } else {
+
         log.push("\n✔ SHIFT VALID");
     }
 
     document.getElementById("log").innerText = log.join("\n");
 }
+
+/* =========================
+   EVENTS
+========================= */
 
 document.getElementById("prevType")
     .addEventListener("change", toggleCustomFields);
@@ -383,7 +456,8 @@ document.getElementById("prevType")
 document.getElementById("nextType")
     .addEventListener("change", toggleCustomFields);
 
-// Initial ausführen
+/* INIT */
+
 toggleCustomFields();
 
 </script>
