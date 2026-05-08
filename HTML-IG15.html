@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Schicht Engine V7 FINAL FIX</title>
+
+<style>
+body {
+    font-family: Arial;
+    background:#f4f6f8;
+    padding:20px;
+}
+
+.container {
+    max-width:1000px;
+    margin:auto;
+}
+
+.card {
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.grid {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+}
+
+input,select {
+    width:100%;
+    padding:8px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+button {
+    width:100%;
+    padding:12px;
+    background:#2e7d32;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.event {
+    margin-top:15px;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    background:#fafafa;
+}
+
+pre {
+    background:#0f172a;
+    color:#00ff88;
+    padding:15px;
+    border-radius:8px;
+    max-height:500px;
+    overflow:auto;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>⚙️ Schicht Engine V7 (EDGE FIX)</h2>
+
+<!-- VORTAG -->
+<div class="card">
+<h3>Vortag</h3>
+
+<input id="prevDate" type="date">
+
+<select id="prevType">
+<option value="normal">Normal (07–15)</option>
+<option value="mittag">Mittag (11–19)</option>
+<option value="custom">Custom</option>
+</select>
+
+<div id="prevCustomFields" style="display:none; margin-top:10px;">
+
+    <div style="margin-bottom:10px;">
+        <label>Startzeit</label>
+        <input id="prevStart" type="time">
+    </div>
+
+    <div>
+        <label>Endzeit</label>
+        <input id="prevEnd" type="time">
+    </div>
+
+</div>
+</div>
+
+<!-- INTERVENTIONS -->
+<div class="card">
+<h3>Interventionen</h3>
+<div id="events"></div>
+<button onclick="addEvent()">+ Intervention</button>
+</div>
+
+<!-- NÄCHSTER TAG -->
+<div class="card">
+<h3>Nächster Tag</h3>
+
+<input id="nextDate" type="date">
+
+<select id="nextType">
+<option value="normal">Normal (07–15)</option>
+<option value="mittag">Mittag (11–19)</option>
+<option value="custom">Custom</option>
+</select>
+
+<div id="nextCustomFields" style="display:none; margin-top:10px;">
+
+    <div style="margin-bottom:10px;">
+        <label>Startzeit</label>
+        <input id="nextStart" type="time">
+    </div>
+
+    <div>
+        <label>Endzeit</label>
+        <input id="nextEnd" type="time">
+    </div>
+
+</div>
+</div>
+
+<!-- BERECHNUNG -->
+<div class="card">
+
+<button onclick="run()">🚀 Berechnen</button>
+
+</div>
+
+<!-- DEBUG -->
+<div class="card">
+<h3>DEBUG</h3>
+<pre id="log"></pre>
+</div>
+
+</div>
+
+<script>
+
+/* =========================
+   HELPERS
+========================= */
+
+function toDate(d,t){
+    return new Date(d + "T" + t);
+}
+
+function addHours(d,h){
+    return new Date(d.getTime() + h*3600000);
+}
+
+function diffHours(a,b){
+    return (a-b)/3600000;
+}
+
+function shift(type){
+    if(type==="normal") return ["07:00","15:00"];
+    if(type==="mittag") return ["11:00","19:00"];
+    return [null,null];
+}
+
+function toggleCustomFields(){
+
+    // VORTAG
+    let prevType = document.getElementById("prevType").value;
+    let prevFields = document.getElementById("prevCustomFields");
+
+    if(prevType === "custom"){
+        prevFields.style.display = "grid";
+    } else {
+        prevFields.style.display = "none";
+    }
+
+    // NÄCHSTER TAG
+    let nextType = document.getElementById("nextType").value;
+    let nextFields = document.getElementById("nextCustomFields");
+
+    if(nextType === "custom"){
+        nextFields.style.display = "grid";
+    } else {
+        nextFields.style.display = "none";
+    }
+}
+
+/* =========================
+   UI
+========================= */
+
+function addEvent(){
+
+    let div = document.createElement("div");
+    div.className = "event";
+
+    div.innerHTML = `
+
+        <div style="margin-bottom:10px;">
+            <label>Startzeit</label>
+            <input type="datetime-local" class="start">
+        </div>
+
+        <div>
+            <label>Endzeit (zu Hause angekommen)</label>
+            <input type="datetime-local" class="end">
+        </div>
+
+    `;
+
+    document.getElementById("events").appendChild(div);
+}
+
+/* =========================
+   ENGINE
+========================= */
+
+function run(){
+
+    let log = [];
+
+    /* INPUT */
+
+    let prevDate = document.getElementById("prevDate").value;
+    let nextDate = document.getElementById("nextDate").value;
+
+    let prevType = document.getElementById("prevType").value;
+    let nextType = document.getElementById("nextType").value;
+
+    let [pS,pE] = shift(prevType);
+    let [nS,nE] = shift(nextType);
+
+    let prevEnd = prevType==="custom"
+        ? toDate(prevDate, document.getElementById("prevEnd").value)
+        : toDate(prevDate, pE);
+
+    let nextPlannedStart = nextType==="custom"
+        ? toDate(nextDate, document.getElementById("nextStart").value)
+        : toDate(nextDate, nS);
+
+    let nextPlannedEnd = nextType==="custom"
+        ? toDate(nextDate, document.getElementById("nextEnd").value)
+        : toDate(nextDate, nE);
+
+    /* EVENTS */
+
+    let events = [];
+
+    document.querySelectorAll(".event").forEach(e=>{
+        let s = e.querySelector(".start").value;
+        let en = e.querySelector(".end").value;
+
+        if(!s || !en) return;
+
+        events.push({
+            start:new Date(s),
+            end:new Date(en)
+        });
+    });
+
+    events.sort((a,b)=>a.start-b.start);
+
+    /* CHAIN */
+
+    let chainEnd = prevEnd;
+
+    log.push("=== INPUT ===");
+    log.push("Prev End: " + prevEnd);
+    log.push("Next Planned Start: " + nextPlannedStart);
+
+    log.push("\n=== CHAIN PROCESS ===");
+
+    events.forEach((ev,i)=>{
+
+        let gap = diffHours(ev.start, chainEnd);
+
+        log.push(`Event ${i+1} gap: ${gap.toFixed(2)}h`);
+
+        if(gap < 10){
+
+            let minStart = addHours(chainEnd,10);
+
+            if(ev.start < minStart){
+
+                log.push("❌ 10h shift applied");
+
+                let dur = diffHours(ev.end, ev.start);
+
+                ev.start = minStart;
+                ev.end = addHours(ev.start, dur);
+            }
+        }
+
+        chainEnd = ev.end;
+    });
+
+    /* =========================
+       NEXT DAY ENGINE (FIXED)
+    ========================= */
+
+    log.push("\n=== NEXT DAY ENGINE ===");
+
+    let lastEventEnd = chainEnd;
+    let lastEventStart = events.length ? events[events.length-1].start : null;
+
+    // 🔴 EDGE DETECTION (CRITICAL FIX)
+    let isExactTouch =
+        Math.abs(lastEventEnd - nextPlannedStart) < 1;
+
+    let adjustedStart;
+    let adjustedEnd = nextPlannedEnd;
+
+    /* =========================
+       START RULE
+    ========================= */
+
+    if(isExactTouch){
+
+        log.push("⚠️ EXACT TOUCH → 4H RULE DISABLED");
+
+        adjustedStart = nextPlannedStart;
+
+        /* =========================
+           8H RULE ONLY HERE
+        ========================= */
+
+        if(lastEventStart){
+
+            let capEnd = addHours(lastEventStart,8);
+
+            adjustedEnd = new Date(
+                Math.min(nextPlannedEnd, capEnd)
+            );
+
+            log.push("🔴 8H CAP ACTIVE");
+        }
+
+    } else {
+
+        let fourHourBase = addHours(lastEventEnd,4);
+
+        adjustedStart = new Date(
+            Math.max(nextPlannedStart, fourHourBase)
+        );
+    }
+
+    /* =========================
+       FINAL CHECK
+    ========================= */
+
+    let workHours = diffHours(adjustedEnd, adjustedStart);
+
+    log.push("Last Event End: " + lastEventEnd);
+    log.push("Last Event Start: " + lastEventStart);
+    log.push("Planned Start: " + nextPlannedStart);
+    log.push("Adjusted Start: " + adjustedStart);
+    log.push("Adjusted End: " + adjustedEnd);
+    log.push("Work Hours: " + workHours);
+
+    if(workHours < 4){
+        log.push("\n🟡 DISPENSE COMPLET");
+    } else {
+        log.push("\n✔ SHIFT VALID");
+    }
+
+    document.getElementById("log").innerText = log.join("\n");
+}
+
+document.getElementById("prevType")
+    .addEventListener("change", toggleCustomFields);
+
+document.getElementById("nextType")
+    .addEventListener("change", toggleCustomFields);
+
+// Initial ausführen
+toggleCustomFields();
+
+</script>
+
+</body>
+</html>
