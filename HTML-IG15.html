@@ -116,6 +116,13 @@ button {
     background:#6a1b9a;
 }
 
+.delete-btn {
+    margin-top:10px;
+    background:#b91c1c;
+    font-size:14px;
+    padding:10px;
+}
+
 /* =========================
    FINAL OUTPUT
 ========================= */
@@ -229,7 +236,7 @@ label {
      RESULT
 ========================= -->
 <div class="card">
-<h3>UGEPASSTEN AUERZÄITEN</h3>
+<h3>UGEPASSTE SCHAFFZÄITEN</h3>
 
 <label>UFÄNKEN UM</label>
 <input id="finalStart" type="text" readonly>
@@ -287,11 +294,14 @@ function addEvent(){
 
         <label>FÄERDEG (Doheem ukomm)</label>
         <input type="datetime-local" class="end">
+
+        <button type="button" class="delete-btn" onclick="this.parentElement.remove()">
+            STÖRUNG LÖSCHEN
+        </button>
     `;
 
     document.getElementById("events").appendChild(div);
 }
-
 function toggleCustomFields(){
 
     document.getElementById("prevCustomFields").classList.toggle(
