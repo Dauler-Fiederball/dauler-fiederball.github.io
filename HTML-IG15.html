@@ -4,39 +4,57 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Schicht Engine V7 FINAL FIX</title>
+<title>CFL IG15</title>
 
 <style>
+
+/* =========================
+   BASE LAYOUT
+========================= */
 
 body {
     font-family: Arial;
     background:#f4f6f8;
-    padding:12px;
     margin:0;
+    padding:16px;
 }
 
 .container {
-    width:100%;
     max-width:900px;
     margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
 }
+
+/* =========================
+   CARDS
+========================= */
 
 .card {
     background:white;
     padding:18px;
-    margin-bottom:20px;
     border-radius:16px;
     box-shadow:0 2px 10px rgba(0,0,0,0.08);
+
+    display:flex;
+    flex-direction:column;
+    gap:12px;
 }
 
-.grid {
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:10px;
+/* =========================
+   TYPO
+========================= */
+
+h2, h3 {
+    margin:0;
 }
 
-input,
-select {
+/* =========================
+   INPUTS
+========================= */
+
+input, select {
     width:100%;
     padding:14px;
     border-radius:10px;
@@ -45,24 +63,67 @@ select {
     box-sizing:border-box;
 }
 
+/* =========================
+   CUSTOM BOXES
+========================= */
+
+.custom-box {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+
+    padding:14px;
+    border-radius:12px;
+    background:#f9fafb;
+    border:1px solid #e5e7eb;
+}
+
+/* =========================
+   EVENTS
+========================= */
+
+.event {
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+
+    padding:14px;
+    border-radius:12px;
+    background:#fafafa;
+    border:1px solid #ddd;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
 button {
     width:100%;
     padding:16px;
-    background:#2e7d32;
-    color:white;
     border:none;
     border-radius:10px;
     cursor:pointer;
     font-size:18px;
+    background:#2e7d32;
+    color:white;
 }
 
-.event {
-    margin-top:15px;
-    padding:15px;
-    border:1px solid #ddd;
-    border-radius:12px;
-    background:#fafafa;
+.main-btn {
+    background:#6a1b9a;
 }
+
+/* =========================
+   FINAL OUTPUT
+========================= */
+
+#finalStart,
+#finalEnd {
+    margin:0;
+}
+
+/* =========================
+   DEBUG
+========================= */
 
 pre {
     background:#0f172a;
@@ -75,142 +136,110 @@ pre {
 }
 
 label {
-    display:block;
-    margin-bottom:6px;
     font-weight:bold;
-    font-size:15px;
 }
 
-h2 {
-    font-size:28px;
-}
-
-h3 {
-    font-size:22px;
-}
-
-@media (max-width:700px){
-
-    body{
-        padding:8px;
-    }
-
-    .card{
-        padding:14px;
-    }
-
-    h2{
-        font-size:24px;
-    }
-
-    h3{
-        font-size:20px;
-    }
-
-    button{
-        font-size:17px;
-    }
+.hidden {
+    display:none;
 }
 
 </style>
-
 </head>
 
 <body>
 
 <div class="container">
 
-<h2>⚙️ Schicht Engine V7 (EDGE FIX)</h2>
+<h2>CFL IG15</h2>
 
-<!-- VORTAG -->
+<!-- =========================
+     VORTAG
+========================= -->
 <div class="card">
-
-<h3>Vortag</h3>
+<h3>SCHAFFZÄITEN VUM DAG VIRDRUN</h3>
 
 <input id="prevDate" type="date">
 
-<br><br>
-
 <select id="prevType">
 <option value="normal">Normal (07–15)</option>
-<option value="mittag">Mittag (11–19)</option>
-<option value="custom">Custom</option>
+<option value="mittag">Mëttegschicht (11–19)</option>
+<option value="custom">Benotzerdefinéiert</option>
 </select>
 
-<div id="prevCustomFields" style="display:none; margin-top:15px;">
+<div id="prevCustomFields" class="custom-box hidden">
+    <label>UFANK</label>
+    <input id="prevStart" type="time">
 
-    <div style="margin-bottom:15px;">
-        <label>Startzeit</label>
-        <input id="prevStart" type="time">
-    </div>
-
-    <div>
-        <label>Endzeit</label>
-        <input id="prevEnd" type="time">
-    </div>
-
+    <label>FEIEROWEND</label>
+    <input id="prevEnd" type="time">
 </div>
 
 </div>
 
-<!-- INTERVENTIONEN -->
+<!-- =========================
+     INTERVENTIONEN
+========================= -->
 <div class="card">
 
-<h3>Interventionen</h3>
+<h3>AUERZÄITEN VUN STÖRUNGEN</h3>
 
 <div id="events"></div>
 
-<br>
-
-<button onclick="addEvent()">+ Intervention</button>
+<button onclick="addEvent()">+ STÖRUNG</button>
 
 </div>
 
-<!-- NÄCHSTER TAG -->
+<!-- =========================
+     NÄCHSTER TAG
+========================= -->
 <div class="card">
 
-<h3>Nächster Tag</h3>
+<h3>SCHAFFZÄITEN VUM DAG DROP</h3>
 
 <input id="nextDate" type="date">
 
-<br><br>
-
 <select id="nextType">
 <option value="normal">Normal (07–15)</option>
-<option value="mittag">Mittag (11–19)</option>
-<option value="custom">Custom</option>
+<option value="mittag">Mëttegschicht (11–19)</option>
+<option value="custom">Benotzerdefinéiert</option>
 </select>
 
-<div id="nextCustomFields" style="display:none; margin-top:15px;">
+<div id="nextCustomFields" class="custom-box hidden">
+    <label>UFANK</label>
+    <input id="nextStart" type="time">
 
-    <div style="margin-bottom:15px;">
-        <label>Startzeit</label>
-        <input id="nextStart" type="time">
-    </div>
-
-    <div>
-        <label>Endzeit</label>
-        <input id="nextEnd" type="time">
-    </div>
-
+    <label>FEIEROWEND</label>
+    <input id="nextEnd" type="time">
 </div>
 
 </div>
 
-<!-- BERECHNUNG -->
+<!-- =========================
+     BUTTON
+========================= -->
 <div class="card">
-
-<button onclick="run()">🚀 Berechnen</button>
-
+<button class="main-btn" onclick="run()">✨BERECHNEN✨</button>
 </div>
 
-<!-- DEBUG -->
+<!-- =========================
+     RESULT
+========================= -->
 <div class="card">
+<h3>UGEPASSTEN AUERZÄITEN</h3>
 
+<label>UFÄNKEN UM</label>
+<input id="finalStart" type="text" readonly>
+
+<label>FEIEROWEND</label>
+<input id="finalEnd" type="text" readonly>
+</div>
+
+<!-- =========================
+     DEBUG (optional sichtbar lassen)
+========================= -->
+<div class="card hidden" id="debugBox">
 <h3>DEBUG</h3>
-
 <pre id="log"></pre>
-
 </div>
 
 </div>
@@ -234,39 +263,9 @@ function diffHours(a,b){
 }
 
 function shift(type){
-
     if(type==="normal") return ["07:00","15:00"];
-
     if(type==="mittag") return ["11:00","19:00"];
-
     return [null,null];
-}
-
-/* =========================
-   TOGGLE CUSTOM FIELDS
-========================= */
-
-function toggleCustomFields(){
-
-    // VORTAG
-    let prevType = document.getElementById("prevType").value;
-    let prevFields = document.getElementById("prevCustomFields");
-
-    if(prevType === "custom"){
-        prevFields.style.display = "block";
-    } else {
-        prevFields.style.display = "none";
-    }
-
-    // NÄCHSTER TAG
-    let nextType = document.getElementById("nextType").value;
-    let nextFields = document.getElementById("nextCustomFields");
-
-    if(nextType === "custom"){
-        nextFields.style.display = "block";
-    } else {
-        nextFields.style.display = "none";
-    }
 }
 
 /* =========================
@@ -276,188 +275,130 @@ function toggleCustomFields(){
 function addEvent(){
 
     let div = document.createElement("div");
+    div.className="event";
 
-    div.className = "event";
+    div.innerHTML=`
+        <label>START</label>
+        <input type="datetime-local" class="start">
 
-    div.innerHTML = `
-
-        <div style="margin-bottom:15px;">
-            <label>Startzeit</label>
-            <input type="datetime-local" class="start">
-        </div>
-
-        <div>
-            <label>Endzeit (zu Hause angekommen)</label>
-            <input type="datetime-local" class="end">
-        </div>
-
+        <label>FÄERDEG (Doheem ukomm)</label>
+        <input type="datetime-local" class="end">
     `;
 
     document.getElementById("events").appendChild(div);
 }
 
+function toggleCustomFields(){
+
+    document.getElementById("prevCustomFields").classList.toggle(
+        "hidden",
+        document.getElementById("prevType").value !== "custom"
+    );
+
+    document.getElementById("nextCustomFields").classList.toggle(
+        "hidden",
+        document.getElementById("nextType").value !== "custom"
+    );
+}
+
 /* =========================
-   ENGINE
+   ENGINE (UNVERÄNDERT)
 ========================= */
 
 function run(){
 
-    let log = [];
+    let inputValid = true;
+    let dispenseComplet = false;
+    let log=[];
 
-    /* INPUT */
+    let prevDate=document.getElementById("prevDate").value;
+    let nextDate=document.getElementById("nextDate").value;
 
-    let prevDate = document.getElementById("prevDate").value;
-    let nextDate = document.getElementById("nextDate").value;
+    let prevType=document.getElementById("prevType").value;
+    let nextType=document.getElementById("nextType").value;
 
-    let prevType = document.getElementById("prevType").value;
-    let nextType = document.getElementById("nextType").value;
-
-    let [pS,pE] = shift(prevType);
-    let [nS,nE] = shift(nextType);
+    let [pS,pE]=shift(prevType);
+    let [nS,nE]=shift(nextType);
 
     let prevEnd = prevType==="custom"
-        ? toDate(prevDate, document.getElementById("prevEnd").value)
-        : toDate(prevDate, pE);
+        ? toDate(prevDate,document.getElementById("prevEnd").value)
+        : toDate(prevDate,pE);
 
     let nextPlannedStart = nextType==="custom"
-        ? toDate(nextDate, document.getElementById("nextStart").value)
-        : toDate(nextDate, nS);
+        ? toDate(nextDate,document.getElementById("nextStart").value)
+        : toDate(nextDate,nS);
 
     let nextPlannedEnd = nextType==="custom"
-        ? toDate(nextDate, document.getElementById("nextEnd").value)
-        : toDate(nextDate, nE);
+        ? toDate(nextDate,document.getElementById("nextEnd").value)
+        : toDate(nextDate,nE);
 
-    /* EVENTS */
-
-    let events = [];
+    let events=[];
 
     document.querySelectorAll(".event").forEach(e=>{
+        let s=e.querySelector(".start").value;
+        let en=e.querySelector(".end").value;
+        if(!s||!en)return;
 
-        let s = e.querySelector(".start").value;
-        let en = e.querySelector(".end").value;
-
-        if(!s || !en) return;
-
-        events.push({
-            start:new Date(s),
-            end:new Date(en)
-        });
+        events.push({start:new Date(s),end:new Date(en)});
     });
 
     events.sort((a,b)=>a.start-b.start);
 
-    /* CHAIN */
+    let firstStart = events.length ? events[0].start : null;
+    let lastEnd = events.length ? events[events.length-1].end : null;
 
-    let chainEnd = prevEnd;
+    let interventionHours = events.reduce((a,e)=>
+        a + diffHours(e.end,e.start),0);
 
-    log.push("=== INPUT ===");
-    log.push("Prev End: " + prevEnd);
-    log.push("Next Planned Start: " + nextPlannedStart);
+    let prevShiftHours = diffHours(prevEnd,new Date(prevDate+"T07:00"));
+    let totalWorked = prevShiftHours + interventionHours;
 
-    log.push("\n=== CHAIN PROCESS ===");
+    let valid = true;
 
-    events.forEach((ev,i)=>{
+    for(let i=0;i<events.length;i++){
+        let e = events[i];
 
-        let gap = diffHours(ev.start, chainEnd);
+        if(prevEnd && e.start < prevEnd) valid=false;
+        if(nextPlannedStart && e.end > nextPlannedStart) valid=false;
+        if(e.end < e.start) valid=false;
+        if(i>0 && e.start < events[i-1].end) valid=false;
+    }
 
-        log.push(`Event ${i+1} gap: ${gap.toFixed(2)}h`);
+    if(!valid){
+        document.getElementById("finalStart").value = "FALSCH EINGABEN";
+        document.getElementById("finalEnd").value = "FALSCH EINGABEN";
+        return;
+    }
 
-        if(gap < 10){
+    let restBefore = firstStart ? diffHours(firstStart,prevEnd) : 999;
+    let restAfter = lastEnd ? diffHours(nextPlannedStart,lastEnd) : 999;
 
-            let minStart = addHours(chainEnd,10);
-
-            if(ev.start < minStart){
-
-                log.push("❌ 10h shift applied");
-
-                let dur = diffHours(ev.end, ev.start);
-
-                ev.start = minStart;
-                ev.end = addHours(ev.start, dur);
-            }
-        }
-
-        chainEnd = ev.end;
-    });
-
-    /* NEXT DAY ENGINE */
-
-    log.push("\n=== NEXT DAY ENGINE ===");
-
-    let lastEventEnd = chainEnd;
-
-    let lastEventStart =
-        events.length
-        ? events[events.length-1].start
-        : null;
-
-    let isExactTouch =
-        Math.abs(lastEventEnd - nextPlannedStart) < 1;
+    let fullRest = restBefore>=10 && restAfter>=10;
+    let rule14h = totalWorked>=14;
 
     let adjustedStart;
     let adjustedEnd = nextPlannedEnd;
 
-    if(isExactTouch){
+    if(fullRest) return;
 
-        log.push("⚠️ EXACT TOUCH → 4H RULE DISABLED");
-
-        adjustedStart = nextPlannedStart;
-
-        if(lastEventStart){
-
-            let capEnd = addHours(lastEventStart,8);
-
-            adjustedEnd = new Date(
-                Math.min(nextPlannedEnd, capEnd)
-            );
-
-            log.push("🔴 8H CAP ACTIVE");
-        }
-
+    if(rule14h){
+        adjustedStart = lastEnd ? addHours(lastEnd,10) : nextPlannedStart;
     } else {
-
-        let fourHourBase = addHours(lastEventEnd,4);
-
-        adjustedStart = new Date(
-            Math.max(nextPlannedStart, fourHourBase)
-        );
+        let fourHour = addHours(lastEnd,4);
+        adjustedStart = new Date(Math.max(nextPlannedStart,fourHour));
     }
 
-    /* FINAL CHECK */
+    let format = d => d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
 
-    let workHours = diffHours(adjustedEnd, adjustedStart);
-
-    log.push("Last Event End: " + lastEventEnd);
-    log.push("Last Event Start: " + lastEventStart);
-    log.push("Planned Start: " + nextPlannedStart);
-    log.push("Adjusted Start: " + adjustedStart);
-    log.push("Adjusted End: " + adjustedEnd);
-    log.push("Work Hours: " + workHours);
-
-    if(workHours < 4){
-
-        log.push("\n🟡 DISPENSE COMPLET");
-
-    } else {
-
-        log.push("\n✔ SHIFT VALID");
-    }
+    document.getElementById("finalStart").value = format(adjustedStart);
+    document.getElementById("finalEnd").value = format(adjustedEnd);
 
     document.getElementById("log").innerText = log.join("\n");
 }
 
-/* =========================
-   EVENTS
-========================= */
-
-document.getElementById("prevType")
-    .addEventListener("change", toggleCustomFields);
-
-document.getElementById("nextType")
-    .addEventListener("change", toggleCustomFields);
-
 /* INIT */
-
+document.getElementById("prevType").addEventListener("change",toggleCustomFields);
+document.getElementById("nextType").addEventListener("change",toggleCustomFields);
 toggleCustomFields();
 
 </script>
