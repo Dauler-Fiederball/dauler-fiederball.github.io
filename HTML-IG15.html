@@ -80,6 +80,7 @@ input, select {
     color:#9ca3af;
     pointer-events:none;
     font-size:14px;
+    transition:0.2s;
 }
 
 /* =========================
@@ -181,7 +182,7 @@ label {
 
 <div class="date-wrapper">
     <input id="prevDate" type="date">
-    <span class="date-placeholder">DATUM</span>
+    <span class="date-placeholder" id="prevDateLabel">DATUM</span>
 </div>
 
 <select id="prevType">
@@ -214,7 +215,7 @@ label {
 
 <div class="date-wrapper">
     <input id="nextDate" type="date">
-    <span class="date-placeholder">DATUM</span>
+    <span class="date-placeholder" id="nextDateLabel">DATUM</span>
 </div>
 
 <select id="nextType">
@@ -258,6 +259,19 @@ label {
 </div>
 
 <script>
+
+function updateDateLabels() {
+
+    const prev = document.getElementById("prevDate");
+    const next = document.getElementById("nextDate");
+
+    const prevLabel = document.getElementById("prevDateLabel");
+    const nextLabel = document.getElementById("nextDateLabel");
+
+    prevLabel.style.display = prev.value ? "none" : "block";
+    nextLabel.style.display = next.value ? "none" : "block";
+}
+
 
 /* unchanged logic */
 function toDate(d,t){return new Date(d+"T"+t);}
@@ -350,6 +364,8 @@ function run(){
 document.getElementById("prevType").addEventListener("change",toggleCustomFields);
 document.getElementById("nextType").addEventListener("change",toggleCustomFields);
 toggleCustomFields();
+
+updateDateLabels();
 
 </script>
 
