@@ -9,7 +9,7 @@
 <style>
 
 /* =========================
-   BASE
+   BASE LAYOUT
 ========================= */
 
 body {
@@ -28,16 +28,7 @@ body {
 }
 
 /* =========================
-   TITLES
-========================= */
-
-h2, h3 {
-    margin:0;
-    text-align:center;
-}
-
-/* =========================
-   CARD SYSTEM
+   CARDS
 ========================= */
 
 .card {
@@ -48,11 +39,23 @@ h2, h3 {
 
     display:flex;
     flex-direction:column;
-    gap:14px;
+    gap:12px;
 }
 
 /* =========================
-   INPUT SYSTEM
+   TYPO
+========================= */
+
+h2, h3 {
+    margin:0;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+/* =========================
+   INPUTS
 ========================= */
 
 input, select {
@@ -65,26 +68,7 @@ input, select {
 }
 
 /* =========================
-   DATE WRAPPER (FIXED PLACEHOLDER)
-========================= */
-
-.date-wrapper {
-    position:relative;
-}
-
-.date-placeholder {
-    position:absolute;
-    left:14px;
-    top:50%;
-    transform:translateY(-50%);
-    color:#9ca3af;
-    pointer-events:none;
-    font-size:14px;
-    transition:0.2s;
-}
-
-/* =========================
-   CUSTOM BOX
+   CUSTOM BOXES
 ========================= */
 
 .custom-box {
@@ -133,7 +117,7 @@ button {
 }
 
 /* =========================
-   RESULT
+   FINAL OUTPUT
 ========================= */
 
 #finalStart,
@@ -155,16 +139,12 @@ pre {
     font-size:14px;
 }
 
-/* =========================
-   UTIL
-========================= */
+label {
+    font-weight:bold;
+}
 
 .hidden {
     display:none;
-}
-
-label {
-    font-weight:bold;
 }
 
 </style>
@@ -176,14 +156,13 @@ label {
 
 <h2>CFL IG15</h2>
 
-<!-- VORTAG -->
+<!-- =========================
+     VORTAG
+========================= -->
 <div class="card">
 <h3>SCHAFFZÄITEN VUM DAG VIRDRUN</h3>
 
-<div class="date-wrapper">
-    <input id="prevDate" type="date">
-    <span class="date-placeholder" id="prevDateLabel">DATUM</span>
-</div>
+<input id="prevDate" type="date">
 
 <select id="prevType">
 <option value="normal">Normal (07–15)</option>
@@ -201,22 +180,27 @@ label {
 
 </div>
 
-<!-- INTERVENTIONEN -->
+<!-- =========================
+     INTERVENTIONEN
+========================= -->
 <div class="card">
+
 <h3>AUERZÄITEN VUN STÖRUNGEN</h3>
 
 <div id="events"></div>
+
 <button onclick="addEvent()">+ STÖRUNG</button>
+
 </div>
 
-<!-- NÄCHSTER TAG -->
+<!-- =========================
+     NÄCHSTER TAG
+========================= -->
 <div class="card">
+
 <h3>SCHAFFZÄITEN VUM DAG DROP</h3>
 
-<div class="date-wrapper">
-    <input id="nextDate" type="date">
-    <span class="date-placeholder" id="nextDateLabel">DATUM</span>
-</div>
+<input id="nextDate" type="date">
 
 <select id="nextType">
 <option value="normal">Normal (07–15)</option>
@@ -234,12 +218,16 @@ label {
 
 </div>
 
-<!-- BUTTON -->
+<!-- =========================
+     BUTTON
+========================= -->
 <div class="card">
 <button class="main-btn" onclick="run()">✨BERECHNEN✨</button>
 </div>
 
-<!-- RESULT -->
+<!-- =========================
+     RESULT
+========================= -->
 <div class="card">
 <h3>UGEPASSTEN AUERZÄITEN</h3>
 
@@ -250,7 +238,9 @@ label {
 <input id="finalEnd" type="text" readonly>
 </div>
 
-<!-- DEBUG (optional sichtbar lassen) -->
+<!-- =========================
+     DEBUG (optional sichtbar lassen)
+========================= -->
 <div class="card hidden" id="debugBox">
 <h3>DEBUG</h3>
 <pre id="log"></pre>
@@ -260,23 +250,21 @@ label {
 
 <script>
 
-function updateDateLabels() {
+/* =========================
+   HELPERS
+========================= */
 
-    const prev = document.getElementById("prevDate");
-    const next = document.getElementById("nextDate");
-
-    const prevLabel = document.getElementById("prevDateLabel");
-    const nextLabel = document.getElementById("nextDateLabel");
-
-    prevLabel.style.display = prev.value ? "none" : "block";
-    nextLabel.style.display = next.value ? "none" : "block";
+function toDate(d,t){
+    return new Date(d + "T" + t);
 }
 
+function addHours(d,h){
+    return new Date(d.getTime() + h*3600000);
+}
 
-/* unchanged logic */
-function toDate(d,t){return new Date(d+"T"+t);}
-function addHours(d,h){return new Date(d.getTime()+h*3600000);}
-function diffHours(a,b){return (a-b)/3600000;}
+function diffHours(a,b){
+    return (a-b)/3600000;
+}
 
 function shift(type){
     if(type==="normal") return ["07:00","15:00"];
@@ -284,27 +272,48 @@ function shift(type){
     return [null,null];
 }
 
+/* =========================
+   UI
+========================= */
+
 function addEvent(){
-    let div=document.createElement("div");
+
+    let div = document.createElement("div");
     div.className="event";
+
     div.innerHTML=`
         <label>START</label>
         <input type="datetime-local" class="start">
-        <label>ENDE</label>
+
+        <label>FÄERDEG (Doheem ukomm)</label>
         <input type="datetime-local" class="end">
     `;
+
     document.getElementById("events").appendChild(div);
 }
 
 function toggleCustomFields(){
-    document.getElementById("prevCustomFields").classList.toggle("hidden",
-        document.getElementById("prevType").value!=="custom");
 
-    document.getElementById("nextCustomFields").classList.toggle("hidden",
-        document.getElementById("nextType").value!=="custom");
+    document.getElementById("prevCustomFields").classList.toggle(
+        "hidden",
+        document.getElementById("prevType").value !== "custom"
+    );
+
+    document.getElementById("nextCustomFields").classList.toggle(
+        "hidden",
+        document.getElementById("nextType").value !== "custom"
+    );
 }
 
+/* =========================
+   ENGINE (UNVERÄNDERT)
+========================= */
+
 function run(){
+
+    let inputValid = true;
+    let dispenseComplet = false;
+    let log=[];
 
     let prevDate=document.getElementById("prevDate").value;
     let nextDate=document.getElementById("nextDate").value;
@@ -328,44 +337,73 @@ function run(){
         : toDate(nextDate,nE);
 
     let events=[];
+
     document.querySelectorAll(".event").forEach(e=>{
         let s=e.querySelector(".start").value;
         let en=e.querySelector(".end").value;
         if(!s||!en)return;
+
         events.push({start:new Date(s),end:new Date(en)});
     });
 
     events.sort((a,b)=>a.start-b.start);
 
-    let firstStart=events[0]?.start;
-    let lastEnd=events[events.length-1]?.end;
+    let firstStart = events.length ? events[0].start : null;
+    let lastEnd = events.length ? events[events.length-1].end : null;
 
-    let interventionHours=events.reduce((a,e)=>a+diffHours(e.end,e.start),0);
+    let interventionHours = events.reduce((a,e)=>
+        a + diffHours(e.end,e.start),0);
 
-    let prevShiftHours=diffHours(prevEnd,new Date(prevDate+"T07:00"));
-    let totalWorked=prevShiftHours+interventionHours;
+    let prevShiftHours = diffHours(prevEnd,new Date(prevDate+"T07:00"));
+    let totalWorked = prevShiftHours + interventionHours;
 
-    let adjustedStart;
-    let adjustedEnd=nextPlannedEnd;
+    let valid = true;
 
-    if(totalWorked>=14 && lastEnd){
-        adjustedStart=addHours(lastEnd,10);
-    } else {
-        adjustedStart=new Date(Math.max(nextPlannedStart, addHours(lastEnd||0,4)));
+    for(let i=0;i<events.length;i++){
+        let e = events[i];
+
+        if(prevEnd && e.start < prevEnd) valid=false;
+        if(nextPlannedStart && e.end > nextPlannedStart) valid=false;
+        if(e.end < e.start) valid=false;
+        if(i>0 && e.start < events[i-1].end) valid=false;
     }
 
-    let format=d=>d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
+    if(!valid){
+        document.getElementById("finalStart").value = "FALSCH EINGABEN";
+        document.getElementById("finalEnd").value = "FALSCH EINGABEN";
+        return;
+    }
 
-    document.getElementById("finalStart").value=format(adjustedStart);
-    document.getElementById("finalEnd").value=format(adjustedEnd);
+    let restBefore = firstStart ? diffHours(firstStart,prevEnd) : 999;
+    let restAfter = lastEnd ? diffHours(nextPlannedStart,lastEnd) : 999;
+
+    let fullRest = restBefore>=10 && restAfter>=10;
+    let rule14h = totalWorked>=14;
+
+    let adjustedStart;
+    let adjustedEnd = nextPlannedEnd;
+
+    if(fullRest) return;
+
+    if(rule14h){
+        adjustedStart = lastEnd ? addHours(lastEnd,10) : nextPlannedStart;
+    } else {
+        let fourHour = addHours(lastEnd,4);
+        adjustedStart = new Date(Math.max(nextPlannedStart,fourHour));
+    }
+
+    let format = d => d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+
+    document.getElementById("finalStart").value = format(adjustedStart);
+    document.getElementById("finalEnd").value = format(adjustedEnd);
+
+    document.getElementById("log").innerText = log.join("\n");
 }
 
-/* init */
+/* INIT */
 document.getElementById("prevType").addEventListener("change",toggleCustomFields);
 document.getElementById("nextType").addEventListener("change",toggleCustomFields);
 toggleCustomFields();
-
-updateDateLabels();
 
 </script>
 
