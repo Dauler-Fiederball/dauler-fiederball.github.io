@@ -1,24 +1,24 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "28.03.2026 17:18:14",
+  "datum": "27.06.2026 09:32:52",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
   "vereine": [
     {
-      "name": "Aris",
+      "name": "?",
       "id": 1
     },
     {
-      "name": "Badminton Woltz",
+      "name": "Aris",
       "id": 2
     },
     {
-      "name": "Chestro'Bad Neufchateau",
+      "name": "Dauler Fiederball",
       "id": 3
     },
     {
-      "name": "Dauler Fiederball",
+      "name": "Fiederball Reckeng",
       "id": 4
     },
     {
@@ -26,2384 +26,378 @@
       "id": 5
     },
     {
-      "name": "Rosport",
+      "name": "Jonglënster",
       "id": 6
     },
     {
-      "name": "Walfer",
+      "name": "Mëllerdall",
       "id": 7
     }
   ],
   "spieler": [
     {
-      "nachname": "Abdullah",
-      "vorname": "Sipra",
+      "nachname": "Biwer",
+      "vorname": "Laure",
       "geschlecht": "F",
-      "verein": 7,
+      "verein": 5,
       "id": 1
     },
     {
-      "nachname": "Alain",
-      "vorname": "Wenner",
+      "nachname": "Boes",
+      "vorname": "Mandy",
       "geschlecht": "F",
-      "verein": 1,
+      "verein": 3,
       "id": 2
     },
     {
-      "nachname": "Alexandre",
-      "vorname": "Samlane",
-      "geschlecht": "F",
-      "verein": 3,
+      "nachname": "Decker",
+      "vorname": "Thomas",
+      "geschlecht": "M",
+      "verein": 1,
       "id": 3
     },
     {
-      "nachname": "Alix",
-      "vorname": "Hennus",
-      "geschlecht": "F",
-      "verein": 3,
+      "nachname": "Denotte",
+      "vorname": "Yann",
+      "geschlecht": "M",
+      "verein": 4,
       "id": 4
     },
     {
-      "nachname": "Amir",
-      "vorname": "Mir Motahari",
-      "geschlecht": "F",
-      "verein": 1,
+      "nachname": "Engeldinger",
+      "vorname": "Tom",
+      "geschlecht": "M",
+      "verein": 3,
       "id": 5
     },
     {
-      "nachname": "Anita",
-      "vorname": "Kayser",
-      "geschlecht": "F",
+      "nachname": "Hoogenhout",
+      "vorname": "Maurice",
+      "geschlecht": "M",
       "verein": 4,
       "id": 6
     },
     {
-      "nachname": "Astrid",
-      "vorname": "Hennus",
-      "geschlecht": "F",
-      "verein": 3,
+      "nachname": "Jungen",
+      "vorname": "Leonard",
+      "geschlecht": "M",
+      "verein": 5,
       "id": 7
     },
     {
-      "nachname": "Carmen",
-      "vorname": "Heinen",
-      "geschlecht": "F",
+      "nachname": "Jungen",
+      "vorname": "Richard",
+      "geschlecht": "M",
       "verein": 5,
       "id": 8
     },
     {
-      "nachname": "Carole",
-      "vorname": "Goelff",
+      "nachname": "Kayser",
+      "vorname": "Anita",
       "geschlecht": "F",
-      "verein": 4,
+      "verein": 3,
       "id": 9
     },
     {
-      "nachname": "Chloé",
-      "vorname": "Connen de Kerillis",
-      "geschlecht": "F",
-      "verein": 1,
+      "nachname": "Kayser",
+      "vorname": "Claude",
+      "geschlecht": "M",
+      "verein": 3,
       "id": 10
     },
     {
-      "nachname": "Claude",
-      "vorname": "Kayser",
-      "geschlecht": "F",
-      "verein": 4,
+      "nachname": "Leveque",
+      "vorname": "Florent",
+      "geschlecht": "M",
+      "verein": 2,
       "id": 11
     },
     {
-      "nachname": "Felix",
-      "vorname": "Loos",
-      "geschlecht": "F",
-      "verein": 4,
+      "nachname": "Loos",
+      "vorname": "Felix",
+      "geschlecht": "M",
+      "verein": 3,
       "id": 12
     },
     {
-      "nachname": "Florent",
-      "vorname": "Leveque",
+      "nachname": "Mesen",
+      "vorname": "Sandy",
       "geschlecht": "F",
-      "verein": 1,
+      "verein": 7,
       "id": 13
     },
     {
-      "nachname": "Flynn",
-      "vorname": "Bernardin",
-      "geschlecht": "F",
-      "verein": 6,
+      "nachname": "Ney",
+      "vorname": "Theo",
+      "geschlecht": "M",
+      "verein": 3,
       "id": 14
     },
     {
-      "nachname": "Fränk",
-      "vorname": "Hoffmann",
-      "geschlecht": "F",
-      "verein": 4,
+      "nachname": "Poupinot",
+      "vorname": "Jean",
+      "geschlecht": "M",
+      "verein": 5,
       "id": 15
     },
     {
-      "nachname": "Fränk",
-      "vorname": "Maas",
-      "geschlecht": "F",
-      "verein": 4,
+      "nachname": "Ribeiro",
+      "vorname": "Max",
+      "geschlecht": "M",
+      "verein": 3,
       "id": 16
     },
     {
-      "nachname": "Fränk",
-      "vorname": "Welfring",
+      "nachname": "Richard",
+      "vorname": "Ronny",
       "geschlecht": "M",
-      "verein": 4,
+      "verein": 7,
       "id": 17
     },
     {
-      "nachname": "Jos",
-      "vorname": "Wiltgen",
-      "geschlecht": "F",
+      "nachname": "Warning",
+      "vorname": "Patrick",
+      "geschlecht": "M",
       "verein": 6,
       "id": 18
     },
     {
-      "nachname": "Loïc",
-      "vorname": "Maller",
-      "geschlecht": "F",
-      "verein": 5,
+      "nachname": "Weiler",
+      "vorname": "Sam",
+      "geschlecht": "M",
+      "verein": 4,
       "id": 19
     },
     {
-      "nachname": "Luca",
-      "vorname": "Soares",
-      "geschlecht": "F",
-      "verein": 6,
+      "nachname": "Wilmes",
+      "vorname": "Shane",
+      "geschlecht": "M",
+      "verein": 7,
       "id": 20
     },
     {
-      "nachname": "Mandy",
-      "vorname": "Boes",
-      "geschlecht": "F",
-      "verein": 4,
+      "nachname": "Wilmes",
+      "vorname": "Thierry",
+      "geschlecht": "M",
+      "verein": 7,
       "id": 21
     },
     {
-      "nachname": "Marc",
-      "vorname": "Berchem",
+      "nachname": "Zeyen",
+      "vorname": "Michèle",
       "geschlecht": "F",
-      "verein": 5,
+      "verein": 4,
       "id": 22
-    },
-    {
-      "nachname": "Marc",
-      "vorname": "Steichen",
-      "geschlecht": "F",
-      "verein": 4,
-      "id": 23
-    },
-    {
-      "nachname": "Marine",
-      "vorname": "Cossin",
-      "geschlecht": "F",
-      "verein": 3,
-      "id": 24
-    },
-    {
-      "nachname": "Marvin",
-      "vorname": "Bormann",
-      "geschlecht": "F",
-      "verein": 6,
-      "id": 25
-    },
-    {
-      "nachname": "Max",
-      "vorname": "Ribeiro",
-      "geschlecht": "F",
-      "verein": 4,
-      "id": 26
-    },
-    {
-      "nachname": "Mike",
-      "vorname": "Nguyen",
-      "geschlecht": "F",
-      "verein": 2,
-      "id": 27
-    },
-    {
-      "nachname": "Mindaugas",
-      "vorname": "Voskas",
-      "geschlecht": "F",
-      "verein": 7,
-      "id": 28
-    },
-    {
-      "nachname": "Minh",
-      "vorname": "Nguyen",
-      "geschlecht": "M",
-      "verein": 2,
-      "id": 29
-    },
-    {
-      "nachname": "Monique",
-      "vorname": "Zambon",
-      "geschlecht": "F",
-      "verein": 1,
-      "id": 30
-    },
-    {
-      "nachname": "Mélina",
-      "vorname": "Wembo",
-      "geschlecht": "F",
-      "verein": 3,
-      "id": 31
-    },
-    {
-      "nachname": "Nicolas",
-      "vorname": "Brito Gomes",
-      "geschlecht": "F",
-      "verein": 1,
-      "id": 32
-    },
-    {
-      "nachname": "Olivier",
-      "vorname": "Quintas",
-      "geschlecht": "F",
-      "verein": 5,
-      "id": 33
-    },
-    {
-      "nachname": "Rick",
-      "vorname": "Pinazza",
-      "geschlecht": "F",
-      "verein": 2,
-      "id": 34
-    },
-    {
-      "nachname": "Robert",
-      "vorname": "Merkle",
-      "geschlecht": "F",
-      "verein": 7,
-      "id": 35
-    },
-    {
-      "nachname": "Saad",
-      "vorname": "Siddiqui",
-      "geschlecht": "F",
-      "verein": 7,
-      "id": 36
-    },
-    {
-      "nachname": "Steve",
-      "vorname": "Schmitz",
-      "geschlecht": "F",
-      "verein": 2,
-      "id": 37
-    },
-    {
-      "nachname": "Theo",
-      "vorname": "Ney",
-      "geschlecht": "F",
-      "verein": 4,
-      "id": 38
-    },
-    {
-      "nachname": "Valérie",
-      "vorname": "Arens",
-      "geschlecht": "F",
-      "verein": 4,
-      "id": 39
-    },
-    {
-      "nachname": "Yannick",
-      "vorname": "Lenertz",
-      "geschlecht": "F",
-      "verein": 3,
-      "id": 40
     }
   ],
   "disziplinen": [
     {
-      "name": "Tournoi 28.03.2026",
+      "name": "Tournoi 04.07.2026",
       "teamsize": 2,
       "geschlecht": 3,
-      "system": 30,
+      "system": 20,
       "saetze": 2,
       "freiloswertung": "1:0",
-      "status": 2,
+      "status": 0,
       "id": 1,
       "meldungen": [
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 1
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 2
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 3
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 4
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 5
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 6
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 7
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 8
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 9
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 10
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 11
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 12
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 13
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 14
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 15
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 16
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 17
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 18
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
-          "spieler": null,
-          "id": 19
+          "punkte": null
         },
         {
+          "spieler": null,
+          "id": 23,
           "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null,
+          "punkte": null
+        },
+        {
           "spieler": null,
-          "id": 20
-        }
-      ],
-      "runden": [
-        {
-          "id": 1,
-          "spiele": [
-            {
-              "feld": -1,
-              "result": [
-                [
-                  17,
-                  15
-                ],
-                [
-                  4,
-                  15
-                ],
-                [
-                  7,
-                  15
-                ]
-              ],
-              "heim": [
-                7,
-                24
-              ],
-              "gast": [
-                14,
-                25
-              ],
-              "id": 1
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  15,
-                  5
-                ],
-                [
-                  15,
-                  5
-                ]
-              ],
-              "heim": [
-                19,
-                22
-              ],
-              "gast": [
-                6,
-                23
-              ],
-              "id": 2
-            },
-            {
-              "feld": -3,
-              "result": [
-                [
-                  15,
-                  4
-                ],
-                [
-                  15,
-                  9
-                ]
-              ],
-              "heim": [
-                13,
-                10
-              ],
-              "gast": [
-                17,
-                29
-              ],
-              "id": 3
-            },
-            {
-              "feld": -3,
-              "result": [
-                [
-                  11,
-                  15
-                ],
-                [
-                  5,
-                  15
-                ]
-              ],
-              "heim": [
-                4,
-                40
-              ],
-              "gast": [
-                9,
-                37
-              ],
-              "id": 4
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  15,
-                  6
-                ],
-                [
-                  15,
-                  6
-                ]
-              ],
-              "heim": [
-                2,
-                30
-              ],
-              "gast": [
-                3,
-                31
-              ],
-              "id": 5
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  15,
-                  12
-                ],
-                [
-                  15,
-                  12
-                ]
-              ],
-              "heim": [
-                8,
-                33
-              ],
-              "gast": [
-                21,
-                26
-              ],
-              "id": 6
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  10,
-                  15
-                ],
-                [
-                  8,
-                  15
-                ]
-              ],
-              "heim": [
-                12,
-                38
-              ],
-              "gast": [
-                5,
-                32
-              ],
-              "id": 7
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  10,
-                  15
-                ],
-                [
-                  8,
-                  15
-                ]
-              ],
-              "heim": [
-                34,
-                27
-              ],
-              "gast": [
-                36,
-                1
-              ],
-              "id": 8
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  15,
-                  9
-                ],
-                [
-                  14,
-                  16
-                ],
-                [
-                  6,
-                  15
-                ]
-              ],
-              "heim": [
-                16,
-                39
-              ],
-              "gast": [
-                20,
-                18
-              ],
-              "id": 9
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  9,
-                  15
-                ],
-                [
-                  3,
-                  15
-                ]
-              ],
-              "heim": [
-                11,
-                15
-              ],
-              "gast": [
-                35,
-                28
-              ],
-              "id": 10
-            }
-          ]
+          "id": 23,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
         },
         {
-          "id": 2,
-          "spiele": [
-            {
-              "feld": -1,
-              "result": [
-                [
-                  10,
-                  15
-                ],
-                [
-                  15,
-                  11
-                ],
-                [
-                  15,
-                  13
-                ]
-              ],
-              "heim": [
-                19,
-                22
-              ],
-              "gast": [
-                14,
-                25
-              ],
-              "id": 1
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  8,
-                  15
-                ],
-                [
-                  8,
-                  15
-                ]
-              ],
-              "heim": [
-                20,
-                18
-              ],
-              "gast": [
-                2,
-                30
-              ],
-              "id": 2
-            },
-            {
-              "feld": -3,
-              "result": [
-                [
-                  15,
-                  11
-                ],
-                [
-                  15,
-                  5
-                ]
-              ],
-              "heim": [
-                5,
-                32
-              ],
-              "gast": [
-                36,
-                1
-              ],
-              "id": 3
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  10,
-                  15
-                ],
-                [
-                  6,
-                  15
-                ]
-              ],
-              "heim": [
-                35,
-                28
-              ],
-              "gast": [
-                13,
-                10
-              ],
-              "id": 4
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  12,
-                  15
-                ],
-                [
-                  5,
-                  15
-                ]
-              ],
-              "heim": [
-                9,
-                37
-              ],
-              "gast": [
-                8,
-                33
-              ],
-              "id": 5
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  13,
-                  15
-                ],
-                [
-                  17,
-                  15
-                ],
-                [
-                  15,
-                  13
-                ]
-              ],
-              "heim": [
-                34,
-                27
-              ],
-              "gast": [
-                3,
-                31
-              ],
-              "id": 6
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  7,
-                  15
-                ],
-                [
-                  10,
-                  15
-                ]
-              ],
-              "heim": [
-                6,
-                23
-              ],
-              "gast": [
-                12,
-                38
-              ],
-              "id": 7
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  10,
-                  15
-                ],
-                [
-                  8,
-                  15
-                ]
-              ],
-              "heim": [
-                4,
-                40
-              ],
-              "gast": [
-                11,
-                15
-              ],
-              "id": 8
-            },
-            {
-              "feld": -3,
-              "result": [
-                [
-                  6,
-                  15
-                ],
-                [
-                  4,
-                  15
-                ]
-              ],
-              "heim": [
-                16,
-                39
-              ],
-              "gast": [
-                21,
-                26
-              ],
-              "id": 9
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  12,
-                  15
-                ],
-                [
-                  15,
-                  9
-                ],
-                [
-                  15,
-                  17
-                ]
-              ],
-              "heim": [
-                17,
-                29
-              ],
-              "gast": [
-                7,
-                24
-              ],
-              "id": 10
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "spiele": [
-            {
-              "feld": -1,
-              "result": [
-                [
-                  15,
-                  8
-                ],
-                [
-                  15,
-                  7
-                ]
-              ],
-              "heim": [
-                13,
-                10
-              ],
-              "gast": [
-                19,
-                22
-              ],
-              "id": 1
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  15,
-                  5
-                ],
-                [
-                  15,
-                  7
-                ]
-              ],
-              "heim": [
-                5,
-                32
-              ],
-              "gast": [
-                2,
-                30
-              ],
-              "id": 2
-            },
-            {
-              "feld": -3,
-              "result": [
-                [
-                  7,
-                  15
-                ],
-                [
-                  15,
-                  13
-                ],
-                [
-                  12,
-                  15
-                ]
-              ],
-              "heim": [
-                8,
-                33
-              ],
-              "gast": [
-                12,
-                38
-              ],
-              "id": 3
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  17,
-                  19
-                ],
-                [
-                  17,
-                  15
-                ],
-                [
-                  15,
-                  11
-                ]
-              ],
-              "heim": [
-                9,
-                37
-              ],
-              "gast": [
-                11,
-                15
-              ],
-              "id": 4
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  8,
-                  15
-                ],
-                [
-                  10,
-                  15
-                ]
-              ],
-              "heim": [
-                34,
-                27
-              ],
-              "gast": [
-                14,
-                25
-              ],
-              "id": 5
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  10,
-                  15
-                ],
-                [
-                  11,
-                  15
-                ]
-              ],
-              "heim": [
-                21,
-                26
-              ],
-              "gast": [
-                7,
-                24
-              ],
-              "id": 6
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  9,
-                  15
-                ],
-                [
-                  10,
-                  15
-                ]
-              ],
-              "heim": [
-                36,
-                1
-              ],
-              "gast": [
-                35,
-                28
-              ],
-              "id": 7
-            },
-            {
-              "feld": -1,
-              "result": [
-                [
-                  8,
-                  15
-                ],
-                [
-                  12,
-                  15
-                ]
-              ],
-              "heim": [
-                20,
-                18
-              ],
-              "gast": [
-                17,
-                29
-              ],
-              "id": 8
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  15,
-                  10
-                ],
-                [
-                  8,
-                  15
-                ],
-                [
-                  15,
-                  13
-                ]
-              ],
-              "heim": [
-                3,
-                31
-              ],
-              "gast": [
-                16,
-                39
-              ],
-              "id": 9
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  15,
-                  6
-                ],
-                [
-                  15,
-                  13
-                ]
-              ],
-              "heim": [
-                6,
-                23
-              ],
-              "gast": [
-                4,
-                40
-              ],
-              "id": 10
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "spiele": [
-            {
-              "feld": -1,
-              "result": [
-                [
-                  18,
-                  16
-                ],
-                [
-                  15,
-                  11
-                ]
-              ],
-              "heim": [
-                13,
-                10
-              ],
-              "gast": [
-                5,
-                32
-              ],
-              "id": 1
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  13,
-                  15
-                ],
-                [
-                  6,
-                  15
-                ]
-              ],
-              "heim": [
-                12,
-                38
-              ],
-              "gast": [
-                14,
-                25
-              ],
-              "id": 2
-            },
-            {
-              "feld": -3,
-              "result": [
-                [
-                  15,
-                  13
-                ],
-                [
-                  12,
-                  15
-                ],
-                [
-                  15,
-                  10
-                ]
-              ],
-              "heim": [
-                8,
-                33
-              ],
-              "gast": [
-                2,
-                30
-              ],
-              "id": 3
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  1,
-                  15
-                ],
-                [
-                  7,
-                  15
-                ]
-              ],
-              "heim": [
-                9,
-                37
-              ],
-              "gast": [
-                7,
-                24
-              ],
-              "id": 4
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  7,
-                  15
-                ],
-                [
-                  15,
-                  13
-                ],
-                [
-                  15,
-                  9
-                ]
-              ],
-              "heim": [
-                19,
-                22
-              ],
-              "gast": [
-                35,
-                28
-              ],
-              "id": 5
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  12,
-                  15
-                ],
-                [
-                  3,
-                  15
-                ]
-              ],
-              "heim": [
-                20,
-                18
-              ],
-              "gast": [
-                34,
-                27
-              ],
-              "id": 6
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  15,
-                  8
-                ],
-                [
-                  15,
-                  13
-                ]
-              ],
-              "heim": [
-                17,
-                29
-              ],
-              "gast": [
-                6,
-                23
-              ],
-              "id": 7
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  10,
-                  15
-                ],
-                [
-                  9,
-                  15
-                ]
-              ],
-              "heim": [
-                11,
-                15
-              ],
-              "gast": [
-                36,
-                1
-              ],
-              "id": 8
-            },
-            {
-              "feld": -1,
-              "result": [
-                [
-                  12,
-                  15
-                ],
-                [
-                  9,
-                  15
-                ]
-              ],
-              "heim": [
-                3,
-                31
-              ],
-              "gast": [
-                21,
-                26
-              ],
-              "id": 9
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  13,
-                  15
-                ],
-                [
-                  9,
-                  15
-                ]
-              ],
-              "heim": [
-                4,
-                40
-              ],
-              "gast": [
-                16,
-                39
-              ],
-              "id": 10
-            }
-          ]
-        },
-        {
-          "id": 5,
-          "spiele": [
-            {
-              "feld": -1,
-              "result": [
-                [
-                  15,
-                  8
-                ],
-                [
-                  12,
-                  15
-                ],
-                [
-                  15,
-                  10
-                ]
-              ],
-              "heim": [
-                13,
-                10
-              ],
-              "gast": [
-                14,
-                25
-              ],
-              "id": 1
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  15,
-                  12
-                ],
-                [
-                  14,
-                  16
-                ],
-                [
-                  15,
-                  13
-                ]
-              ],
-              "heim": [
-                8,
-                33
-              ],
-              "gast": [
-                7,
-                24
-              ],
-              "id": 2
-            },
-            {
-              "feld": -3,
-              "result": [
-                [
-                  17,
-                  15
-                ],
-                [
-                  15,
-                  9
-                ]
-              ],
-              "heim": [
-                5,
-                32
-              ],
-              "gast": [
-                19,
-                22
-              ],
-              "id": 3
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  15,
-                  17
-                ],
-                [
-                  3,
-                  15
-                ]
-              ],
-              "heim": [
-                17,
-                29
-              ],
-              "gast": [
-                12,
-                38
-              ],
-              "id": 4
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  15,
-                  5
-                ],
-                [
-                  15,
-                  5
-                ]
-              ],
-              "heim": [
-                35,
-                28
-              ],
-              "gast": [
-                9,
-                37
-              ],
-              "id": 5
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  8,
-                  15
-                ],
-                [
-                  9,
-                  15
-                ]
-              ],
-              "heim": [
-                34,
-                27
-              ],
-              "gast": [
-                2,
-                30
-              ],
-              "id": 6
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  15,
-                  11
-                ],
-                [
-                  6,
-                  15
-                ],
-                [
-                  6,
-                  15
-                ]
-              ],
-              "heim": [
-                36,
-                1
-              ],
-              "gast": [
-                21,
-                26
-              ],
-              "id": 7
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  17,
-                  19
-                ],
-                [
-                  15,
-                  12
-                ],
-                [
-                  6,
-                  15
-                ]
-              ],
-              "heim": [
-                20,
-                18
-              ],
-              "gast": [
-                11,
-                15
-              ],
-              "id": 8
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  16,
-                  14
-                ],
-                [
-                  15,
-                  13
-                ]
-              ],
-              "heim": [
-                6,
-                23
-              ],
-              "gast": [
-                16,
-                39
-              ],
-              "id": 9
-            },
-            {
-              "feld": -3,
-              "result": [
-                [
-                  14,
-                  16
-                ],
-                [
-                  9,
-                  15
-                ]
-              ],
-              "heim": [
-                3,
-                31
-              ],
-              "gast": [
-                4,
-                40
-              ],
-              "id": 10
-            }
-          ]
-        },
-        {
-          "id": 6,
-          "spiele": [
-            {
-              "feld": -1,
-              "result": [
-                [
-                  11,
-                  15
-                ],
-                [
-                  15,
-                  13
-                ],
-                [
-                  15,
-                  6
-                ]
-              ],
-              "heim": [
-                13,
-                10
-              ],
-              "gast": [
-                8,
-                33
-              ],
-              "id": 1
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  15,
-                  7
-                ],
-                [
-                  15,
-                  12
-                ]
-              ],
-              "heim": [
-                5,
-                32
-              ],
-              "gast": [
-                21,
-                26
-              ],
-              "id": 2
-            },
-            {
-              "feld": -3,
-              "result": [
-                [
-                  15,
-                  10
-                ],
-                [
-                  20,
-                  21
-                ],
-                [
-                  15,
-                  11
-                ]
-              ],
-              "heim": [
-                14,
-                25
-              ],
-              "gast": [
-                2,
-                30
-              ],
-              "id": 3
-            },
-            {
-              "feld": -1,
-              "result": [
-                [
-                  9,
-                  15
-                ],
-                [
-                  10,
-                  15
-                ]
-              ],
-              "heim": [
-                12,
-                38
-              ],
-              "gast": [
-                19,
-                22
-              ],
-              "id": 4
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  13,
-                  15
-                ],
-                [
-                  15,
-                  6
-                ],
-                [
-                  8,
-                  15
-                ]
-              ],
-              "heim": [
-                7,
-                24
-              ],
-              "gast": [
-                35,
-                28
-              ],
-              "id": 5
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  15,
-                  11
-                ],
-                [
-                  15,
-                  13
-                ]
-              ],
-              "heim": [
-                17,
-                29
-              ],
-              "gast": [
-                11,
-                15
-              ],
-              "id": 6
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  13,
-                  15
-                ],
-                [
-                  11,
-                  15
-                ]
-              ],
-              "heim": [
-                6,
-                23
-              ],
-              "gast": [
-                36,
-                1
-              ],
-              "id": 7
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  9,
-                  15
-                ],
-                [
-                  12,
-                  15
-                ]
-              ],
-              "heim": [
-                9,
-                37
-              ],
-              "gast": [
-                3,
-                31
-              ],
-              "id": 8
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  15,
-                  8
-                ],
-                [
-                  15,
-                  9
-                ]
-              ],
-              "heim": [
-                34,
-                27
-              ],
-              "gast": [
-                16,
-                39
-              ],
-              "id": 9
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  8,
-                  15
-                ],
-                [
-                  15,
-                  12
-                ],
-                [
-                  10,
-                  15
-                ]
-              ],
-              "heim": [
-                4,
-                40
-              ],
-              "gast": [
-                20,
-                18
-              ],
-              "id": 10
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "spiele": [
-            {
-              "feld": -1,
-              "result": [
-                [
-                  15,
-                  12
-                ],
-                [
-                  15,
-                  5
-                ]
-              ],
-              "heim": [
-                13,
-                10
-              ],
-              "gast": [
-                7,
-                24
-              ],
-              "id": 1
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  15,
-                  3
-                ],
-                [
-                  15,
-                  3
-                ]
-              ],
-              "heim": [
-                5,
-                32
-              ],
-              "gast": [
-                34,
-                27
-              ],
-              "id": 2
-            },
-            {
-              "feld": -3,
-              "result": [
-                [
-                  8,
-                  15
-                ],
-                [
-                  6,
-                  15
-                ]
-              ],
-              "heim": [
-                8,
-                33
-              ],
-              "gast": [
-                14,
-                25
-              ],
-              "id": 3
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  15,
-                  10
-                ],
-                [
-                  12,
-                  15
-                ],
-                [
-                  6,
-                  15
-                ]
-              ],
-              "heim": [
-                35,
-                28
-              ],
-              "gast": [
-                21,
-                26
-              ],
-              "id": 4
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  18,
-                  16
-                ],
-                [
-                  15,
-                  10
-                ]
-              ],
-              "heim": [
-                19,
-                22
-              ],
-              "gast": [
-                17,
-                29
-              ],
-              "id": 5
-            },
-            {
-              "feld": -1,
-              "result": [
-                [
-                  15,
-                  12
-                ],
-                [
-                  15,
-                  8
-                ]
-              ],
-              "heim": [
-                12,
-                38
-              ],
-              "gast": [
-                36,
-                1
-              ],
-              "id": 6
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  15,
-                  6
-                ],
-                [
-                  15,
-                  7
-                ]
-              ],
-              "heim": [
-                2,
-                30
-              ],
-              "gast": [
-                4,
-                40
-              ],
-              "id": 7
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  15,
-                  8
-                ],
-                [
-                  17,
-                  15
-                ]
-              ],
-              "heim": [
-                3,
-                31
-              ],
-              "gast": [
-                20,
-                18
-              ],
-              "id": 8
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  15,
-                  11
-                ],
-                [
-                  15,
-                  10
-                ]
-              ],
-              "heim": [
-                9,
-                37
-              ],
-              "gast": [
-                6,
-                23
-              ],
-              "id": 9
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  16,
-                  14
-                ],
-                [
-                  15,
-                  9
-                ]
-              ],
-              "heim": [
-                11,
-                15
-              ],
-              "gast": [
-                16,
-                39
-              ],
-              "id": 10
-            }
-          ]
-        },
-        {
-          "id": 8,
-          "spiele": [
-            {
-              "feld": -1,
-              "result": [
-                [
-                  18,
-                  16
-                ],
-                [
-                  15,
-                  9
-                ]
-              ],
-              "heim": [
-                13,
-                10
-              ],
-              "gast": [
-                12,
-                38
-              ],
-              "id": 1
-            },
-            {
-              "feld": -2,
-              "result": [
-                [
-                  15,
-                  6
-                ],
-                [
-                  10,
-                  15
-                ],
-                [
-                  18,
-                  16
-                ]
-              ],
-              "heim": [
-                5,
-                32
-              ],
-              "gast": [
-                35,
-                28
-              ],
-              "id": 2
-            },
-            {
-              "feld": -3,
-              "result": [
-                [
-                  15,
-                  12
-                ],
-                [
-                  15,
-                  11
-                ]
-              ],
-              "heim": [
-                14,
-                25
-              ],
-              "gast": [
-                21,
-                26
-              ],
-              "id": 3
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  15,
-                  9
-                ],
-                [
-                  9,
-                  15
-                ],
-                [
-                  15,
-                  9
-                ]
-              ],
-              "heim": [
-                19,
-                22
-              ],
-              "gast": [
-                8,
-                33
-              ],
-              "id": 4
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  15,
-                  5
-                ],
-                [
-                  15,
-                  6
-                ]
-              ],
-              "heim": [
-                2,
-                30
-              ],
-              "gast": [
-                16,
-                39
-              ],
-              "id": 5
-            },
-            {
-              "feld": -1,
-              "result": [
-                [
-                  15,
-                  8
-                ],
-                [
-                  12,
-                  15
-                ],
-                [
-                  11,
-                  15
-                ]
-              ],
-              "heim": [
-                34,
-                27
-              ],
-              "gast": [
-                17,
-                29
-              ],
-              "id": 6
-            },
-            {
-              "feld": -6,
-              "result": [
-                [
-                  15,
-                  13
-                ],
-                [
-                  13,
-                  15
-                ],
-                [
-                  15,
-                  11
-                ]
-              ],
-              "heim": [
-                3,
-                31
-              ],
-              "gast": [
-                7,
-                24
-              ],
-              "id": 7
-            },
-            {
-              "feld": -5,
-              "result": [
-                [
-                  12,
-                  15
-                ],
-                [
-                  10,
-                  15
-                ]
-              ],
-              "heim": [
-                11,
-                15
-              ],
-              "gast": [
-                6,
-                23
-              ],
-              "id": 8
-            },
-            {
-              "feld": -3,
-              "result": [
-                [
-                  9,
-                  15
-                ],
-                [
-                  15,
-                  11
-                ],
-                [
-                  20,
-                  18
-                ]
-              ],
-              "heim": [
-                9,
-                37
-              ],
-              "gast": [
-                20,
-                18
-              ],
-              "id": 9
-            },
-            {
-              "feld": -4,
-              "result": [
-                [
-                  15,
-                  6
-                ],
-                [
-                  15,
-                  6
-                ]
-              ],
-              "heim": [
-                36,
-                1
-              ],
-              "gast": [
-                4,
-                40
-              ],
-              "id": 10
-            }
-          ]
+          "spieler": null,
+          "id": 23,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
         }
       ]
     }
