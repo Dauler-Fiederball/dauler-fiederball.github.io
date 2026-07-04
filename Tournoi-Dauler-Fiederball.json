@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "04.07.2026 10:46:33",
+  "datum": "04.07.2026 10:53:13",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -397,39 +397,39 @@
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 15,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 15
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 16,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 16
         },
         {
           "platz": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 17,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 18,
-          "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 18,
+          "wertung": null
         },
         {
           "platz": null,
@@ -589,11 +589,15 @@
               "id": 2
             },
             {
-              "feld": 4,
+              "feld": -4,
               "result": [
                 [
                   15,
                   6
+                ],
+                [
+                  15,
+                  13
                 ]
               ],
               "heim": [
@@ -706,6 +710,103 @@
               "heim": [
                 5,
                 12
+              ],
+              "gast": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "spiele": [
+            {
+              "heim": [
+                2,
+                23
+              ],
+              "gast": [
+                16,
+                15
+              ],
+              "id": 1
+            },
+            {
+              "heim": [
+                13,
+                28
+              ],
+              "gast": [
+                7,
+                10
+              ],
+              "id": 2
+            },
+            {
+              "heim": [
+                22,
+                11
+              ],
+              "gast": [
+                20,
+                26
+              ],
+              "id": 3
+            },
+            {
+              "heim": [
+                4,
+                9
+              ],
+              "gast": [
+                6,
+                3
+              ],
+              "id": 4
+            },
+            {
+              "heim": [
+                12,
+                25
+              ],
+              "gast": [
+                17,
+                1
+              ],
+              "id": 5
+            },
+            {
+              "heim": [
+                21,
+                14
+              ],
+              "gast": [
+                19,
+                8
+              ],
+              "id": 6
+            },
+            {
+              "heim": [
+                29,
+                5
+              ],
+              "gast": [
+                30,
+                24
+              ],
+              "id": 7
+            },
+            {
+              "id": 8,
+              "feld": -32767,
+              "result": [
+                [
+                  1,
+                  0
+                ]
+              ],
+              "heim": [
+                18,
+                27
               ],
               "gast": []
             }
