@@ -1,53 +1,49 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "04.07.2026 10:10:08",
+  "datum": "04.07.2026 10:16:36",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
   "vereine": [
     {
-      "name": "?",
+      "name": "Aris",
       "id": 1
     },
     {
-      "name": "Aris",
+      "name": "Attert",
       "id": 2
     },
     {
-      "name": "Attert",
+      "name": "Bitburg",
       "id": 3
     },
     {
-      "name": "Bitburg",
+      "name": "Dauler Fiederball",
       "id": 4
     },
     {
-      "name": "Dauler Fiederball",
+      "name": "Fiederball Reckeng",
       "id": 5
     },
     {
-      "name": "Fiederball Reckeng",
+      "name": "Helperknapp",
       "id": 6
     },
     {
-      "name": "Helperknapp",
+      "name": "Jonglënster",
       "id": 7
     },
     {
-      "name": "Jonglënster",
+      "name": "Mëllerdall",
       "id": 8
     },
     {
-      "name": "Mëllerdall",
+      "name": "Mëllerdall / Bitburg",
       "id": 9
     },
     {
-      "name": "Mëllerdall / Bitburg",
-      "id": 10
-    },
-    {
       "name": "Rosport",
-      "id": 11
+      "id": 10
     }
   ],
   "spieler": [
@@ -55,210 +51,210 @@
       "nachname": "Anita",
       "vorname": "Kayser",
       "geschlecht": "F",
-      "verein": 5,
+      "verein": 4,
       "id": 1
     },
     {
       "nachname": "Bernard",
       "vorname": "Levaux",
       "geschlecht": "M",
-      "verein": 1,
+      "verein": 2,
       "id": 2
     },
     {
       "nachname": "Claude",
       "vorname": "Kayser",
       "geschlecht": "M",
-      "verein": 5,
+      "verein": 4,
       "id": 3
     },
     {
       "nachname": "Claudy",
       "vorname": "Poupinot",
       "geschlecht": "M",
-      "verein": 7,
+      "verein": 6,
       "id": 4
     },
     {
       "nachname": "Eliot",
       "vorname": "Massen",
       "geschlecht": "M",
-      "verein": 9,
+      "verein": 8,
       "id": 5
     },
     {
       "nachname": "Felix",
       "vorname": "Loos",
       "geschlecht": "M",
-      "verein": 5,
+      "verein": 4,
       "id": 6
     },
     {
       "nachname": "Florent",
       "vorname": "Leveque",
       "geschlecht": "M",
-      "verein": 2,
+      "verein": 1,
       "id": 7
     },
     {
       "nachname": "Fränk",
       "vorname": "Hoffmann",
       "geschlecht": "M",
-      "verein": 5,
+      "verein": 4,
       "id": 8
     },
     {
       "nachname": "Jean",
       "vorname": "Poupinot",
       "geschlecht": "M",
-      "verein": 7,
+      "verein": 6,
       "id": 9
     },
     {
       "nachname": "Jos",
       "vorname": "Wiltgen",
       "geschlecht": "M",
-      "verein": 11,
+      "verein": 10,
       "id": 10
     },
     {
       "nachname": "Laure",
       "vorname": "Biver",
       "geschlecht": "F",
-      "verein": 7,
+      "verein": 6,
       "id": 11
     },
     {
       "nachname": "Leonard",
       "vorname": "Jungen",
       "geschlecht": "M",
-      "verein": 7,
+      "verein": 6,
       "id": 12
     },
     {
       "nachname": "Loïc",
       "vorname": "Maller",
       "geschlecht": "M",
-      "verein": 7,
+      "verein": 6,
       "id": 13
     },
     {
       "nachname": "Luca",
       "vorname": "Soares",
       "geschlecht": "M",
-      "verein": 11,
+      "verein": 10,
       "id": 14
     },
     {
       "nachname": "Mandy",
       "vorname": "Boes",
       "geschlecht": "F",
-      "verein": 5,
+      "verein": 4,
       "id": 15
     },
     {
       "nachname": "Maurice",
       "vorname": "Hoogenhout",
       "geschlecht": "M",
-      "verein": 6,
+      "verein": 5,
       "id": 16
     },
     {
       "nachname": "Max",
       "vorname": "Ribeiro",
       "geschlecht": "M",
-      "verein": 5,
+      "verein": 4,
       "id": 17
     },
     {
       "nachname": "Michèle",
       "vorname": "Zeyen",
       "geschlecht": "F",
-      "verein": 6,
+      "verein": 5,
       "id": 18
     },
     {
       "nachname": "Patrick",
       "vorname": "Warning",
       "geschlecht": "M",
-      "verein": 8,
+      "verein": 7,
       "id": 19
     },
     {
       "nachname": "Piotr",
       "vorname": "Chrapa",
       "geschlecht": "M",
-      "verein": 1,
+      "verein": 2,
       "id": 20
     },
     {
       "nachname": "Rischard",
       "vorname": "Jungen",
       "geschlecht": "M",
-      "verein": 7,
+      "verein": 6,
       "id": 21
     },
     {
       "nachname": "Ronny",
       "vorname": "Richard",
       "geschlecht": "M",
-      "verein": 9,
+      "verein": 8,
       "id": 22
     },
     {
       "nachname": "Rose",
       "vorname": "Levaux",
       "geschlecht": "F",
-      "verein": 3,
+      "verein": 2,
       "id": 23
     },
     {
       "nachname": "Sam",
       "vorname": "Weiler",
       "geschlecht": "M",
-      "verein": 6,
+      "verein": 5,
       "id": 24
     },
     {
       "nachname": "Sandy",
       "vorname": "Mesen",
       "geschlecht": "F",
-      "verein": 9,
+      "verein": 8,
       "id": 25
     },
     {
       "nachname": "Theo",
       "vorname": "Ney",
       "geschlecht": "M",
-      "verein": 5,
+      "verein": 4,
       "id": 26
     },
     {
       "nachname": "Thomas",
       "vorname": "Decker",
       "geschlecht": "M",
-      "verein": 10,
+      "verein": 9,
       "id": 27
     },
     {
       "nachname": "Tom",
       "vorname": "Engeldinger",
       "geschlecht": "M",
-      "verein": 5,
+      "verein": 4,
       "id": 28
     },
     {
       "nachname": "Vladyslav",
       "vorname": "Khriienko",
       "geschlecht": "M",
-      "verein": 4,
+      "verein": 3,
       "id": 29
     },
     {
       "nachname": "Yann",
       "vorname": "Denotte",
       "geschlecht": "M",
-      "verein": 6,
+      "verein": 5,
       "id": 30
     }
   ],
