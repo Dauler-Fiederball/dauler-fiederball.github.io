@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "04.07.2026 12:18:23",
+  "datum": "04.07.2026 13:18:24",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -523,21 +523,21 @@
         },
         {
           "platz": null,
+          "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 29,
-          "wertung": null
+          "id": 29
         },
         {
           "platz": null,
+          "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 30,
-          "wertung": null
+          "id": 30
         }
       ],
       "runden": [
@@ -1107,7 +1107,17 @@
               "id": 1
             },
             {
-              "feld": 2,
+              "feld": -2,
+              "result": [
+                [
+                  15,
+                  9
+                ],
+                [
+                  15,
+                  8
+                ]
+              ],
               "heim": [
                 24,
                 21
@@ -1119,7 +1129,17 @@
               "id": 2
             },
             {
-              "feld": 3,
+              "feld": -3,
+              "result": [
+                [
+                  8,
+                  15
+                ],
+                [
+                  8,
+                  15
+                ]
+              ],
               "heim": [
                 6,
                 5
@@ -1131,7 +1151,17 @@
               "id": 3
             },
             {
-              "feld": 4,
+              "feld": -4,
+              "result": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  15,
+                  11
+                ]
+              ],
               "heim": [
                 27,
                 13
@@ -1155,7 +1185,17 @@
               "id": 5
             },
             {
-              "feld": 6,
+              "feld": -6,
+              "result": [
+                [
+                  15,
+                  10
+                ],
+                [
+                  15,
+                  6
+                ]
+              ],
               "heim": [
                 29,
                 26
@@ -1167,6 +1207,7 @@
               "id": 6
             },
             {
+              "feld": 2,
               "heim": [
                 4,
                 2
