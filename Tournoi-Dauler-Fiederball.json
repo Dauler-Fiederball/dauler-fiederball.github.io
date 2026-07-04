@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "04.07.2026 11:09:17",
+  "datum": "04.07.2026 11:19:17",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -442,21 +442,21 @@
         },
         {
           "platz": null,
+          "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 20,
-          "wertung": null
+          "id": 20
         },
         {
           "platz": null,
+          "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 21,
-          "wertung": null
+          "id": 21
         },
         {
           "platz": null,
@@ -753,7 +753,21 @@
               "id": 2
             },
             {
-              "feld": 3,
+              "feld": -3,
+              "result": [
+                [
+                  15,
+                  13
+                ],
+                [
+                  13,
+                  15
+                ],
+                [
+                  8,
+                  15
+                ]
+              ],
               "heim": [
                 22,
                 11
@@ -765,6 +779,7 @@
               "id": 3
             },
             {
+              "feld": 2,
               "heim": [
                 4,
                 9
@@ -788,7 +803,17 @@
               "id": 5
             },
             {
-              "feld": 5,
+              "feld": -5,
+              "result": [
+                [
+                  12,
+                  15
+                ],
+                [
+                  9,
+                  15
+                ]
+              ],
               "heim": [
                 21,
                 14
@@ -800,7 +825,17 @@
               "id": 6
             },
             {
-              "feld": 6,
+              "feld": -6,
+              "result": [
+                [
+                  6,
+                  15
+                ],
+                [
+                  10,
+                  15
+                ]
+              ],
               "heim": [
                 29,
                 5
