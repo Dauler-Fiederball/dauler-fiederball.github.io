@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "30.08.2026 13:39:54",
+  "datum": "30.08.2026 13:40:58",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -144,80 +144,131 @@
       "system": 30,
       "saetze": 1,
       "freiloswertung": "21:10",
-      "status": 0,
+      "status": 1,
       "id": 1,
       "meldungen": [
         {
-          "spieler": null,
-          "id": 9,
           "platz": null,
+          "spieler": null,
+          "id": 1,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 9,
           "platz": null,
+          "spieler": null,
+          "id": 2,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 9,
           "platz": null,
+          "spieler": null,
+          "id": 3,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 9,
           "platz": null,
+          "spieler": null,
+          "id": 4,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 9,
           "platz": null,
+          "spieler": null,
+          "id": 5,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 9,
           "platz": null,
+          "spieler": null,
+          "id": 6,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 9,
           "platz": null,
+          "spieler": null,
+          "id": 7,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 9,
           "platz": null,
+          "spieler": null,
+          "id": 8,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
+        }
+      ],
+      "runden": [
+        {
+          "id": 1,
+          "spiele": [
+            {
+              "heim": [
+                7,
+                10
+              ],
+              "gast": [
+                2,
+                12
+              ],
+              "id": 1
+            },
+            {
+              "heim": [
+                8,
+                9
+              ],
+              "gast": [
+                3,
+                13
+              ],
+              "id": 2
+            },
+            {
+              "heim": [
+                6,
+                5
+              ],
+              "gast": [
+                15,
+                11
+              ],
+              "id": 3
+            },
+            {
+              "heim": [
+                16,
+                1
+              ],
+              "gast": [
+                4,
+                14
+              ],
+              "id": 4
+            }
+          ]
         }
       ]
     }
