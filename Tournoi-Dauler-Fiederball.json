@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "30.08.2026 13:27:41",
+  "datum": "30.08.2026 13:27:46",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -116,62 +116,102 @@
       "system": 30,
       "saetze": 1,
       "freiloswertung": "21:10",
-      "status": 0,
+      "status": 1,
       "id": 1,
       "meldungen": [
         {
-          "spieler": null,
-          "id": 7,
           "platz": null,
+          "spieler": null,
+          "id": 1,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 7,
           "platz": null,
+          "spieler": null,
+          "id": 2,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 7,
           "platz": null,
+          "spieler": null,
+          "id": 3,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 7,
           "platz": null,
+          "spieler": null,
+          "id": 4,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 7,
           "platz": null,
+          "spieler": null,
+          "id": 5,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "spieler": null,
-          "id": 7,
           "platz": null,
+          "spieler": null,
+          "id": 6,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
+        }
+      ],
+      "runden": [
+        {
+          "id": 1,
+          "spiele": [
+            {
+              "heim": [
+                11,
+                9
+              ],
+              "gast": [
+                6,
+                7
+              ],
+              "id": 1
+            },
+            {
+              "heim": [
+                12,
+                1
+              ],
+              "gast": [
+                5,
+                8
+              ],
+              "id": 2
+            },
+            {
+              "heim": [
+                4,
+                3
+              ],
+              "gast": [
+                2,
+                10
+              ],
+              "id": 3
+            }
+          ]
         }
       ]
     }
