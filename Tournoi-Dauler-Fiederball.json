@@ -1,11 +1,113 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "30.08.2026 13:27:25",
+  "datum": "30.08.2026 13:27:41",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
-  "vereine": [],
-  "spieler": [],
+  "vereine": [
+    {
+      "name": "Aris",
+      "id": 1
+    },
+    {
+      "name": "Helperknapp",
+      "id": 2
+    },
+    {
+      "name": "Rosport",
+      "id": 3
+    },
+    {
+      "name": "Walfer",
+      "id": 4
+    }
+  ],
+  "spieler": [
+    {
+      "nachname": "Abdullah",
+      "vorname": "Sipra",
+      "geschlecht": "F",
+      "verein": 4,
+      "id": 1
+    },
+    {
+      "nachname": "Carmen",
+      "vorname": "Heinen",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 2
+    },
+    {
+      "nachname": "Chloé",
+      "vorname": "Konnen de Kerillis",
+      "geschlecht": "F",
+      "verein": 1,
+      "id": 3
+    },
+    {
+      "nachname": "Florent",
+      "vorname": "Leveque",
+      "geschlecht": "F",
+      "verein": 1,
+      "id": 4
+    },
+    {
+      "nachname": "Flynn",
+      "vorname": "Bernardin",
+      "geschlecht": "F",
+      "verein": 3,
+      "id": 5
+    },
+    {
+      "nachname": "Loïc",
+      "vorname": "Maller",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 6
+    },
+    {
+      "nachname": "Marc",
+      "vorname": "Berchem",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 7
+    },
+    {
+      "nachname": "Marvin",
+      "vorname": "Bormann",
+      "geschlecht": "F",
+      "verein": 3,
+      "id": 8
+    },
+    {
+      "nachname": "Mindaugas",
+      "vorname": "Voskas",
+      "geschlecht": "F",
+      "verein": 4,
+      "id": 9
+    },
+    {
+      "nachname": "Olivier",
+      "vorname": "Quintas",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 10
+    },
+    {
+      "nachname": "Robert",
+      "vorname": "Merkle",
+      "geschlecht": "F",
+      "verein": 4,
+      "id": 11
+    },
+    {
+      "nachname": "Saad",
+      "vorname": "Siddiqui",
+      "geschlecht": "F",
+      "verein": 4,
+      "id": 12
+    }
+  ],
   "disziplinen": [
     {
       "name": "Event 1",
@@ -15,7 +117,63 @@
       "saetze": 1,
       "freiloswertung": "21:10",
       "status": 0,
-      "id": 1
+      "id": 1,
+      "meldungen": [
+        {
+          "spieler": null,
+          "id": 7,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 7,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 7,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 7,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 7,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 7,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        }
+      ]
     }
   ]
 }
