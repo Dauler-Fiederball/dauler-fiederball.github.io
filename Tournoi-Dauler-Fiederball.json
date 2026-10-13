@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "13.10.2026 11:22:05",
+  "datum": "13.10.2026 11:23:52",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -314,12 +314,12 @@
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 2,
           "wertung": null,
           "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 2,
+          "saetze": null
         },
         {
           "platz": null,
@@ -449,12 +449,12 @@
         },
         {
           "platz": null,
+          "spiele": null,
+          "punkte": null,
           "spieler": null,
           "id": 17,
           "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "saetze": null
         },
         {
           "platz": null,
@@ -489,7 +489,13 @@
               "id": 1
             },
             {
-              "feld": 2,
+              "feld": -2,
+              "result": [
+                [
+                  15,
+                  8
+                ]
+              ],
               "heim": [
                 13,
                 9
@@ -561,6 +567,7 @@
               "id": 7
             },
             {
+              "feld": 2,
               "heim": [
                 34,
                 25
