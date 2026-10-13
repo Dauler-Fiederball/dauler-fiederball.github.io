@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "13.10.2026 11:27:09",
+  "datum": "13.10.2026 11:31:41",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -332,111 +332,111 @@
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 4,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 4
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 5,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 5
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 6,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 6
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 7,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 7
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 8,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 8
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 9,
           "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 9
         },
         {
           "platz": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 10,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
           "platz": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 11,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
           "platz": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 12,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
           "platz": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 13,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
           "platz": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null,
           "spieler": null,
           "id": 14,
-          "wertung": null,
-          "spiele": null,
-          "saetze": null,
-          "punkte": null
+          "wertung": null
         },
         {
           "platz": null,
-          "spieler": null,
-          "id": 15,
-          "wertung": null,
           "spiele": null,
           "saetze": null,
-          "punkte": null
+          "punkte": null,
+          "spieler": null,
+          "id": 15,
+          "wertung": null
         },
         {
           "platz": null,
@@ -525,7 +525,17 @@
               "id": 3
             },
             {
-              "feld": 4,
+              "feld": -4,
+              "result": [
+                [
+                  11,
+                  15
+                ],
+                [
+                  12,
+                  15
+                ]
+              ],
               "heim": [
                 18,
                 27
@@ -537,7 +547,17 @@
               "id": 4
             },
             {
-              "feld": 5,
+              "feld": -5,
+              "result": [
+                [
+                  15,
+                  17
+                ],
+                [
+                  14,
+                  16
+                ]
+              ],
               "heim": [
                 8,
                 7
@@ -549,7 +569,17 @@
               "id": 5
             },
             {
-              "feld": 6,
+              "feld": -6,
+              "result": [
+                [
+                  8,
+                  15
+                ],
+                [
+                  9,
+                  15
+                ]
+              ],
               "heim": [
                 11,
                 15
@@ -561,7 +591,17 @@
               "id": 6
             },
             {
-              "feld": 1,
+              "feld": -1,
+              "result": [
+                [
+                  14,
+                  16
+                ],
+                [
+                  10,
+                  15
+                ]
+              ],
               "heim": [
                 28,
                 20
@@ -573,7 +613,21 @@
               "id": 7
             },
             {
-              "feld": 2,
+              "feld": -2,
+              "result": [
+                [
+                  17,
+                  15
+                ],
+                [
+                  13,
+                  15
+                ],
+                [
+                  10,
+                  15
+                ]
+              ],
               "heim": [
                 34,
                 25
@@ -585,7 +639,17 @@
               "id": 8
             },
             {
-              "feld": 3,
+              "feld": -3,
+              "result": [
+                [
+                  10,
+                  15
+                ],
+                [
+                  14,
+                  16
+                ]
+              ],
               "heim": [
                 29,
                 14
@@ -593,6 +657,116 @@
               "gast": [
                 4,
                 5
+              ],
+              "id": 9
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "spiele": [
+            {
+              "feld": 2,
+              "heim": [
+                32,
+                21
+              ],
+              "gast": [
+                3,
+                24
+              ],
+              "id": 1
+            },
+            {
+              "feld": 3,
+              "heim": [
+                23,
+                2
+              ],
+              "gast": [
+                30,
+                1
+              ],
+              "id": 2
+            },
+            {
+              "feld": 4,
+              "heim": [
+                17,
+                6
+              ],
+              "gast": [
+                26,
+                22
+              ],
+              "id": 3
+            },
+            {
+              "feld": 1,
+              "heim": [
+                13,
+                9
+              ],
+              "gast": [
+                4,
+                5
+              ],
+              "id": 4
+            },
+            {
+              "feld": 5,
+              "heim": [
+                12,
+                16
+              ],
+              "gast": [
+                10,
+                31
+              ],
+              "id": 5
+            },
+            {
+              "feld": 6,
+              "heim": [
+                19,
+                35
+              ],
+              "gast": [
+                36,
+                33
+              ],
+              "id": 6
+            },
+            {
+              "heim": [
+                28,
+                20
+              ],
+              "gast": [
+                11,
+                15
+              ],
+              "id": 7
+            },
+            {
+              "heim": [
+                18,
+                27
+              ],
+              "gast": [
+                29,
+                14
+              ],
+              "id": 8
+            },
+            {
+              "heim": [
+                34,
+                25
+              ],
+              "gast": [
+                8,
+                7
               ],
               "id": 9
             }
