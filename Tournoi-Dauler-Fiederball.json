@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "13.10.2026 11:24:17",
+  "datum": "13.10.2026 11:27:09",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -298,7 +298,7 @@
       "teamsize": 2,
       "geschlecht": 3,
       "system": 30,
-      "saetze": 1,
+      "saetze": 2,
       "freiloswertung": "1:0",
       "status": 1,
       "id": 1,
@@ -307,28 +307,28 @@
           "platz": null,
           "wertung": null,
           "spiele": null,
+          "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 1,
-          "saetze": null
+          "id": 1
         },
         {
           "platz": null,
           "wertung": null,
           "spiele": null,
+          "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 2,
-          "saetze": null
+          "id": 2
         },
         {
           "platz": null,
           "wertung": null,
           "spiele": null,
+          "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 3,
-          "saetze": null
+          "id": 3
         },
         {
           "platz": null,
@@ -441,29 +441,29 @@
         {
           "platz": null,
           "spiele": null,
+          "saetze": null,
           "punkte": null,
           "spieler": null,
           "id": 16,
-          "wertung": null,
-          "saetze": null
+          "wertung": null
         },
         {
           "platz": null,
           "spiele": null,
+          "saetze": null,
           "punkte": null,
           "spieler": null,
           "id": 17,
-          "wertung": null,
-          "saetze": null
+          "wertung": null
         },
         {
           "platz": null,
           "spiele": null,
+          "saetze": null,
           "punkte": null,
           "spieler": null,
           "id": 18,
-          "wertung": null,
-          "saetze": null
+          "wertung": null
         }
       ],
       "runden": [
