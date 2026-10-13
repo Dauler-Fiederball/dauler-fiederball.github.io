@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "30.08.2026 13:45:33",
+  "datum": "13.10.2026 11:18:00",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -10,268 +10,460 @@
       "id": 1
     },
     {
-      "name": "Helperknapp",
+      "name": "Dauler Fiederball",
       "id": 2
     },
     {
-      "name": "Rosport",
+      "name": "Deloitte",
       "id": 3
     },
     {
-      "name": "Walfer",
+      "name": "Helperknapp",
       "id": 4
+    },
+    {
+      "name": "kee Club",
+      "id": 5
+    },
+    {
+      "name": "Rosport",
+      "id": 6
+    },
+    {
+      "name": "Waldbëlleg",
+      "id": 7
+    },
+    {
+      "name": "Walfer",
+      "id": 8
     }
   ],
   "spieler": [
     {
-      "nachname": "Abdullah",
-      "vorname": "Sipra",
+      "nachname": "Alain",
+      "vorname": "Weber",
       "geschlecht": "F",
       "verein": 4,
       "id": 1
     },
     {
-      "nachname": "Alain",
-      "vorname": "Wenner",
+      "nachname": "Amir",
+      "vorname": "Motahari Mir",
       "geschlecht": "F",
       "verein": 1,
       "id": 2
     },
     {
-      "nachname": "Amir",
-      "vorname": "Mir Motahari",
+      "nachname": "Basti",
+      "vorname": "Haas",
       "geschlecht": "F",
-      "verein": 1,
+      "verein": 2,
       "id": 3
     },
     {
-      "nachname": "Carmen",
-      "vorname": "Heinen",
+      "nachname": "Carole",
+      "vorname": "Goelff",
       "geschlecht": "F",
       "verein": 2,
       "id": 4
     },
     {
-      "nachname": "Chloé",
-      "vorname": "Konnen de Kerillis",
+      "nachname": "Claude",
+      "vorname": "Kayser",
       "geschlecht": "F",
-      "verein": 1,
+      "verein": 2,
       "id": 5
     },
     {
-      "nachname": "Florent",
-      "vorname": "Leveque",
+      "nachname": "Claudy",
+      "vorname": "Poupinot",
       "geschlecht": "F",
-      "verein": 1,
+      "verein": 4,
       "id": 6
     },
     {
-      "nachname": "Flynn",
-      "vorname": "Bernardin",
+      "nachname": "Edson",
+      "vorname": "Braun Heidesch",
       "geschlecht": "F",
-      "verein": 3,
+      "verein": 2,
       "id": 7
     },
     {
-      "nachname": "Loïc",
-      "vorname": "Maller",
+      "nachname": "Eliot",
+      "vorname": "Massen",
       "geschlecht": "F",
-      "verein": 2,
+      "verein": 7,
       "id": 8
     },
     {
-      "nachname": "Marc",
-      "vorname": "Berchem",
+      "nachname": "Felix",
+      "vorname": "Loos",
       "geschlecht": "F",
       "verein": 2,
       "id": 9
     },
     {
-      "nachname": "Marvin",
-      "vorname": "Bormann",
+      "nachname": "Franziska",
+      "vorname": "Decker",
       "geschlecht": "F",
-      "verein": 3,
+      "verein": 5,
       "id": 10
     },
     {
-      "nachname": "Mindaugas",
-      "vorname": "Voskas",
+      "nachname": "Frenzi",
+      "vorname": "Stephany",
       "geschlecht": "F",
-      "verein": 4,
+      "verein": 6,
       "id": 11
     },
     {
-      "nachname": "Monique",
-      "vorname": "Zambon",
+      "nachname": "Fränk",
+      "vorname": "Hoffmann",
       "geschlecht": "F",
-      "verein": 1,
+      "verein": 2,
       "id": 12
     },
     {
-      "nachname": "Nicolas",
-      "vorname": "Brito Gomes",
+      "nachname": "Fränk",
+      "vorname": "Welfring",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 13
+    },
+    {
+      "nachname": "Janis",
+      "vorname": "Fischer",
+      "geschlecht": "F",
+      "verein": 5,
+      "id": 14
+    },
+    {
+      "nachname": "Jason",
+      "vorname": "Utter",
+      "geschlecht": "F",
+      "verein": 6,
+      "id": 15
+    },
+    {
+      "nachname": "Jean-Claude",
+      "vorname": "Frères",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 16
+    },
+    {
+      "nachname": "Laure",
+      "vorname": "Biver",
+      "geschlecht": "F",
+      "verein": 4,
+      "id": 17
+    },
+    {
+      "nachname": "Leonard",
+      "vorname": "Jungen",
+      "geschlecht": "F",
+      "verein": 4,
+      "id": 18
+    },
+    {
+      "nachname": "Lola",
+      "vorname": "Collet",
+      "geschlecht": "F",
+      "verein": 8,
+      "id": 19
+    },
+    {
+      "nachname": "Lou-Anne",
+      "vorname": "Pate",
+      "geschlecht": "F",
+      "verein": 3,
+      "id": 20
+    },
+    {
+      "nachname": "Loïc",
+      "vorname": "Maller",
+      "geschlecht": "F",
+      "verein": 4,
+      "id": 21
+    },
+    {
+      "nachname": "Mandy",
+      "vorname": "Boes",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 22
+    },
+    {
+      "nachname": "Marc",
+      "vorname": "Berchem",
       "geschlecht": "F",
       "verein": 1,
-      "id": 13
+      "id": 23
+    },
+    {
+      "nachname": "Marc",
+      "vorname": "Steichen",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 24
+    },
+    {
+      "nachname": "Marine",
+      "vorname": "Cossin",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 25
+    },
+    {
+      "nachname": "Max",
+      "vorname": "Ribeiro",
+      "geschlecht": "F",
+      "verein": 2,
+      "id": 26
     },
     {
       "nachname": "Olivier",
       "vorname": "Quintas",
       "geschlecht": "F",
+      "verein": 4,
+      "id": 27
+    },
+    {
+      "nachname": "Pierre-Henri",
+      "vorname": "Guittard",
+      "geschlecht": "F",
+      "verein": 3,
+      "id": 28
+    },
+    {
+      "nachname": "Priyank",
+      "vorname": "Shah",
+      "geschlecht": "F",
+      "verein": 5,
+      "id": 29
+    },
+    {
+      "nachname": "Richard",
+      "vorname": "Jungen",
+      "geschlecht": "F",
+      "verein": 4,
+      "id": 30
+    },
+    {
+      "nachname": "Ronja",
+      "vorname": "Kolff",
+      "geschlecht": "F",
+      "verein": 5,
+      "id": 31
+    },
+    {
+      "nachname": "Sven",
+      "vorname": "Rech",
+      "geschlecht": "F",
+      "verein": 4,
+      "id": 32
+    },
+    {
+      "nachname": "Theertha",
+      "vorname": "Ramesh",
+      "geschlecht": "F",
+      "verein": 3,
+      "id": 33
+    },
+    {
+      "nachname": "Theo",
+      "vorname": "Ney",
+      "geschlecht": "F",
       "verein": 2,
-      "id": 14
+      "id": 34
     },
     {
-      "nachname": "Robert",
-      "vorname": "Merkle",
+      "nachname": "Thomas",
+      "vorname": "Guzman",
       "geschlecht": "F",
-      "verein": 4,
-      "id": 15
+      "verein": 8,
+      "id": 35
     },
     {
-      "nachname": "Saad",
-      "vorname": "Siddiqui",
+      "nachname": "Vangoor",
+      "vorname": "Rajashekar",
       "geschlecht": "F",
-      "verein": 4,
-      "id": 16
+      "verein": 3,
+      "id": 36
     }
   ],
   "disziplinen": [
     {
-      "name": "Event 1",
+      "name": "Tournoi 13.10.2026",
       "teamsize": 2,
       "geschlecht": 3,
       "system": 30,
       "saetze": 1,
-      "freiloswertung": "21:10",
-      "status": 1,
+      "freiloswertung": "1:0",
+      "status": 0,
       "id": 1,
       "meldungen": [
         {
-          "platz": null,
           "spieler": null,
-          "id": 1,
+          "id": 19,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "platz": null,
           "spieler": null,
-          "id": 2,
+          "id": 19,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "platz": null,
           "spieler": null,
-          "id": 3,
+          "id": 19,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "platz": null,
           "spieler": null,
-          "id": 4,
+          "id": 19,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "platz": null,
           "spieler": null,
-          "id": 5,
+          "id": 19,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "platz": null,
           "spieler": null,
-          "id": 6,
+          "id": 19,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "platz": null,
           "spieler": null,
-          "id": 7,
+          "id": 19,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
         },
         {
-          "platz": null,
           "spieler": null,
-          "id": 8,
+          "id": 19,
+          "platz": null,
           "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null
-        }
-      ],
-      "runden": [
+        },
         {
-          "id": 1,
-          "spiele": [
-            {
-              "feld": 2,
-              "heim": [
-                16,
-                1
-              ],
-              "gast": [
-                7,
-                10
-              ],
-              "id": 1
-            },
-            {
-              "feld": 4,
-              "heim": [
-                6,
-                5
-              ],
-              "gast": [
-                15,
-                11
-              ],
-              "id": 2
-            },
-            {
-              "feld": 1,
-              "heim": [
-                8,
-                9
-              ],
-              "gast": [
-                3,
-                13
-              ],
-              "id": 3
-            },
-            {
-              "heim": [
-                2,
-                12
-              ],
-              "gast": [
-                4,
-                14
-              ],
-              "id": 4
-            }
-          ]
+          "spieler": null,
+          "id": 19,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 19,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 19,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 19,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 19,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 19,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 19,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 19,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 19,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
+        },
+        {
+          "spieler": null,
+          "id": 19,
+          "platz": null,
+          "wertung": null,
+          "spiele": null,
+          "saetze": null,
+          "punkte": null
         }
       ]
     }
