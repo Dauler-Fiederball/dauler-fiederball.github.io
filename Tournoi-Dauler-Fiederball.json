@@ -1,6 +1,6 @@
 {
   "turniername": "Dauler Fiederball",
-  "datum": "13.10.2026 11:31:41",
+  "datum": "13.10.2026 11:33:31",
   "sportart": "BADMINTON",
   "lizenz": "Dauler Fiederball",
   "generator": "SPORT Software (Version 6.41)",
@@ -386,12 +386,12 @@
         },
         {
           "platz": null,
+          "wertung": null,
           "spiele": null,
           "saetze": null,
           "punkte": null,
           "spieler": null,
-          "id": 10,
-          "wertung": null
+          "id": 10
         },
         {
           "platz": null,
@@ -666,7 +666,17 @@
           "id": 2,
           "spiele": [
             {
-              "feld": 2,
+              "feld": -2,
+              "result": [
+                [
+                  11,
+                  15
+                ],
+                [
+                  10,
+                  15
+                ]
+              ],
               "heim": [
                 32,
                 21
@@ -678,7 +688,17 @@
               "id": 1
             },
             {
-              "feld": 3,
+              "feld": -3,
+              "result": [
+                [
+                  14,
+                  16
+                ],
+                [
+                  12,
+                  15
+                ]
+              ],
               "heim": [
                 23,
                 2
@@ -690,7 +710,17 @@
               "id": 2
             },
             {
-              "feld": 4,
+              "feld": -4,
+              "result": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  15,
+                  3
+                ]
+              ],
               "heim": [
                 17,
                 6
@@ -702,7 +732,17 @@
               "id": 3
             },
             {
-              "feld": 1,
+              "feld": -1,
+              "result": [
+                [
+                  15,
+                  4
+                ],
+                [
+                  15,
+                  8
+                ]
+              ],
               "heim": [
                 13,
                 9
@@ -714,7 +754,17 @@
               "id": 4
             },
             {
-              "feld": 5,
+              "feld": -5,
+              "result": [
+                [
+                  15,
+                  7
+                ],
+                [
+                  15,
+                  6
+                ]
+              ],
               "heim": [
                 12,
                 16
@@ -726,7 +776,17 @@
               "id": 5
             },
             {
-              "feld": 6,
+              "feld": -6,
+              "result": [
+                [
+                  11,
+                  15
+                ],
+                [
+                  12,
+                  15
+                ]
+              ],
               "heim": [
                 19,
                 35
@@ -738,6 +798,7 @@
               "id": 6
             },
             {
+              "feld": 3,
               "heim": [
                 28,
                 20
@@ -749,6 +810,7 @@
               "id": 7
             },
             {
+              "feld": 5,
               "heim": [
                 18,
                 27
@@ -760,6 +822,7 @@
               "id": 8
             },
             {
+              "feld": 1,
               "heim": [
                 34,
                 25
